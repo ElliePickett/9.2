@@ -263,10 +263,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
    <body class="{% if template == '404' %}error-404{% else %}{{ template | replace: '.', '-' | handle }}{% endif %}{% if settings.ss_enable and collection.handle and collection.handle == settings.ss_collection_handle %} ss-shop{% endif %}"
 
+        data-money-format="
+          {%- if settings.currency_format == 'money_with_currency_format' -%}
+            {{- shop.money_with_currency_format | strip_html -}}
+          {%- else -%}
             {{- shop.money_format | strip_html -}}
           {%- endif -%}"
         data-shop-currency="{{ shop.currency }}"
         data-shop-url="{{ shop.url }}">
+
+
+
 
   <script>
     document.documentElement.className=document.documentElement.className.replace(/\bno-js\b/,'js');

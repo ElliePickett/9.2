@@ -1,7 +1,35 @@
 {
   "sections": {
+    "e0df2fcb-701a-4a29-988c-41b3d8c0b2da": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": false,
+        "image": "shopify:\/\/shop_images\/holiday_gift_sale_2023-WEBSITE_BANNER.jpg",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "button1": "",
+        "button1_link": "shopify:\/\/collections\/holiday-gift-sale",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "button3": "",
+        "button3_link": "",
+        "button3_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "original",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": true,
+        "mobile_text_color": "",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
     "05829759-9991-4acd-9316-d6694bfee816": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "wide_display": false,
         "image": "shopify:\/\/shop_images\/download_7a158ca4-7060-40e5-9f38-d400a3057672.jpg",
@@ -112,29 +140,6 @@
         "custom_css": ""
       }
     },
-    "84f7e93b-0cb5-4ab7-b3f7-e587e060b255": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Garage sale picks!",
-        "collection_description": false,
-        "collection": "garage-sale",
-        "collection_style": "grid",
-        "products_per": 4,
-        "products_limit": 12,
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "16523856358f90a09e": {
-      "type": "custom-html",
-      "disabled": true,
-      "settings": {
-        "custom_html": "<a class=\"button\" style=\"color:white; display:block; width:100%;\" href=\"https:\/\/knifewear.com\/collections\/garage-sale\"><h2 style=\"color:white;\">See the full Selection<\/h2><\/a>",
-        "css_class": "garage-sale",
-        "custom_css": ""
-      }
-    },
     "5360d44e-662b-409c-9fe3-ef2cdb2bc5e5": {
       "type": "featured-promotions",
       "blocks": {
@@ -187,6 +192,29 @@
       "type": "searchspring-recommendations",
       "settings": {
         "profileId": "home"
+      }
+    },
+    "84f7e93b-0cb5-4ab7-b3f7-e587e060b255": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Garage sale picks!",
+        "collection_description": false,
+        "collection": "garage-sale",
+        "collection_style": "grid",
+        "products_per": 4,
+        "products_limit": 12,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16523856358f90a09e": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_html": "<a class=\"button\" style=\"color:white; display:block; width:100%;\" href=\"https:\/\/knifewear.com\/collections\/garage-sale\"><h2 style=\"color:white;\">See the full Selection<\/h2><\/a>",
+        "css_class": "garage-sale",
+        "custom_css": ""
       }
     },
     "collection-list-1": {
@@ -422,14 +450,15 @@
     }
   },
   "order": [
+    "e0df2fcb-701a-4a29-988c-41b3d8c0b2da",
     "05829759-9991-4acd-9316-d6694bfee816",
     "163545626807ebdf23",
     "image-with-text-overlay-1",
     "16385609454ff757d6",
-    "84f7e93b-0cb5-4ab7-b3f7-e587e060b255",
-    "16523856358f90a09e",
     "5360d44e-662b-409c-9fe3-ef2cdb2bc5e5",
     "c4f1409f-743c-4fa4-8895-69db6b1c091c",
+    "84f7e93b-0cb5-4ab7-b3f7-e587e060b255",
+    "16523856358f90a09e",
     "collection-list-1",
     "16643877582d47afea",
     "a7bca414-c491-4195-a734-07b966edab6b",

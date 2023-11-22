@@ -1,0 +1,171 @@
+<script
+  type="application/json"
+  data-section-type="image-text"
+  data-section-id="{{ section.id }}"
+>
+</script>
+
+{% comment %} Assign object as block or section {% endcomment %}
+{% if type == 'block' %}
+  {%- assign object = block -%}
+{% else %}
+  {%- assign object = section -%}
+{% endif %}
+
+{%- assign id = object.id -%}
+
+{% comment %} Content settings {% endcomment %}
+{%- assign blocks = object.blocks -%}
+{% comment %} End content settings {% endcomment %}
+
+{% comment %} Advanced {% endcomment %}
+{%- assign css_class = object.settings.css_class -%}
+{%- assign custom_css = object.settings.custom_css -%}
+
+{% comment %} Section specific CSS {% endcomment %}
+{% style %}
+  {%
+    render 'css-loop',
+    css: custom_css,
+    id: id
+  %}
+{% endstyle %}
+
+<section
+  class="section"
+>
+  
+  
+  <h2>{{section.settings.menu-heading}}</h2>
+ 
+	<ul class='ep-line-linklist'>
+	{% for link in section.settings.menu.links %}
+      
+      {% unless ink.object.metafields.steel.steel-type != blank %} {% endunless %}
+
+      <li class="ep-line-linklist-card">
+        
+        
+        {% capture collectionHRCurl %}{{ link.object.metafields.steel.steel-type | handleize }}{% endcapture %}
+		{% assign collectionHRC = collections[collectionHRCurl] %}
+		{% assign products-price = link.object.products | sort: 'price' %}
+		
+		<a href="{{ link.url }}">
+          {%if link.object.image != blank %} 
+		<img src="{{link.object.image | image_url: width: 400 }}" alt="{{ link.title  | escape }}" >
+			 {% else%}
+        <img src="{{ link.object.products.first | image_url: width: 400 }}"  alt="{{ link.title  | escape }}" />
+           {% endif %}
+
+          <h3>{{ link.title }}</h3></a>
+        
+     
+		<ul>
+      	
+        {%if link.object.metafields.steel.steel-type != blank %}<li><b>Steel:</b> {{ link.object.metafields.steel.steel-type }} {{ link.object.metafields.knifeline.cladding }}</li>{% endif %} 
+     	
+
+       {% if  link.object.metafields.steel.hrc != blank %}
+ <tr> <th> <b>{{ 'product.custom.rockwell' | t }}:</b></th> <td> {{link.object.metafields.steel.hrc}}</td> </tr>
+  
+     {% else  collectionHRC.metafields.steel.hrc != blank != blank %}
+ <tr> <th><b>{{ 'product.custom.rockwell' | t }}:</b></th> <td> {{collectionHRC.metafields.steel.hrc}}</td> </tr>
+  
+	 {% endif %}
+          
+          
+          
+          
+        {%if link.object.metafields.knifeline.blacksmith != blank %} <li><b>Blacksmith:</b>
+          <a href="{{ routes.collections_url }}/{{ link.object.metafields.knifeline.blacksmith | handleize }}">{{ link.object.metafields.knifeline.blacksmith }}</a>
+		 </li>{% endif %} 
+          
+          {%if link.object.metafields.knifeline.sharpener != blank %} <li><b>Sharpener:</b>
+          <a href="{{ routes.collections_url }}/{{ link.object.metafields.knifeline.sharpener | handleize }}">{{ link.object.metafields.knifeline.sharpener }}</a>
+		 </li>{% endif %}  
+          
+
+		{%if link.object.metafields.knifeline.brand != blank %}<li><b>Brand:</b> 
+            <a href="{{ routes.collections_url }}/{{ link.object.metafields.knifeline.brand | handleize }}">{{ link.object.metafields.knifeline.brand }}</a>
+		 </li>{% endif %} 
+          
+            {%if link.object.metafields.knifeline.handle != blank %}<li><b>Handle:</b> {{ link.object.metafields.knifeline.handle }} {{ link.object.metafields.knifeline.handle_details }}</li>{% endif %}   
+     
+          
+          
+
+          
+          
+         <li><span class="findify-components--cards--product--price__price" style="font-style: italic !important;"> {{products-price.first.price | money_with_currency }} to {{ products-price.last.price | money_with_currency }}
+           </span></li>
+          
+        </ul>
+        
+        
+        <a class="button-inverse" href="{{ link.url }}"> See whole Knifeline</a>
+     
+     </li> 
+      
+     
+	{% endfor %}	
+  </ul>
+
+
+  {% if blocks.size > 0 %}
+    {% for block in blocks %}
+
+    {% endfor %}
+  {% endif %}
+</section>
+
+
+
+{% schema %}
+{
+  "name": "Knifeline Linklist",
+  "class": "shopify-section--image-with-text",
+  "max_blocks": 16,
+  "settings": [
+	 {
+      "type": "text",
+      "id": "menu-heading",
+      "label": "Menu Heading"
+    },
+    {
+  "type": "link_list",
+  "id": "menu",
+  "label": "Menu"
+	},  
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "CSS Class"
+    },
+    {
+      "type": "textarea",
+      "id": "custom_css",
+      "label": "Custom CSS"
+    }
+  ],
+  "blocks": [
+
+  ],
+  "presets": [
+{
+    "name": "Knifeline Linklist",
+    "category": "Image",
+    "settings": {
+     
+    }
+
+  }
+
+],
+  "templates": [
+    "page",
+	"collection"
+	
+  ]
+}
+
+{% endschema %}

@@ -1,0 +1,311 @@
+<script
+  type="application/json"
+  data-section-type="image-text"
+  data-section-id="{{ section.id }}"
+>
+</script>
+
+{% comment %} Assign object as block or section {% endcomment %}
+{% if type == 'block' %}
+  {%- assign object = block -%}
+{% else %}
+  {%- assign object = section -%}
+{% endif %}
+
+{%- assign id = object.id -%}
+
+{% comment %} Content settings {% endcomment %}
+{%- assign blocks = object.blocks -%}
+{% comment %} End content settings {% endcomment %}
+
+{% comment %} Advanced {% endcomment %}
+{%- assign css_class = object.settings.css_class -%}
+{%- assign custom_css = object.settings.custom_css -%}
+
+{% comment %} Section specific CSS {% endcomment %}
+{% style %}
+  {%
+    render 'css-loop',
+    css: custom_css,
+    id: id
+  %}
+{% endstyle %}
+	
+
+
+<section class="section ep-stats">
+  
+  {% if product.description contains '<table>'  %} 
+  
+  <!-- silence is golden -->
+
+   {% else %}
+<table><tbody>
+
+{% if product.metafields.knifeStats.shape != blank %} <tr> <th>Shape</th> <td> <a href="{{ routes.collections_url }}/{{ product.metafields.knifeStats.shape | handleize }}"> {{ product.metafields.knifeStats.shape | metafield_tag }} </td> </tr> {% endif %}
+
+{% if product.metafields.knifeStats.blade_length != blank %} <tr> <th>Blade Length</th> <td> {{ product.metafields.knifeStats.blade_length | metafield_tag }} </td> </tr> {% endif %}
+
+{% if product.metafields.knifeStats.bladeHeight != blank %} <tr> <th>Blade Height</th> <td> {{ product.metafields.knifeStats.bladeHeight | metafield_tag }} </td> </tr> {% endif %}
+
+{% if product.metafields.knifeStats.blade_thickness != blank %} <tr> <th>Blade Thickness Above Heel</th> <td> {{ product.metafields.knifeStats.blade_thickness | metafield_tag }} </td> </tr> {% endif %}
+
+{% if product.metafields.stats.diameter != blank %} <tr> <th>Diameter</th> <td> {{ product.metafields.stats.diameter | metafield_tag }} </td> </tr> {% endif %}
+
+{% if product.metafields.stats.weight != blank %} <tr> <th>Weight</th> <td> {{ product.metafields.stats.weight | metafield_tag }} </td> </tr> {% endif %}
+
+
+{% capture rustProne %} 
+  {%  if product.metafields.knifeStats.filterSteelMakeUp != 'Stainless Steel' and product.metafields.knifeStats.filterSteelMakeUp != blank %}
+<div class="tooltip"><a href="/pages/carbon-steel-knife-care-and-cleaning"> <b><i>{{ 'product.custom.rust_prone' | t }} ⓘ</b></i></a> 
+  <span class="tooltiptext">This knife can rust, click to learn more.</span>
+</div>
+    {% endif %} 
+{% endcapture %}
+
+{% if product.metafields.knifeStats.steel  != blank %} <tr> <th>Steel Type</th> <td>
+  <a href="{{ routes.collections_url }}/{{ product.metafields.knifeStats.steel | handleize }}">
+  {{ product.metafields.knifeStats.steel | metafield_tag }} 
+  {% if product.metafields.knifeStats.cladding  != blank %} {{product.metafields.knifeStats.cladding | metafield_tag}}{% endif %}
+  {{ rustProne }}
+  </a>
+</td> </tr> {% endif %}
+
+
+
+{% capture collectionHRCurl %}{{ product.metafields.knifeStats.steel | handleize }}{% endcapture %}
+{% assign collectionHRC = collections[collectionHRCurl] %}
+
+
+{% if product.metafields.knifeStats.rockwell_overwrite != blank %}
+ <tr> <th> {{ 'product.custom.rockwell' | t }}</th> <td> {{product.metafields.knifeStats.rockwell_overwrite}}</td> </tr>
+  
+  
+   {% elsif collectionHRC.metafields.steel.hrc != blank and product.metafields.knifeStats.rockwell_overwrite == blank %}
+ <tr> <th>{{ 'product.custom.rockwell' | t }}</th> <td> {{collectionHRC.metafields.steel.hrc}} </td> </tr>
+  
+   {% endif %}
+
+
+{% if product.metafields.knifeStats.blacksmith != blank %} <tr> <th>Blacksmith</th> <td> <a href="{{ routes.collections_url }}/{{ product.metafields.knifeStats.blacksmith | handleize }}"> {{ product.metafields.knifeStats.blacksmith | metafield_tag }} </td> </tr> {% endif %}
+
+  {% if product.metafields.knifeStats.Sharpener != blank %} <tr> <th>Sharpener</th> <td> <a href="{{ routes.collections_url }}/{{ product.metafields.knifeStats.Sharpener | handleize }}"> {{ product.metafields.knifeStats.Sharpener | metafield_tag }} </td> </tr> {% endif %}
+
+
+{% if product.metafields.knifeStats.edge_bevel != blank %} <tr> <th>Edge/Bevel</th> <td> {{ product.metafields.knifeStats.edge_bevel | metafield_tag }} </td> </tr> {% endif %}
+
+
+ {% assign handleDetails = product.metafields.custom.handle_prototype | split: ','%}
+
+ {% capture handleDetailsContent %} 
+  {% for handleDetail in handleDetails %}
+  
+   {% if handleDetail contains 'collar' %}
+   with {{handleDetail | remove: '"'| remove: ']' | remove: '['}}
+    {% else %}
+   {{handleDetail | remove: '"'| remove: ']' | remove: '['}}
+{% endif %}
+   
+  {% endfor %}
+{% endcapture %}  
+
+{% if product.metafields.knifeStats.handle != blank %} <tr> <th>Handle</th> <td> {{ product.metafields.knifeStats.handle | metafield_tag }} {{handleDetailsContent}} </td> </tr> {% endif %}
+
+
+
+{% if product.metafields.stats.made_in != blank %} <tr> <th>Handle</th> <td> {{ product.metafields.stats.made_in | metafield_tag }} </td> </tr> {% endif %}
+
+
+  
+  {% if blocks.size > 0 %}
+    {% for block in blocks %}
+  
+<!-- Test is collection URL is a 404 or not -->
+{% capture collectionIs404 %} {% for collection in collections %}{{ collection.title  }}{% endfor %} {% endcapture %}  
+<!-- Capture HandleDetails -->  
+
+  
+{% capture concatContent %}{{block.settings.content}} 
+  {{block.settings.secondaryContent}} 
+      {% if block.settings.label == 'Handle'%}{{handleDetailsContent}}{% endif %}
+{% endcapture %} 
+
+{% capture rustProne %} 
+  {%  if product.metafields.knifeStats.filterSteelMakeUp != 'Stainless Steel' and product.metafields.knifeStats.filterSteelMakeUp != blank %}
+<div class="tooltip"><a href="/pages/carbon-steel-knife-care-and-cleaning"> <b><i>{{ 'product.custom.rust_prone' | t }} ⓘ</b></i></a> 
+  <span class="tooltiptext">This knife can rust, click to learn more.</span>
+</div>
+    {% endif %} 
+{% endcapture %}       
+
+{% capture collectionHRCurl %}{{ block.settings.content | handleize }}{% endcapture %}
+{% assign collectionHRC = collections[collectionHRCurl] %}
+  
+ 
+  {% if block.settings.content != blank or block.setting.custom_liquid != blank %} 
+  
+
+{% if block.settings.is_URL == true %} 
+  
+  {% if block.settings.label == 'Brand' and product.vendor == product.metafields.knifeStats.blacksmith and template contains 'product' %} 
+  
+  <!-- silence is golden -->
+  
+  {% elsif block.settings.label == 'Brand' and collectionIs404 contains product.vendor %}
+  
+ <tr> <th>{{ block.settings.label }} </th> <td><a href="{{ routes.collections_url }}/{{ block.settings.content | handleize }}">{{ concatContent }} </a></td> </tr>
+
+  {% elsif block.settings.label == 'Steel Type' or block.settings.label == "Type d'acier" %}
+   
+ <tr> <th>{{ block.settings.label }} </th> <td>
+        {% if collectionHRC.metafields.steel.steel_grouping != blank%}   
+        <a href="{{ routes.collections_url }}/{{ collectionHRC.metafields.steel.steel_grouping | handleize }}"> {{ concatContent }}</a>{{ rustProne }}</td> </tr>                                           
+       {% elsif collectionIs404 contains block.settings.content %}
+       <a href="{{ routes.collections_url }}/{{ block.settings.content | handleize }}">{{ concatContent }}</a> {{ rustProne }}</td> </tr>
+           {% else %}
+       {{ concatContent }} {{ rustProne }}</td> </tr>
+        {% endif %}
+    
+
+  {% elsif block.settings.is_URL == true and collectionIs404 contains block.settings.content %}
+
+  <tr> <th>{{ block.settings.label }} </th> <td><a href="{{ routes.collections_url }}/{{ block.settings.content | handleize }}">{{ concatContent }} </a></td> </tr>
+
+	
+  {% else %}
+   
+  <tr> <th>{{ block.settings.label }} </th> <td>{{ concatContent }}</td> </tr>
+  
+  {% endif %}
+  
+  {% else %}	
+ 
+
+<tr> <th>{{ block.settings.label }} </th> <td>{{ concatContent }} </td> </tr>
+  
+	{% endif %}
+  
+  
+
+  {% endif %}
+  
+   {% if block.settings.label == 'Steel Type' and product.metafields.knifeStats.rockwell_overwrite != blank %}
+ <tr> <th> {{ 'product.custom.rockwell' | t }}</th> <td> {{product.metafields.knifeStats.rockwell_overwrite}}</td> </tr>
+  
+     {% elsif block.settings.label == 'Steel Type' and collection.metafields.steel.hrc != blank %}
+ <tr> <th>{{ 'product.custom.rockwell' | t }}</th> <td> {{collection.metafields.steel.hrc}}</td> </tr>
+  
+  
+   {% elsif collectionHRC.metafields.steel.hrc != blank and product.metafields.knifeStats.rockwell_overwrite == blank %}
+ <tr> <th>{{ 'product.custom.rockwell' | t }}</th> <td> {{collectionHRC.metafields.steel.hrc}} </td> </tr>
+  
+	 {% endif %}
+
+    {% endfor %}
+  {% endif %}
+  
+  {% endif %} 
+  
+{% if product.metafields.knifeStats.knifeline-nue != blank %} <tr> <th>Knifeline</th> <td>  {{ product.metafields.knifeStats.knifeline-nue | metafield_tag }} </td> </tr> {% endif %}
+</tbody> </table>
+  {% if product.vendor contains "Sakai" %}
+  <p><i>A note about measurements: Knife edge length is shorter than stated, as Sakai knives are measured from the front of the handle to the tip. Additionally, some knives feature a small 'machi' gap between the handle and blade.</i></p>
+  {% elsif product.metafields.knifeStats.shape != blank and product.metafields.knifeStats.blacksmith != blank %}
+  <p><i>{{ 'product.custom.measurement_disclaimer' | t }}</i></p>
+    {% else %}
+    
+	{% endif %}
+
+{% if product.metafields.custom.hide_back_in_stock_form == true and product.available == false %}
+
+  <style>
+    .swym-wishlist-button-bar,
+   .purchase-details,
+  a.action_button.klaviyo-bis-trigger {
+    display: none !important;
+}
+  </style>
+  
+  {% endif %} 
+  
+  
+</section>
+
+{% schema %}
+{
+  "name": "Product Stats",
+  "class": "shopify-section--image-with-text",
+  "max_blocks": 16,
+  "settings": [
+	 {
+      "type": "text",
+      "id": "menu-heading",
+      "label": "Menu Heading"
+    }, 
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "CSS Class"
+    },
+    {
+      "type": "textarea",
+      "id": "custom_css",
+      "label": "Custom CSS"
+    }
+  ],
+  "blocks": [
+ {
+      "type": "feature",
+      "name": "Stat Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label"
+        },
+
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content (Used for Link)"
+        },
+		{
+          "type": "text",
+          "id": "secondaryContent",
+          "label": "Secondary Content"
+        },
+		{
+ 		 "type": "checkbox",
+  		"id": "is_URL",
+  		"label": "Is this a link?",
+  		"default": false
+	}, {
+      "type": "liquid",
+      "id": "custom_liquid",
+      "label": "Custom liquid"
+    }
+		
+ 		
+      ]
+    }
+
+  ],
+  "presets": [
+{
+    "name": "Product Stats",
+    "category": "Image",
+    "settings": {
+     
+    }
+
+  }
+
+],
+  "templates": [
+    "product",
+	"collection"
+	
+  ]
+}
+
+{% endschema %}

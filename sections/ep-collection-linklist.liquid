@@ -1,0 +1,162 @@
+<script
+  type="application/json"
+  data-section-type="image-text"
+  data-section-id="{{ section.id }}"
+>
+</script>
+
+{% comment %} Assign object as block or section {% endcomment %}
+{% if type == 'block' %}
+  {%- assign object = block -%}
+{% else %}
+  {%- assign object = section -%}
+{% endif %}
+
+{%- assign id = object.id -%}
+
+{% comment %} Content settings {% endcomment %}
+{%- assign blocks = object.blocks -%}
+{% comment %} End content settings {% endcomment %}
+
+{% comment %} Advanced {% endcomment %}
+{%- assign css_class = object.settings.css_class -%}
+{%- assign custom_css = object.settings.custom_css -%}
+
+{% comment %} Section specific CSS {% endcomment %}
+{% style %}
+  {%
+    render 'css-loop',
+    css: custom_css,
+    id: id
+  %}
+{% endstyle %}
+
+<section class="section">
+ <div class="one-whole column epcollectionlinklist">
+    <div class="list-collections container">
+ 
+      
+    {% assign linklist = linklists[collection.handle] %}
+       {% assign ep-linklist-count = linklist.links.size | at_most: 5  %}
+      {% if linklist != empty %}
+        {% assign collections_per_row = ep-linklist-count %}
+
+      {%- assign linklist = linklists[collection.handle] -%}
+
+{% for link in linklist.links %}
+  {% comment %}
+  This section supports linking to collections, products, pages, and blogs. It will use the first image found in the page content or blog article.
+  {% endcomment %}
+
+  {%- assign link_item = link.object -%}
+  {%- assign link_image = '' -%}
+  {% capture link_title %}{{ link.title | escape }}{% endcapture %}
+
+  <div class="one-fourth column article medium-down--one-half small-down--one-whole">
+    <div class="product-wrap">
+
+      <a  href="{{ link.url }}" title="{{ link_title }}"  >
+      <div class="image__container">
+        {% capture link_image %}
+          {% if link.type == 'collection_link' %}
+            {% if link_item.image %}
+              {%- assign image_src = link_item.image.src -%}
+            {% else %}
+              {%- assign image_src = link_item.products.first.featured_image -%}
+            {% endif %}
+          {% elsif link.type == 'product_link' %}
+            {%- assign image_src = link_item.featured_image -%}
+          {% elsif link.type == 'page_link' %}
+            {% if link_item.content contains "<img" %}
+              {%- assign src = link_item.content | split: 'src="' -%}
+              {%- assign src = src[1] | split: '"' | first -%}
+
+              {% if src %}
+                {%- assign image_src = src -%}
+              {% endif %}
+            {% endif %}
+          {% elsif link.type == 'article_link' %}
+            {%- assign image_src = link_item.image.src -%}
+           
+          {% endif %}
+
+          {% render 'image-element',
+                  image: image_src,
+                  alt: link_title,
+                  object_fit: section.settings.align_height,
+                  max_height: section.settings.collection_height
+          %}
+        {% endcapture %}
+
+        {{ link_image }}
+      </div>
+
+      <a class="collection-info__caption {% if settings.thumbnail_hover_enabled %}hidden{% endif %}" href="{{ link.url }}">
+        <span class="title">{{ link_title }}</span>
+      </a>
+    </div>
+  </div>
+{% endfor %}
+
+
+      
+      {% endif %}
+
+      
+      
+       </div> 
+  </div>
+</section>   
+
+
+
+
+{% schema %}
+{
+  "name": "Collection Linklist",
+  "class": "shopify-section--image-with-text",
+  "max_blocks": 16,
+  "settings": [
+	 {
+      "type": "text",
+      "id": "menu-heading",
+      "label": "Menu Heading"
+    },
+    {
+  "type": "link_list",
+  "id": "menu",
+  "label": "Menu"
+	},  
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "CSS Class"
+    },
+    {
+      "type": "textarea",
+      "id": "custom_css",
+      "label": "Custom CSS"
+    }
+  ],
+  "blocks": [
+
+  ],
+  "presets": [
+{
+    "name": "Collection Linklist",
+    "category": "Image",
+    "settings": {
+     
+    }
+
+  }
+
+],
+  "templates": [
+    "page",
+	"collection"
+	
+  ]
+}
+
+{% endschema %}

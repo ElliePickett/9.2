@@ -1,0 +1,139 @@
+<script
+  type="application/json"
+  data-section-type="image-text"
+  data-section-id="{{ section.id }}"
+>
+</script>
+
+{% comment %} Assign object as block or section {% endcomment %}
+{% if type == 'block' %}
+  {%- assign object = block -%}
+{% else %}
+  {%- assign object = section -%}
+{% endif %}
+
+{%- assign id = object.id -%}
+
+{% comment %} Content settings {% endcomment %}
+{%- assign blocks = object.blocks -%}
+{% comment %} End content settings {% endcomment %}
+
+{% comment %} Advanced {% endcomment %}
+{%- assign css_class = object.settings.css_class -%}
+{%- assign custom_css = object.settings.custom_css -%}
+
+{% comment %} Section specific CSS {% endcomment %}
+{% style %}
+  {%
+    render 'css-loop',
+    css: custom_css,
+    id: id
+  %}
+{% endstyle %}
+
+<style>
+  .collection_description,
+  .findify-components-search--mobile-actions .collection_description,
+.findify-layouts--search__content .section.clearfix.collection_description {
+    display: none;
+}
+</style>  
+
+<section class="section">
+  
+      <div class="clearfix breadcrumb-collection">
+      
+        <div class="eight columns breadcrumb_text medium-down--one-whole" itemscope itemtype="http://schema.org/BreadcrumbList">
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="{{ shop.url }}" title="{{ shop.name | escape }}" itemprop="item" class="breadcrumb_link"><span itemprop="name">{{ 'general.breadcrumbs.home' | t }}</span></a><meta itemprop="position" content="1" /></span>
+          <span class="breadcrumb-divider">/</span>
+          <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="/collections/{% if collection.handle != blank %}{{ collection.handle }}{% else %}all{% endif %}" title="{{ collection.title | escape }}" itemprop="item" class="breadcrumb_link"><span itemprop="name">{{ collection.title }}</span></a><meta itemprop="position" content="2" /></span>
+          {% if current_tags %}
+            {% for tag in current_tags %}
+
+              {% unless tag contains 'meta-' %}
+                <span class="breadcrumb-divider">/</span>
+                <span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="/collections/{% if collection.handle != blank %}{{ collection.handle }}{% else %}all{% endif %}/{{ tag | handleize }}" title="{{ tag | escape }}" itemprop="item"><span itemprop="name">{{ tag }}</span></a><meta itemprop="position" content="{{ forloop.index | plus: 2 }}" /></span>
+              {% endunless %}
+            {% endfor %}
+          {% endif %}
+
+          {% if paginate.pages != 0 and settings.pagination_type != 'load_more' and settings.pagination_type != 'infinite_scroll' %}
+            <span class="breadcrumb-divider">/</span> {{ 'general.breadcrumbs.page' | t: current_page: paginate.current_page, pages: paginate.pages }}
+          {% endif %}
+        </div>
+     
+    </div>
+  
+  
+ <div class="one-whole column">         
+        <div class="description">
+				<h1>{{ collection.title }}</h1>   
+          {% if section.settings.image != blank  %}
+
+            <img  src="{{ section.settings.image | img_url: '400x' }}" data-src="{{ section.settings.image | img_url: '400x' }}">
+          
+                {{ collection.description | split: '<!-- split -->' | first }} 
+
+          {% else  %}
+                 {{ collection.description | split: '<!-- split -->' | first }} 
+             {% endif  %}
+		</div>        
+  </div>    
+</section>
+
+
+
+{% schema %}
+{
+  "name": "Collection Header",
+  "class": "shopify-section--image-with-text",
+  "max_blocks": 16,
+  "settings": [
+    {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+	 {
+      "type": "text",
+      "id": "menu-heading",
+      "label": "Menu Heading"
+    },
+    {
+  "type": "link_list",
+  "id": "menu",
+  "label": "Menu"
+	},  
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "CSS Class"
+    },
+    {
+      "type": "textarea",
+      "id": "custom_css",
+      "label": "Custom CSS"
+    }
+  ],
+  "blocks": [
+
+  ],
+  "presets": [
+{
+    "name": "Collection Header",
+    "category": "Image",
+    "settings": {
+     
+    }
+
+  }
+
+],
+  "templates": [
+    "page",
+	"collection"
+	
+  ]
+}
+
+{% endschema %}

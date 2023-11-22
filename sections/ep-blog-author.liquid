@@ -1,0 +1,103 @@
+{%- assign id = section.id -%}
+
+{% comment %} Content settings {% endcomment %}
+{%- assign blocks = section.blocks -%}
+{% comment %} End content settings {% endcomment %}
+
+{% comment %} Advanced {% endcomment %}
+{%- assign css_class = section.settings.css_class -%}
+{%- assign custom_css = section.settings.custom_css -%}
+
+{% comment %} Section specific CSS {% endcomment %}
+{% style %}
+  {%
+    render 'css-loop',
+    css: custom_css,
+    id: id
+  %}
+{% endstyle %}
+
+{% assign recommended_products = article.metafields.articles.promoted_productions.value %}
+{% assign recommended_collections = article.metafields.custom.promoted_collections.value %}
+
+<div class="container">
+  <div class="section">
+    {% if recommended_products != blank or recommended_collections != blank %}
+      {% if article.metafields.articles.headline != blank %}
+        <h3>{{ article.metafields.articles.headline }}</h3>
+      {% else %}
+        <h3>Products used in this article</h3>
+      {% endif %}
+    {% endif %}
+
+    <ul class="recommended_products-ep">
+      {% for product in recommended_products %}
+        <li class="thumbnail article-product-link">
+          <a href="{{ product.url }}">
+            {{ product.featured_image | image_url: width: 400 | image_tag: loading: 'lazy' }}
+
+            {% render 'product-info', product: product %}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <ul class="recommended_products-ep">
+      {% for collection in recommended_collections %}
+        <li class="thumbnail article-product-link">
+          <a href="{{ collection.url }}">
+            {{ collection.featured_image | image_url: width: 400 | image_tag: loading: 'lazy' }}
+            <span class="title">{{ collection.title }}</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="container">
+  <div class="section">
+    <div class="author_share_wrap one-whole column">
+      <div class="blog_author" style="width:100%;">
+        <img
+          class="blog_author_photo"
+          src="{{ article.metafields.custom.author.value.photo | img_url: '200x200' }}"
+          alt="   {{ article.metafields.custom.author.value.name }}"
+        >
+
+        <div class="author_bio">
+          <h6>
+            {{ article.metafields.custom.author.value.name }}
+          </h6>
+          <p>{{ article.metafields.custom.author.value.bio }}</p>
+        </div>
+      </div>
+
+      <div class="blog_share meta">
+        {% render 'social-buttons', context: 'article' %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Blog Author",
+  "settings": [
+
+  ],
+
+  "presets": [
+  {
+    "name": "Blog Author",
+    "category": "Product"
+  }
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

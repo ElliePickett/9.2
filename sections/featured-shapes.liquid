@@ -1,0 +1,205 @@
+{% comment %}
+  ** Featured promotions - homepage partial **
+  - Draggable section
+  - Uses blocks
+{% endcomment %}
+
+{% assign collections_per_row = 4 %}
+
+{% if section.blocks.size > 0 %}
+  <section class="section">
+    <div class="container">
+      <div class="one-whole column">
+        <div class="list-collections equal-columns--outside-trim is-flex is-flex-wrap">
+          {% for block in section.blocks %}
+            <div class="{% render 'column-width', value: collections_per_row %} column thumbnail {% if settings.mobile_products_per_row == '1' %}medium-down--one-half small-down--one-whole {% else %}medium-down--one-half small-down--one-half{% endif %}">
+              <div class="product-wrap">
+                <div class="image__container">
+                  <a
+                    {% if block.settings.link != blank %}
+                      href="{{ block.settings.link }}"
+                    {% endif %}
+                  >
+                    <div class="feature-inner feature-style--{{ section.settings.feature_style }} ">
+                      {% if block.settings.image != null %}
+                        {% render 'image-element',
+                          image: block.settings.image,
+                          alt: block.settings.image.alt,
+                          stretch_width: true
+                        %}
+                      {% else %}
+                        {% capture i %}{% cycle "1", "2", "3", "4", "5", "6" %}{% endcapture %}
+                        {{
+                          'collection-'
+                          | append: i
+                          | placeholder_svg_tag: 'placeholder-svg placeholder-svg--promotions'
+                        }}
+                      {% endif %}
+                      {% if block.settings.text != blank
+                        or block.settings.button_label != blank
+                        or block.settings.title != blank
+                        and title_on_image != blank
+                      %}
+                      {% elsif block.settings.link != blank %}
+                        <a
+                          {% if block.settings.link != blank %}
+                            href="{{ block.settings.link }}"
+                          {% endif -%}
+                          class="link-promo"
+                        ></a>
+                      {% endif %}
+                    </div>
+                    {% if title_on_image == blank %}
+                      {% if block.settings.title != blank %}
+                        <h3 class="">{{ block.settings.title }}</h3>
+                        <div style="color: black;">{{ block.settings.text }}</div>
+                      {% endif %}
+                    {% endif %}
+                  </a>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Featured Shapes",
+  "class": "featured-promotions-section",
+  "max_blocks": 24,
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "featured_promos_grid",
+      "label": "Wide display",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "promo_text_on_image_enabled",
+      "label": "Show title on image",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "featured_promos_per_row",
+      "label": "Promotions per row",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "select",
+      "id": "featured_links_animation",
+      "label": "Promotions animation",
+      "options": [
+        {
+          "value": "fadeIn",
+          "label": "Fade In"
+        },
+        {
+          "value": "fadeInUp",
+          "label": "Fade Up"
+        },
+        {
+          "value": "fadeInDown",
+          "label": "Fade Down"
+        },
+        {
+          "value": "",
+          "label": "None"
+        }
+      ],
+      "default": "fadeInDown"
+    },
+    {
+      "type": "select",
+      "id": "feature_style",
+      "label": "Promotions style",
+      "options": [
+        {
+          "value": "circle",
+          "label": "Circle"
+        },
+        {
+          "value": "square",
+          "label": "Square"
+        },
+        {
+          "value": "rounded",
+          "label": "Rounded"
+        }
+      ],
+      "default": "square"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Promotion",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "840 x 840px recommended"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Header",
+          "default": "Feature"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Promotion description details.</p>"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button label"
+        }
+      ]
+    }
+  ],
+  "presets": [{
+    "name": "Featured Shapes [USE]",
+    "category": "Image",
+    "settings": {
+      "featured_promos_grid": true
+    },
+    "blocks": [
+      {
+        "type": "image",
+        "settings": {
+
+        }
+      },
+      {
+        "type": "image",
+        "settings": {
+
+        }
+      },
+      {
+        "type": "image",
+        "settings": {
+
+        }
+      }
+    ]
+  }]
+}
+{% endschema %}

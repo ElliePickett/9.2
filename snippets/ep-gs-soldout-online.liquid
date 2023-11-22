@@ -1,0 +1,55 @@
+ {% if settings.show_garageSaleLiveTxt == true and  product.tags contains "garage sale" and product.available == false %}
+  {% if product.tags contains "filter_Location:In Stock in Vancouver" or 
+  		product.tags contains "filter_Location:In Stock in Toronto" or 
+  		product.tags contains "filter_Location:In Stock in Ottawa" or 
+  		product.tags contains "filter_Location:In Stock in Calgary" %}
+
+<style> 
+.purchase-details,	
+a.action_button.klaviyo-bis-trigger {
+    display: none !important;
+}
+</style>
+
+<div class="gs-disclaimer"> 
+	<h5>Hey Garage Sailor!</h5>
+<b>Looking for this knife in store during Garage Sale?</b> It is in stock at 
+{% if product.tags contains "filter_Location:In Stock in Calgary"  %}Calgary {% endif %}
+{% if product.tags contains "filter_Location:In Stock in Edmonton"  %}Edmonton {% endif %}
+{% if product.tags contains "filter_Location:In Stock in Toronto"  %}Toronto {% endif %}
+{% if product.tags contains "filter_Location:In Stock in Ottawa"  %}Ottawa {% endif %}
+{% if product.tags contains "filter_Location:In Stock in Vancouver"  %}Vancouver{% endif %}
+<br><br>
+During the first day of Garage Sale, stock in our retail locations is reserved for in store customers. In store stock will be made avilable on day two of the Garage Sale online. 
+</div>
+
+                 <div class="gs-disclaimer"> 
+                  <p> {{ settings.garageSaleLiveTxt }}</p>
+               <style>.findify-sticker-garage-sale { display: block !important; }</style>
+          		</div>
+
+    {% endif %}  
+              {% elsif settings.show_garageSaleLiveTxt == true and  product.tags contains "garage sale" and product.available == true %}   
+
+               <div class="gs-disclaimer"> 
+                  <p> {{ settings.garageSaleLiveTxt }}</p>
+               <style>.findify-sticker-garage-sale { display: block !important; }</style>
+          		</div>
+
+
+                   {% endif %}   
+
+
+
+
+<!-- Swym button on product pages --><div class="ep-paint-block-wishlist">        <div class="swym-wishlist-button-bar"></div></div>
+<!-- Swym button on product pages -->
+
+
+<!-- {% if product.available == false and product.tags contains "kitchen-knives" %}<div class="gs-disclaimer"> 
+<a href="https://knifewear.com/blogs/articles/why-are-japanese-knives-always-sold-out-and-how-to-get-them"><b>Frustrated?</b> Learn more about why Japanese knives are frequently out of stock.</a></div>
+<style>div.purchase-details__quantity.product-quantity-box {
+    display: none !important;
+}</style>
+{% endif %} -->
+

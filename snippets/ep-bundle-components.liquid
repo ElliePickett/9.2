@@ -1,0 +1,30 @@
+{% assign recommended_products = product.metafields.custom.product_bundle_components.value %}
+
+
+<div class="container">
+  <div class="section">
+
+      {% for product in recommended_products %}
+
+      {% capture shapeHandle %}{{product.metafields.knifeStats.shape | handle }} {% endcapture %}
+  {% assign collectionShape = collections[shapeHandle] %}
+     <hr><div class="bundle-grid">
+          <div><a target="_blank" href="{{ product.url }}">{{ product.featured_image | image_url: width: 400 | image_tag: loading: 'lazy' }}</a></div>
+
+  <div>
+    <h6><a target="_blank" href="{{ product.url }}">{{- product.title | escape -}}</a></h6>
+      <div class="yotpo bottomLine" data-product-id="{{ product.id }}" style="margin-bottom: 10px;"></div>
+      
+  </div>
+
+     </div>
+     <div> <p>{{ collectionShape.metafields.coll.shortDescription }}</p></div>
+<br>
+  
+      {% endfor %}
+ 
+
+
+
+  </div>
+</div>

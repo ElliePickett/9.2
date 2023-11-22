@@ -1,0 +1,83 @@
+{% capture disapointment %}
+    
+  
+    {% if product.available == false and product.title contains 'Toronto' %}
+       <b><i>Our Toronto team is excited to offer classes in 2024. Sign up for our Toronto mailing list to know when we release our first class schedule:</i></b>
+       <div class="klaviyo-form-U3JNvp"></div>
+       <style>
+      .product_form,.price-ui-badge__sticker--sold-out {display:none;}
+      </style>
+      <br> <br>
+      
+    {% elsif product.available == false %}
+      <style>
+        .product_form,.price-ui-badge__sticker--sold-out {display:none;}
+      </style>
+      <div class="ep-disapointment">
+        <b><i>Sadly we currently completely booked up, check back soon for new classes.</i></b>
+      </div>
+    {% else %}
+<div class="ep-cities-buttons-heading"><b>Select a Date</b></div>
+      
+    {% endif %}
+
+  
+{% endcapture %}
+
+<div class="ep-cities-buttons">
+  {% if template contains 'class-sharpening' %}
+    <div class="ep-cities-buttons-heading"><b>Select a City</b></div>
+
+    <div class="ep-cities-buttons-container">
+      {% for link in linklists['sharpening-classes-cities'].links %}
+        <a
+          href="{{ link.url }}"
+          {% if link.current %}
+            class="highlight"
+          {% endif %}
+        >
+          {{- link.title -}}
+        </a>
+      {% endfor %}
+    </div>
+
+    {{ disapointment }}
+  {% endif %}
+
+  {% if template contains 'class-cut' %}
+    <div class="ep-cities-buttons-heading"><b>Select a City</b></div>
+
+    <div class="ep-cities-buttons-container">
+      {% for link in linklists['cities-cut-like-a-chef-classes'].links %}
+        <a
+          href="{{ link.url }}"
+          {% if link.current %}
+            class="highlight"
+          {% endif %}
+        >
+          {{- link.title -}}
+        </a>
+      {% endfor %}
+    </div>
+    {{ disapointment }}
+  {% endif %}
+
+  {% if template contains 'class-honesuki' %}
+    <div class="ep-cities-buttons-heading"><b>Select a City</b></div>
+
+    <div class="ep-cities-buttons-container">
+      {% for link in linklists['cities-honesuki'].links %}
+        <a
+          href="{{ link.url }}"
+          {% if link.current %}
+            class="highlight"
+          {% endif %}
+        >
+          {{- link.title -}}
+        </a>
+      {% endfor %}
+    </div>
+
+    {{ disapointment }}
+  {% endif %}
+</div>

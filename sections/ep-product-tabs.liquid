@@ -1,0 +1,151 @@
+		
+
+
+
+		<div id="ep-description-tabs-inner">	
+          
+      
+          
+       
+        <!--Start tab labels-->
+        <ul class="tabs">
+          <li>
+            <a  href="#tab1" class="active">
+              
+              {{ 'product.custom.tab_description' | t }}
+              
+            </a>
+          </li>
+  
+          
+
+    {% if product.metafields.custom.care_information != null  %}         
+  <li>
+            <a href="#tab2" >
+                    {{ product.metafields.custom.care_information.value.title | metafield_tag }}
+            </a>
+          </li>
+          
+      {% endif %}   
+    
+      <li>
+            <a href="#tab3" >
+                {{ 'product.custom.tab_shipping_and_returns' | t }}
+              
+              
+            </a>
+          </li>
+        </ul>
+        <!--Start tab content-->
+        <ul class="tabs-content">
+          <li class="" id="tab1" style="display: block;" class="active" >
+            <div>
+              
+<!--    {% if product.description != blank  %} 
+
+
+ {{ product.description }}
+
+   {% else %} {% endif %}	-->
+              
+              
+          {% if product.metafields.knifeStats.shape != blank %}
+	
+ 
+              
+         {% capture  blacksmithHandle %}{{product.metafields.knifeStats.blacksmith | handle }} {% endcapture %}
+         {% capture  blacksmithAbout %}About {{product.metafields.knifeStats.blacksmith}}{% endcapture %}  
+		 {% capture  sharpenerHandle %}{{product.metafields.knifeStats.sharpener | handle }} {% endcapture %}
+         {% capture  shapeHandle %}{{product.metafields.knifeStats.shape | handle }} {% endcapture %}    
+         {% capture  brandHandle %}{{ product.vendor | handle }} {% endcapture %} 
+         {% capture  vendorAbout %}About {{product.vendor}}{% endcapture %}
+         {% capture  KnifeLineAbout %}About {{product.metafields.knifeStats.knifeLine}}{% endcapture %}   
+
+		{% assign collectionShape = collections[shapeHandle] %}
+        {% assign collectionBlacksmith = collections[blacksmithHandle] %}
+       	{% assign collectionSharpener = collections[sharpenerHandle] %} 
+        {% assign collectionHandle = collections[brandHandle] %}       
+
+              {% if request.locale.iso_code == 'en' %}
+
+
+         {% if product.description contains "About the shape" or product.description contains "About the Shape" %}                  
+		  <!-- silence is golden --> 
+          {% elsif product.metafields.knifeStats.shape != blank %}    
+		<p><b>About the Shape - </b>{{collectionShape.metafields.coll.shortDescription}}</p>
+        {% endif %} 
+              
+             
+              
+        {% if product.description contains blacksmithAbout or product.description contains vendorAbout or product.description contains KnifeLineAbout %}                  
+		  <!-- silence is golden --> 
+          {% elsif product.metafields.knifeStats.blacksmith != blank and product.metafields.knifeStats.knifeline == blank  %}    
+		<p><b>About the {{product.metafields.knifeStats.blacksmith}} - </b>{{collectionBlacksmith.metafields.coll.shortDescription}}</p>
+                          
+        {% elsif product.metafields.knifeStats.sharpener != blank and collectionSharpener.metafields.coll.shortDescription != blank %}
+              
+        <p><b>About {{product.metafields.knifeStats.sharpener}} - </b>{{collectionSharpener.metafields.coll.shortDescription}}</p>      
+        
+        
+         {% else %}  
+              
+               <p><b>About {{product.vendor}} - </b>{{collectionHandle.metafields.coll.shortDescription}}</p>   
+               <!-- silence is golden --> 
+              
+        {% endif %}   
+          {% endif %}  
+
+             {% endif %}
+             
+         {{ product.description }}        
+       
+              
+              
+			
+
+
+              <div class="ep-stats-anchor"></div>
+            </div>
+          </li>
+          <li id="tab2" style="display: none;" class="">
+           <div>
+  
+
+              {{ product.metafields.custom.care_information.value.body | metafield_tag }}
+
+    
+
+            </div>
+          </li>
+          <li id="tab3" style="display: none;" class="">
+            <div> 
+           {{ section.settings.shipping-returns }} 
+            </div>
+          </li>
+        </ul>
+</div>
+
+<script>jQuery( "#ep-description-tabs-inner" ).insertAfter( "#ep-anchor-product-tabs" );
+  		jQuery( ".ep-stats" ).insertAfter( ".ep-stats-anchor" );
+</script>
+
+{% schema %}
+  {
+    "name": "Product Desc Add-ons",
+    "settings": [
+		{
+      "type": "richtext",
+      "id": "shipping-returns",
+      "label": "Shipping and Returns"
+    }    
+		
+	]
+	
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

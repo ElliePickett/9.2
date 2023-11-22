@@ -1,0 +1,122 @@
+<script
+  type="application/json"
+  data-section-type="blog-posts"
+  data-section-id="{{ section.id }}"
+>
+</script>
+
+{% if type == 'block' %}
+  {%- assign object = block -%}
+{% else %}
+  {%- assign object = section -%}
+{% endif %}
+
+{%- assign blog = blogs[object.settings.blog_widget_select] -%}
+{%- assign title = object.settings.title | escape -%}
+
+
+<section class="section">
+  <div class="container">
+  <div class="one-whole column">
+<hr class="divider" /> 
+    <a href="/blogs/articles/tagged/{{  object.settings.article_category | handle }}"><h3>{{ title }} ➤</h3></a>    
+      <div class="container-articles">
+    {% assign counter = 0 %}
+    {% paginate blog.articles by 150 %}
+{% for article in blog.articles %}
+{% if article.tags contains object.settings.article_category and counter < object.settings.home_page_articles %}
+  {% assign counter = counter | plus: 1 %}
+
+           <div>
+
+            <a href="{{ article.url }}" title="{{ article.title | escape }}">
+              {% include 'image-element', image: article.image, alt: image.alt %}
+            </a>
+
+        <h2 class="article__title"><a href="{{ article.url }}">{{ article.title }}</a></h2>
+
+        <p class="blog_meta">
+            <span>{{ 'blogs.article.by_author' | t: author: article.author }}</span>      
+            {% include 'include-read-time' %}
+        </p>
+
+
+
+          <div class="excerpt"> {{ article.excerpt_or_content | strip_html | truncatewords: 20 }}</div>
+
+          <a href="{{ article.url }}" title="{{ article.title | escape }}" {% if settings.read_more_style == 'button' %}class="action_button continue-button"{% endif %}>{{ 'blogs.general.continue_reading_html' | t }}</a>
+
+      </div>
+  
+ {% endif %}
+{% endfor %}
+      {% endpaginate %}
+      </div>
+  </div>
+  </div>
+</section>
+
+
+      
+
+{% schema %}
+{
+  "name": "Blog - Feature Categories",
+  "class": "shopify-section--blog-posts",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Blog posts"
+    },
+    {
+      "type": "blog",
+      "id": "blog_widget_select",
+      "label": "Blog"
+    },
+        {
+      "type": "text",
+      "id": "article_category",
+      "label": "Article Category/Tag"
+    },
+    {
+      "type": "range",
+      "id": "home_page_articles",
+      "label": "Posts",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "header",
+      "content": "Advanced"
+    },
+    {
+      "type": "paragraph",
+      "content": "[Learn more](https://help.outofthesandbox.com/hc/en-us/articles/360022329373)"
+    },
+    {
+      "type": "text",
+      "id": "css_class",
+      "label": "CSS Class"
+    },
+    {
+      "type": "textarea",
+      "id": "custom_css",
+      "label": "Custom CSS"
+    }
+  ],
+  "presets": [{
+    "name": "Blog - Feature Categories",
+    "category": "Blog"
+  }],
+  "templates": [
+    "index",
+    "product",
+    "page"
+  ]
+}
+
+{% endschema %}

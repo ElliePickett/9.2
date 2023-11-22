@@ -1,0 +1,168 @@
+<section class='section'>
+<div class='container'>
+<div class="article_content one-whole column">
+  <div class="Rtable Rtable--6cols Rtable--collapse">
+
+	<div class="Rtable-cell Rtable-cell--head Rtable-cell--center Rtable-cell-first Rtable-no-mobile">Knife Line</div>
+  <div class="Rtable-cell Rtable-cell--head Rtable-cell--center Rtable-no-mobile">Blacksmith</div>
+  <div class="Rtable-cell Rtable-cell--head Rtable-cell--center Rtable-no-mobile">Steel</div>
+  <div class="Rtable-cell Rtable-cell--head Rtable-cell--center Rtable-no-mobile">Handle</div>
+  <div class="Rtable-cell Rtable-cell--head Rtable-cell--center Rtable-no-mobile">Maintenance Rating</div>
+  <div class="Rtable-cell Rtable-cell--head Rtable-cell--center Rtable-no-mobile">What we like about it</div>
+  <div class="Rtable-cell Rtable-cell--head Rtable-cell--center Rtable-cell-last Rtable-no-mobile ">Whats in a name?</div>
+ 
+
+    {% for block in section.blocks %}
+           
+  			{% assign image = block.settings.image %}
+            {% assign url_kl = block.settings.url_kl %}
+          	{% assign url_bs = block.settings.url-bs %}
+          	{% assign text-handle = block.settings.text-handle %}
+          	{% assign url_st = block.settings.url-st %}
+          	{% assign text-hardness = block.settings.text-hardness %}
+          	{% assign text-favourite = block.settings.text-favourite %}
+  			{% assign maintenance_rating = block.settings.maintenance_rating %}
+  			{% assign text-maintenance = block.settings.text-maintenance %}
+  			{% assign steel_type = block.settings.steel_type %}
+  			{% assign price_range = block.settings.price_range %}
+  			{% assign text-name = block.settings.text-name %}	
+          	
+  
+  <div class="Rtable-cell Rtable-cell-first"><a href="{{url_kl}}"><img src="{{ image | img_url: 'medium' }}">{{url_kl | remove: "/collections/" | replace: '-', ' '  }}</a><br><span class="price_range">{{price_range}}</span></div>
+  <div class="Rtable-cell Rtable-cell--center"><span class="Rtable-yes-mobile">Blacksmith</span><a style="font-size:1.1em" href="{{url_bs}}"><b>{{url_bs  | remove: "/collections/" | replace: '-', ' ' }}</b></a></div>
+  <div class="Rtable-cell Rtable-cell--center"><span class="Rtable-yes-mobile">Steel</span><span><b>{{steel_type}}</b><br><a href="{{url_st}}">{{url_st  | remove: "/collections/" | replace: '-', ' '| replace: 'vg', 'VG' | replace: '2', '#2' }}</a><br>Rockwell Hardness: {{text-hardness}}</span></div>
+  <div class="Rtable-cell Rtable-cell--center"><span class="Rtable-yes-mobile">Handle</span><span>{{text-handle}}</span></div>
+  <div class="Rtable-cell Rtable-cell--center"><span class="Rtable-yes-mobile">Maintenance Rating</span><span><b>{{maintenance_rating}}</b><br>{{text-maintenance}}</span></div>
+  <div class="Rtable-cell Rtable-cell--center"><span class="Rtable-yes-mobile">What we like about it</span><span>{{text-favourite}}</span></div>
+<div class="Rtable-cell Rtable-cell--center Rtable-cell-last"><span class="Rtable-yes-mobile">Whats in a name?</span><span>{{text-name}}</span></div>
+
+  
+  {% endfor %}
+</div></div></div></section>
+
+
+{% schema %}
+{
+  "name": "Comparison Chart",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "City Name"
+    },
+    {
+      "type": "checkbox",
+      "id": "border",
+      "label": "Show border",
+      "default": true
+    }
+
+
+  ],
+
+  "blocks": [
+    {
+
+      "type": "feature",
+      "name": "Knifeline",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "1280 x 1280px .jpg recommended"
+        },
+        {
+          "type": "url",
+          "id": "url_kl",
+          "label": "Knife Line"
+        },
+
+{
+   "type": "select",
+   "id": "price_range",
+   "options": [
+{ "value": "$<span style='color:#ccc;'>$$$</span>", "label": "$"},
+      { "value": "$$<span style='color:#ccc;'>$$</span>", "label": "$$"},
+      { "value": "$$$<span style='color:#ccc;'>$</span>", "label": "$$$"},
+ 	  { "value": "$$$$", "label": "$$$$"}
+   ],
+   "label": "Price Range"
+},
+        {
+          "type": "url",
+          "id": "url-bs",
+          "label": "Blacksmith"
+        },
+{
+          "type": "url",
+          "id": "url-st",
+          "label": "Steel Type"
+        },
+		{
+          "type": "text",
+          "id": "text-handle",
+          "label": "Handle Material"
+        },
+		{
+          "type": "text",
+          "id": "text-hardness",
+          "label": "Hardness"
+        },
+{
+   "type": "select",
+   "id": "maintenance_rating",
+   "options": [
+      { "value": "Easy, it's stainless steel.", "label": "Easy, it's stainless steel"},
+      { "value": "Doable, but some care needed.", "label": "Doable, but some care needed"},
+      { "value": "Pain in the ass.", "label": "Pain in the A$$"}
+   ],
+   "label": "Maintentance Rating"
+},
+{
+   "type": "select",
+   "id": "steel_type",
+   "options": [
+      { "value": "Carbon Steel", "label": "Carbon Steel"},
+      { "value": "Stainless Steel", "label": "Stainless Steel"},
+      { "value": "Stainless clad with Carbon Steel Core", "label": "Stainless clad with Carbon Steel Core"}
+   ],
+   "label": "Steel Type"
+},
+        {
+          "type": "textarea",
+          "id": "text-maintenance",
+          "label": "Maintentance Detail"
+        }
+,
+        {
+          "type": "textarea",
+          "id": "text-favourite",
+          "label": "Favourite Feature"
+        }
+,
+        {
+          "type": "textarea",
+          "id": "text-name",
+          "label": "Whats in a name"
+        }
+      ] 
+    }
+  ],  "presets": [
+  {
+    "name": "Comparison Chart - Masakage",
+    "category": "Product"
+  }
+]
+} 
+{% endschema %}
+
+{% stylesheet %}
+
+
+{% endstylesheet %}
+
+{% javascript %}
+
+{% endjavascript %}

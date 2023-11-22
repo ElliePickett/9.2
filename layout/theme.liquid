@@ -163,6 +163,8 @@
 
     {% if collection.previous_product %}<link rel="prev" href="{{ collection.previous_product }}">{% endif %}
     {% if collection.next_product %}<link rel="next" href="{{ collection.next_product }}">{% endif %}
+
+
   </head>
 
   {% if template contains "index" %}
@@ -209,11 +211,8 @@
     </style>
   </noscript>
 
-  <body class="{% if template == '404' %}error-404{% else %}{{ template | replace: '.', '-' | handle }}{% endif %}"
-        data-money-format="
-          {%- if settings.currency_format == 'money_with_currency_format' -%}
-            {{- shop.money_with_currency_format | strip_html -}}
-          {%- else -%}
+   <body class="{% if template == '404' %}error-404{% else %}{{ template | replace: '.', '-' | handle }}{% endif %}{% if settings.ss_enable and collection.handle and collection.handle == settings.ss_collection_handle %} ss-shop{% endif %}"
+
             {{- shop.money_format | strip_html -}}
           {%- endif -%}"
         data-shop-currency="{{ shop.currency }}"
@@ -290,5 +289,8 @@
     {%- if request.design_mode -%}
       <script src="{{ 'themeEditorSections.js' | asset_url }}" defer></script>
     {%- endif -%}
+
+ {% render 'ep-footer-additions' %}
+
   </body>
 </html>

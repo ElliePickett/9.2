@@ -34,3 +34,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta name="locale-bar--current-currency" content="{{ cart.currency.iso_code }}">
  
     <!-- END Custom -->
+
+
+     <!-- Fenix Header Scripts Start --> 
+ 
+ 
+     {% if product.gift_card? == false %}
+        {{ 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js' | script_tag }} 
+        <script src="https://d1dg552qx9z0ed.cloudfront.net/v3.0/fenix-all-shipping-options.js"></script>
+        <script src="https://d1dg552qx9z0ed.cloudfront.net/v4.0/fenix-fixd-estimate-4.0.0-beta.min.js"></script>
+     {% endif %}
+    <!-- Fenix Script Ends -->
+
+      {% if settings.ss_enable %}
+    {% render 'ss-script' %}
+  {% endif %}

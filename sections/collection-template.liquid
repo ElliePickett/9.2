@@ -132,7 +132,7 @@
     </div>
 
     {% if section.settings.display_collection_title and section.settings.featured_collection_image == false %}
-      <div class="one-half column medium-down--one-whole">
+      <div class="one-half column medium-down--one-whole ss-header">
         <h1>{{ collection.title }}</h1>
       </div>
     {% endif %}
@@ -209,6 +209,7 @@
             <div class="one-whole column">
               <div class="collection_description rte">
                 {{ collection.description }}
+                 {% render 'ep-stats-knife-line' %}
               </div>
             </div>
           </div>
@@ -216,21 +217,36 @@
 
         <div class="container">
           <div class="one-whole column">
-            {% if collection.products.size == 0 %}
-              <div class="product-list product-list--collection">
-                <p class="quote">{{ 'collections.general.no_matches' | t }}</p>
-              </div>
+             {% if settings.ss_enable %}
+              <div id="searchspring-content"></div>
             {% else %}
-              {%
-                render 'product-loop',
-                paginate: paginate,
-                products: products,
-                skip_product: product,
-                products_per_row: section.settings.products_per_row,
-                sidebar: sidebar,
-              %}
+{% if collection.products.size == 0 %}
+                      <div class="product-list product-list--collection">
+                        <p class="quote">{{ 'collections.general.no_matches' | t }}</p>
+                      </div>
+                    {% else %}
+                      {%- assign products_per_row = section.settings.products_per_row -%}
+                      {%
+                        render 'product-loop',
+                        paginate: paginate,
+                        products: products,
+                        skip_product: product,
+                        products_per_row: products_per_row,
+                        sidebar: sidebar,
+                      %}
+                    {% endif %}
+            
+                    {% if settings.pagination_type == 'basic_pagination' %}
+                      {%
+                        render 'pagination',
+                        paginate: paginate
+                      %}
+                    {% endif %}
+ 
+              </div> 
             {% endif %}
-          </div>
+            
+      </div> 
         </div>
 
         {% if settings.pagination_type == 'basic_pagination' %}

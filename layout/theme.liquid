@@ -24,6 +24,9 @@
       <meta name="description" content="{% if template contains 'search' %} {{ page_title }} - {{ shop.name }} {% else %}{{ page_description | escape }}{% if current_tags %} {{ 'general.meta.tagged_html' | t: tags: meta_tags | escape }}.{% endif %}{% if current_page != 1 %} {{ 'general.meta.page' | t: page_number: current_page }}.{% endif %}{% endif %}"/>
     {% endif %}
 
+        {% render 'ep-head-additions' %}
+
+
     <link rel="preconnect" href="https://fonts.shopifycdn.com" />
     <link rel="preconnect" href="https://cdn.shopify.com" />
     <link rel="preconnect" href="https://cdn.shopifycloud.com" />
@@ -39,6 +42,7 @@
 
     <!-- Stylesheets for Turbo -->
     {{ 'styles.css' | asset_url | stylesheet_tag }}
+    {{ 'ep-custom.css' | asset_url | stylesheet_tag }}
 
     <!-- Icons -->
     {% if settings.favicon != nil %}

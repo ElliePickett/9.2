@@ -217,10 +217,14 @@
 
         <div class="container">
           <div class="one-whole column">
-             {% if settings.ss_enable %}
+
+            {% if settings.ss_enable %}
               <div id="searchspring-content"></div>
             {% else %}
-{% if collection.products.size == 0 %}
+
+        
+
+                    {% if collection.products.size == 0 %}
                       <div class="product-list product-list--collection">
                         <p class="quote">{{ 'collections.general.no_matches' | t }}</p>
                       </div>
@@ -242,20 +246,11 @@
                         paginate: paginate
                       %}
                     {% endif %}
- 
+
               </div> 
             {% endif %}
             
       </div> 
-        </div>
-
-        {% if settings.pagination_type == 'basic_pagination' %}
-          {%
-            render 'pagination',
-            paginate: paginate
-          %}
-        {% endif %}
-      </div>
     </div>
   {% endpaginate %}
   </div>

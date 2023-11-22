@@ -1,1 +1,159 @@
-{"order":["sidebar","main","00067b09-6af5-45a4-8d49-a31a1684fc4a","ffa448c5-8b00-4c40-a775-5e70469e6864","1687554155cc9bd94b","43e4ff03-94d2-4cc3-bbd1-7de99ce4dbfc","recommendations"],"sections":{"sidebar":{"type":"product-sidebar","disabled":true,"settings":{"toggle":false}},"main":{"type":"product-template","blocks":{"85d0d77c-b039-46b0-b112-b6af3ed762dd":{"type":"custom-liquid","settings":{"custom_liquid":"{% assign yoptoreviewcount = product.metafields.yotpo.reviews_count | plus:0 %}\n\n{% if product.available == true and yoptoreviewcount >= 3 %}\n<div class=\"ep-paint-block-review-snippet\">\n<!-- Yopto top Start -->\n {% if request.locale.iso_code == 'en' %}\n          \t{% if product.template_suffix != 'sharpening' %}\n\t\t\t\t\t<div class=\"yotpo yotpo-shoppers-say\" data-product-id=\"{{ product.id }}\">&nbsp;<\/div>\n{% endif %}\n   {% endif %}\n<!-- Yopto top end -->\n<\/div>\n {% endif %}"}},"title":{"type":"title","settings":{}},"619bd821-40ea-4ffd-a695-4115a4f4dc4a":{"type":"shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf","settings":{"product":"{{product}}"}},"c74a36ef-9ab2-4a13-9ecf-1fc7e8f3ade5":{"type":"custom-liquid","settings":{"custom_liquid":"{% if product.available == true %}\n<div class=\"ep-paint-block-1\">\n\n\n\n  <!-- fenix\/pickup in store code snippet starts -->\n \n{% if cart.currency.iso_code == 'CAD'  %}\n{% unless product.tags contains \"YGroup_konro_grill\" %}\n    \t<div style=\"\npadding: 8px;\n    font-weight: bold;\n    border:;\n\"><a href=\"https:\/\/knifewear.com\/policies\/shipping-policy\" target=\"_blank\">Free shipping on orders over $100 *<\/a><\/div>\n\n {% endunless %}\n\t{% endif %}\n\n{% if cart.currency.iso_code == 'USD'  %}\n{% unless product.tags contains \"YGroup_konro_grill\" %}\n    \t<div style=\"\npadding: 8px;\n    font-weight: bold;\n    border:;\n\"><a href=\"https:\/\/knifewear.com\/policies\/shipping-policy\" target=\"_blank\">Free shipping on orders over $200 *<\/a><\/div>\n\n {% endunless %}\n\t{% endif %}\n \n\n      \n \n      \n    \t{% if cart.currency.iso_code == 'CAD' or cart.currency.iso_code == 'USD' %}\n    <div class=\"ep-paint-block-1-fenix\">\t{%render 'fenix-pdp-template' %} <\/div>\n\t{% endif %}\n{% if cart.currency.iso_code == 'CAD' %}\n    \t       <div class=\"surface-pick-up surface-pick-up--loading\" data-surface-pick-up><\/div>\n    <div class=\"surface-pick-up__modal\" data-surface-pick-up-modal><\/div>\n\t{% endif %}\n \n\n \n    <!--fenix\/pickup in store code snippet ends -->\n<\/div>{% endif %}"}},"price":{"type":"price","settings":{"display_savings":true}},"d21adcb5-c58a-47c5-8b1b-78a262788463":{"type":"shopify:\/\/apps\/one-click-upsell-zipify-ocu\/blocks\/on-page\/bfe6e378-b73a-4871-b8d3-7d6ede22678e","settings":{}},"7c8239c5-e57c-4c24-9e8f-8a356f69d167":{"type":"form","settings":{}},"7f3347be-f089-4bf4-989a-960ca076a8b4":{"type":"custom-liquid","settings":{"custom_liquid":"{%render 'ep-gs-soldout-online' %}"}},"8689ba5b-d20e-4da0-a924-9211b3a50416":{"type":"tabs","settings":{"show_product_description":true,"show_tabs_below_product_gallery":false,"tab_heading_1":"{{ product.metafields.custom.care_information.value.title.value }}","tab_text_1":"<p>{{ product.metafields.custom.care_information.value.body | metafield_tag }}<\/p>","tab_heading_2":"Shipping and Returns","tab_text_2":"<p>We aim to ship your order within 1 business day at Knifewear, if there is a hold up, we'll aim to let you know and give you a timeline. <br\/><br\/>We offer <strong>free shipping  <\/strong>on orders over $100* anywhere in Canada and $200* to customers in the USA. We ship worldwide, and offer up to the minute rates from our shipping partner DHL.<\/p><p><em>*Konro Grills and some other larger items are excluded from the free shipping offer.<\/em><\/p><p><strong>How do I make a return on an online order?<br\/><\/strong>No worries, we've got you sorted. Head over to <a href=\"https:\/\/knifewear.com\/returns\">https:\/\/knifewear.com\/returns<\/a> and follow the prompts. <\/p><p><strong>Can I pick up my order Curbside \/ At the store?<br\/><\/strong>Absolutely, as long as all the items you are looking for are in stock at the location you want to pickup from, you'll be able to select that at the checkout. If one or more items aren't at your preferred location we are happy to ship it to you. <\/p>","tab_heading_3":"","tab_text_3":"<p>Use this text to share information about your product.<\/p>"}}},"block_order":["85d0d77c-b039-46b0-b112-b6af3ed762dd","title","619bd821-40ea-4ffd-a695-4115a4f4dc4a","c74a36ef-9ab2-4a13-9ecf-1fc7e8f3ade5","price","d21adcb5-c58a-47c5-8b1b-78a262788463","7c8239c5-e57c-4c24-9e8f-8a356f69d167","7f3347be-f089-4bf4-989a-960ca076a8b4","8689ba5b-d20e-4da0-a924-9211b3a50416"],"settings":{"product_breadcrumb":false,"media_position":"is-flex-row","set_product_height":true,"product_height":480,"video_looping":false,"product_thumbs":true,"gallery_arrows":true,"enable_product_lightbox":true,"activate_zoom":true,"slideshow_speed":0,"slideshow_animation":"slide","thumbnail_position":"bottom","enable_thumbnail_slider":true}},"00067b09-6af5-45a4-8d49-a31a1684fc4a":{"type":"searchspring-recommendations","settings":{"profileId":"similar"}},"ffa448c5-8b00-4c40-a775-5e70469e6864":{"type":"custom-liquid","settings":{"custom_liquid":"<div\n\tclass=\"yotpo yotpo-pictures-widget\"\n\tdata-gallery-id=\"6504d0bd32c9da837bcac2d8\"\n\tdata-product-id=\"{{ product.id }}\">\n<\/div>","css_class":"","custom_css":""}},"1687554155cc9bd94b":{"type":"apps","blocks":{"c89f6804-f79e-420d-aa32-a0f96339e8bb":{"type":"shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf","settings":{"product":"{{product}}"}}},"block_order":["c89f6804-f79e-420d-aa32-a0f96339e8bb"],"settings":{}},"43e4ff03-94d2-4cc3-bbd1-7de99ce4dbfc":{"type":"searchspring-recommendations","settings":{"profileId":"recently-viewed"}},"recommendations":{"type":"product-recommendations","disabled":true,"settings":{"show_product_recommendations":true,"wide_display":false,"product_recommendations_style":"slider","product_recommendations_heading":"CUSTOMERS WHO VIEWED THIS ENDED UP WITH","products_per_row":5,"recommended_products_limit":5}}},"wrapper":"div.shopify-section-wrapper.section"}
+{
+  "order": [
+    "sidebar",
+    "main",
+    "00067b09-6af5-45a4-8d49-a31a1684fc4a",
+    "ffa448c5-8b00-4c40-a775-5e70469e6864",
+    "1687554155cc9bd94b",
+    "43e4ff03-94d2-4cc3-bbd1-7de99ce4dbfc",
+    "recommendations"
+  ],
+  "sections": {
+    "sidebar": {
+      "type": "product-sidebar",
+      "disabled": true,
+      "settings": {
+        "toggle": false
+      }
+    },
+    "main": {
+      "type": "product-template",
+      "blocks": {
+        "85d0d77c-b039-46b0-b112-b6af3ed762dd": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "{% assign yoptoreviewcount = product.metafields.yotpo.reviews_count | plus:0 %}\n\n{% if product.available == true and yoptoreviewcount >= 3 %}\n<div class=\"ep-paint-block-review-snippet\">\n<!-- Yopto top Start -->\n {% if request.locale.iso_code == 'en' %}\n          \t{% if product.template_suffix != 'sharpening' %}\n\t\t\t\t\t<div class=\"yotpo yotpo-shoppers-say\" data-product-id=\"{{ product.id }}\">&nbsp;<\/div>\n{% endif %}\n   {% endif %}\n<!-- Yopto top end -->\n<\/div>\n {% endif %}"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "619bd821-40ea-4ffd-a695-4115a4f4dc4a": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "c74a36ef-9ab2-4a13-9ecf-1fc7e8f3ade5": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "{% if product.available == true %}\n<div class=\"ep-paint-block-1\">\n\n\n\n  <!-- fenix\/pickup in store code snippet starts -->\n \n{% if cart.currency.iso_code == 'CAD'  %}\n{% unless product.tags contains \"YGroup_konro_grill\" %}\n    \t<div style=\"\npadding: 8px;\n    font-weight: bold;\n    border:;\n\"><a href=\"https:\/\/knifewear.com\/policies\/shipping-policy\" target=\"_blank\">Free shipping on orders over $100 *<\/a><\/div>\n\n {% endunless %}\n\t{% endif %}\n\n{% if cart.currency.iso_code == 'USD'  %}\n{% unless product.tags contains \"YGroup_konro_grill\" %}\n    \t<div style=\"\npadding: 8px;\n    font-weight: bold;\n    border:;\n\"><a href=\"https:\/\/knifewear.com\/policies\/shipping-policy\" target=\"_blank\">Free shipping on orders over $200 *<\/a><\/div>\n\n {% endunless %}\n\t{% endif %}\n \n\n      \n \n      \n    \t{% if cart.currency.iso_code == 'CAD' or cart.currency.iso_code == 'USD' %}\n    <div class=\"ep-paint-block-1-fenix\">\t{%render 'fenix-pdp-template' %} <\/div>\n\t{% endif %}\n{% if cart.currency.iso_code == 'CAD' %}\n    \t       <div class=\"surface-pick-up surface-pick-up--loading\" data-surface-pick-up><\/div>\n    <div class=\"surface-pick-up__modal\" data-surface-pick-up-modal><\/div>\n\t{% endif %}\n \n\n \n    <!--fenix\/pickup in store code snippet ends -->\n<\/div>{% endif %}"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "display_savings": true
+          }
+        },
+        "d21adcb5-c58a-47c5-8b1b-78a262788463": {
+          "type": "shopify:\/\/apps\/one-click-upsell-zipify-ocu\/blocks\/on-page\/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+          "settings": {
+          }
+        },
+        "7c8239c5-e57c-4c24-9e8f-8a356f69d167": {
+          "type": "form",
+          "settings": {
+            "show_gift_card_recipient_form": true
+          }
+        },
+        "7f3347be-f089-4bf4-989a-960ca076a8b4": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "{%render 'ep-gs-soldout-online' %}"
+          }
+        },
+        "8689ba5b-d20e-4da0-a924-9211b3a50416": {
+          "type": "tabs",
+          "settings": {
+            "show_product_description": true,
+            "show_tabs_below_product_gallery": false,
+            "tab_heading_1": "{{ product.metafields.custom.care_information.value.title.value }}",
+            "tab_text_1": "<p>{{ product.metafields.custom.care_information.value.body | metafield_tag }}<\/p>",
+            "tab_heading_2": "Shipping and Returns",
+            "tab_text_2": "<p>We aim to ship your order within 1 business day at Knifewear, if there is a hold up, we'll aim to let you know and give you a timeline. <br\/><br\/>We offer <strong>free shipping  <\/strong>on orders over $100* anywhere in Canada and $200* to customers in the USA. We ship worldwide, and offer up to the minute rates from our shipping partner DHL.<\/p><p><em>*Konro Grills and some other larger items are excluded from the free shipping offer.<\/em><\/p><p><strong>How do I make a return on an online order?<br\/><\/strong>No worries, we've got you sorted. Head over to <a href=\"https:\/\/knifewear.com\/returns\">https:\/\/knifewear.com\/returns<\/a> and follow the prompts. <\/p><p><strong>Can I pick up my order Curbside \/ At the store?<br\/><\/strong>Absolutely, as long as all the items you are looking for are in stock at the location you want to pickup from, you'll be able to select that at the checkout. If one or more items aren't at your preferred location we are happy to ship it to you. <\/p>",
+            "tab_heading_3": "",
+            "tab_text_3": "<p>Use this text to share information about your product.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "85d0d77c-b039-46b0-b112-b6af3ed762dd",
+        "title",
+        "619bd821-40ea-4ffd-a695-4115a4f4dc4a",
+        "c74a36ef-9ab2-4a13-9ecf-1fc7e8f3ade5",
+        "price",
+        "d21adcb5-c58a-47c5-8b1b-78a262788463",
+        "7c8239c5-e57c-4c24-9e8f-8a356f69d167",
+        "7f3347be-f089-4bf4-989a-960ca076a8b4",
+        "8689ba5b-d20e-4da0-a924-9211b3a50416"
+      ],
+      "settings": {
+        "product_breadcrumb": false,
+        "media_position": "is-flex-row",
+        "set_product_height": true,
+        "product_height": 480,
+        "video_looping": false,
+        "product_thumbs": true,
+        "gallery_arrows": true,
+        "enable_product_lightbox": true,
+        "activate_zoom": true,
+        "slideshow_speed": 0,
+        "slideshow_animation": "slide",
+        "thumbnail_position": "bottom",
+        "enable_thumbnail_slider": true
+      }
+    },
+    "00067b09-6af5-45a4-8d49-a31a1684fc4a": {
+      "type": "searchspring-recommendations",
+      "settings": {
+        "profileId": "similar"
+      }
+    },
+    "ffa448c5-8b00-4c40-a775-5e70469e6864": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div\n\tclass=\"yotpo yotpo-pictures-widget\"\n\tdata-gallery-id=\"6504d0bd32c9da837bcac2d8\"\n\tdata-product-id=\"{{ product.id }}\">\n<\/div>",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1687554155cc9bd94b": {
+      "type": "apps",
+      "blocks": {
+        "c89f6804-f79e-420d-aa32-a0f96339e8bb": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "c89f6804-f79e-420d-aa32-a0f96339e8bb"
+      ],
+      "settings": {
+      }
+    },
+    "43e4ff03-94d2-4cc3-bbd1-7de99ce4dbfc": {
+      "type": "searchspring-recommendations",
+      "settings": {
+        "profileId": "recently-viewed"
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "wide_display": false,
+        "product_recommendations_style": "slider",
+        "product_recommendations_heading": "CUSTOMERS WHO VIEWED THIS ENDED UP WITH",
+        "products_per_row": 5,
+        "recommended_products_limit": 5
+      }
+    }
+  },
+  "wrapper": "div.shopify-section-wrapper.section"
+}

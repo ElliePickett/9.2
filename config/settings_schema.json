@@ -8,6 +8,41 @@
     "theme_support_url": "https:\/\/help.outofthesandbox.com\/hc\/en-us\/requests\/new"
   },
   {
+     "name": "Garage Sale",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "enable_garage_sale_preview",
+        "label": "Enable Garage Sale Preview (Disable add to cart)",
+        "default": false
+      },
+      {
+        "type": "richtext",
+        "id": "garageSaleLeadTxt",
+        "label": "Garage Sale - Lead up text"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_garageSaleLiveTxt",
+        "label": "Show Garage Sale - Live text and enable Garage Sale CSS\/Style Sheet",
+        "default": false
+      },
+      {
+        "type": "richtext",
+        "id": "garageSaleLiveTxt",
+        "label": "Garage Sale - Live up text"
+      }
+    ]
+  },
+   {
+        "name": "Searchspring",
+        "settings": [
+            { "type": "checkbox", "id": "ss_enable", "label": "Enable Searchspring", "default": true },
+            { "type": "text", "id": "ss_site_id", "label": "Site ID", "default": "7jhr00" },
+            { "type": "text", "id": "ss_collection_handle", "label": "Search collection handle", "default": "shop" }
+        ]
+    },
+  {
     "name": "t:settings_schema.age_gate.name",
     "settings": [
       {

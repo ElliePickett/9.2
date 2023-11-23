@@ -407,8 +407,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   {% render 'ss-intellisuggest' %}
 {% endif %}
           
-{% render 'oneclickupsellapp-theme', oneclickupsellapp: oneclickupsellapp %}
-{% assign oneclickupsellapp = true %}
 <!-- PF EDT START -->
 <script type='text/javascript'>
 {%- if content_for_header contains 'shopify-product-customizer' -%}
@@ -433,5 +431,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
 <!-- PF EDT END -->
 
-  </body>
+  
+{% render 'oneclickupsellapp-theme', oneclickupsellapp: oneclickupsellapp %}
+{% assign oneclickupsellapp = true %}
+</body>
 </html>

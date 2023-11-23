@@ -73,7 +73,7 @@ h3.regular_text {
   letter-spacing: 1px;
 }
 
-/* First Paint Corrections June 2023*/
+/* First Paint Corrections June 2023
 
 .ep-paint-block-review-snippet {
     min-height: 249px;
@@ -111,17 +111,17 @@ h3.regular_text {
     width: 100%;
     display: inline-block;
 }
-
+*/
 
 @media (max-width: 450px) {
-
+/*
 .ep-paint-block-review-snippet {
     min-height: 165px;
 }
 
 .ep-paint-block-1 {
     height: 230px;
-}
+} */
 
 .product__images.three-fifths.columns.medium-down--one-whole {
     height: 250px;

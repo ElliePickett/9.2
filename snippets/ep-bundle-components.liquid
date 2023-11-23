@@ -4,7 +4,7 @@
 <div class="container">
   <div class="section">
 
-    <b>The {{product.title}} contains:</b> 
+   {%if recommended_products != blank %} <b>The {{product.title}} contains:</b>  {% endif%}
 
       {% for product in recommended_products %}
 

@@ -66,7 +66,7 @@
           </div>
 
           <div class="giftcard__wrap">
-            <img src="{{ 'Shopify-Giftcard-Knifewear.png' | shopify_asset_url }}" alt="{{ 'gift_cards.issued.subtext' | t }}">
+            <img src="{{ 'Shopify-Giftcard-Knifewear.png' | asset_url }}" alt="{{ 'gift_cards.issued.subtext' | t }}">
 
             {% assign initial_value_size = formatted_initial_value | size %}
             <div class="h1 giftcard__amount{% if initial_value_size > 6 %} giftcard__amount--medium{% endif %}">

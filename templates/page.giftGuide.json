@@ -54,10 +54,10 @@
         "fffcf5e5-afe0-4a3f-8b7a-f235555248d1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/banners_redux4.jpg",
+            "image": "shopify:\/\/shop_images\/gift_card_xmas.jpg",
             "link": "shopify:\/\/products\/gift-card",
             "title": "",
-            "text": "<p><\/p>",
+            "text": "",
             "button_label": ""
           }
         },

@@ -1,6 +1,3 @@
-
-
-
 {% layout none %}
 {% assign formatted_initial_value = gift_card.initial_value | money_without_trailing_zeros: gift_card.currency %}
 {% assign formatted_initial_value_stripped = formatted_initial_value | strip_html %}
@@ -45,8 +42,8 @@
   <div class="wrapper">
     <header class="giftcard-header" role="banner">
       <div class="giftcard-header__logo">
-        <a href="{{ shop.url }}" itemprop="url">{{ shop.name }}</a>
-      </div>
+      <!--  <a href="{{ shop.url }}" itemprop="url"><img src="https://knifewear.com/cdn/shop/files/logo_gif_410x_84bdea55-a401-46a2-a6e4-87bf7acba9c2_410x.png?v=1673632048" style="width: 150px;"></a>
+      </div> -->
       <div class="shop-url">{{ shop.url }}</div>
     </header>
 
@@ -55,7 +52,7 @@
         <div class="giftcard__content">
 
           <div class="giftcard__header">
-            <h2 class="h4 giftcard__title">{{ 'gift_cards.issued.subtext' | t }}</h2>
+            <h2 class="h4 giftcard__title">Book your Class!</h2>
             {% unless gift_card.enabled %}
               <span class="giftcard__tag">{{ 'gift_cards.issued.disabled' | t }}</span>
             {% endunless %}
@@ -69,7 +66,7 @@
           </div>
 
           <div class="giftcard__wrap">
-            <img src="{{ 'gift-card/card.jpg' | shopify_asset_url }}" alt="{{ 'gift_cards.issued.subtext' | t }}">
+            <img src="{{ 'Shopify-Giftcard-Knifewear.jpg' | file_img_url: 'grande' }}" alt="{{ 'gift_cards.issued.subtext' | t }}">
 
             {% assign initial_value_size = formatted_initial_value | size %}
             <div class="h1 giftcard__amount{% if initial_value_size > 6 %} giftcard__amount--medium{% endif %}">
@@ -90,7 +87,7 @@
           </div>
 
           <p class="giftcard__instructions">
-            {{ 'gift_cards.issued.redeem' | t }}
+           Can be used to book a class in your nearest city or exchanged for credit towards any purchase. 
           </p>
 
           <div id="QrCode"></div>
@@ -105,7 +102,7 @@
           </script>
 
           <div class="giftcard__actions">
-            <a href="{{ shop.url }}" class="global-button global-button--primary" target="_blank">{{ 'gift_cards.issued.shop_link' | t }}</a>
+            <a href="https://knifewear.com/collections/classes-page" class="global-button global-button--primary" target="_blank">Find a class</a>
             <a href="#" class="action-link" onclick="window.print();">
               <i class="action-link__print"></i>{{ 'gift_cards.issued.print' | t }}
             </a>

@@ -56,7 +56,7 @@
         "7c8239c5-e57c-4c24-9e8f-8a356f69d167": {
           "type": "form",
           "settings": {
-            "show_gift_card_recipient_form": true
+            "show_gift_card_recipient_form": false
           }
         },
         "7f3347be-f089-4bf4-989a-960ca076a8b4": {

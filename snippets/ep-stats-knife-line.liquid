@@ -1,12 +1,3 @@
-
-{% capture rustProne %} 
-  {%  if collection.metafields.custom.rust_prone == true %}
-<div class="tooltip"><a href="/pages/carbon-steel-knife-care-and-cleaning"> <b><i>d{{ 'product.custom.rust_prone' | t }} ⓘ</b></i></a> 
-  <span class="tooltiptext">This knife can rust, click to learn more.</span>
-</div>
-    {% endif %} 
-{% endcapture %}
-
 {% capture collectionHRCurl %}{{ collection.metafields.steel.steel-type | handleize }}{% endcapture %}
 {% assign collectionHRC = collections[collectionHRCurl] %}
 
@@ -40,7 +31,7 @@
   <span class="tooltiptext">This knife can rust, click to learn more.</span>
 </div>
     {% endif %} 
-  
+
   </a>
 </td> </tr> {% endif %}
 

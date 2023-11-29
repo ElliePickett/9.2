@@ -86,9 +86,9 @@
    {% endif %}
 
 
-{% if product.metafields.knifeStats.blacksmith != blank %} <tr> <th>Blacksmith</th> <td> <a href="{{ routes.collections_url }}/{{ product.metafields.knifeStats.blacksmith | handleize }}"> {{ product.metafields.knifeStats.blacksmith | metafield_tag }} </td> </tr> {% endif %}
+{% if product.metafields.knifeStats.blacksmith != blank %} <tr> <th>Blacksmith</th> <td> <a href="{{ routes.collections_url }}/{{ product.metafields.knifeStats.blacksmith | handleize }}"> {{ product.metafields.knifeStats.blacksmith | metafield_tag }} </a></td> </tr> {% endif %}
 
-  {% if product.metafields.knifeStats.sharpener != blank %} <tr> <th>Sharpener</th> <td> <a href="{{ routes.collections_url }}/{{ product.metafields.knifeStats.sharpener | handleize }}"> {{ product.metafields.knifeStats.sharpener | metafield_tag }} </td> </tr> {% endif %}
+  {% if product.metafields.knifeStats.sharpener != blank %} <tr> <th>Sharpener</th> <td> <a href="{{ routes.collections_url }}/{{ product.metafields.knifeStats.sharpener | handleize }}"> {{ product.metafields.knifeStats.sharpener | metafield_tag }} </a></td> </tr> {% endif %}
 
 
 {% if product.metafields.knifeStats.edge_bevel != blank %} <tr> <th>Edge/Bevel</th> <td> {{ product.metafields.knifeStats.edge_bevel | metafield_tag }} </td> </tr> {% endif %}

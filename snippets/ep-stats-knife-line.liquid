@@ -16,7 +16,10 @@
   
 <table><tbody>
 
-{% if collection.metafields.knifeline.blacksmith != blank %} <tr> <th>Blacksmith</th> <td> {{ collection.metafields.knifeline.blacksmith | metafield_tag }} </td> </tr> {% endif %}  
+{% if collection.metafields.knifeline.blacksmith != blank %} <tr> <th>Blacksmith</th> <td> {{ collection.metafields.knifeline.blacksmith | metafield_tag }} </td> </tr> {% endif %}  \
+
+{% if collection.metafields.knifeline.blacksmith != blank %} <tr> <th>Blacksmith</th> <td> <a href="{{ routes.collections_url }}/{{ collection.metafields.knifeline.blacksmith | handleize }}"> {{ collection.metafields.knifeline.blacksmith | metafield_tag }} </a></td> </tr> {% endif %}
+
 
 {% if collection.metafields.steel.steel-type != blank %} 
 

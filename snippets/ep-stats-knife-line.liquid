@@ -10,6 +10,14 @@
 {% capture collectionHRCurl %}{{ collection.metafields.steel.steel-type | handleize }}{% endcapture %}
 {% assign collectionHRC = collections[collectionHRCurl] %}
 
+{% capture rustProne %} 
+  {%  if product.metafields.knifeStats.filterSteelMakeUp != 'Stainless Steel' and product.metafields.knifeStats.filterSteelMakeUp != blank %}
+<div class="tooltip"><a href="/pages/carbon-steel-knife-care-and-cleaning"> <b><i>{{ 'product.custom.rust_prone' | t }} ⓘ</b></i></a> 
+  <span class="tooltiptext">This knife can rust, click to learn more.</span>
+</div>
+    {% endif %} 
+{% endcapture %}
+
 {% capture collectionIs404 %} {% for collection in collections %}{{ collection.title  }}{% endfor %} {% endcapture %}  
 
 <section class="section ep-stats">
@@ -21,7 +29,17 @@
 
 {% if collection.metafields.steel.steel-type != blank %} 
 
-<tr> <th>Steel Type</th> <td> {{ collection.metafields.steel.steel-type | metafield_tag }} </td> </tr> 
+<tr> <th>Steel Type</th> <td> {{ collection.metafields.steel.steel-type | metafield_tag }} </td> </tr>
+
+{% if collection.metafields.steel.steel-type  != blank %} <tr> <th>Steel Type</th> <td>
+  <a href="{{ routes.collections_url }}/{{ collection.metafields.steel.steel-type | handleize }}">
+  {{ collection.metafields.steel.steel-type | metafield_tag }} 
+  {% if collection.metafields.knifeline.cladding  != blank %} {{collection.metafields.knifeline.cladding | metafield_tag}}{% endif %}
+  {{ rustProne }}
+  </a>
+</td> </tr> {% endif %}
+
+
 <tr> <th>Rockwell Hardness</th> <td> {{ collectionHRC.metafields.steel.hrc | metafield_tag }} </td> </tr> 
 
 {% endif %}  

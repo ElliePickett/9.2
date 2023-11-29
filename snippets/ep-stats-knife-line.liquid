@@ -1,6 +1,6 @@
 
 {% capture rustProne %} 
-  {%  if product.metafields.knifeStats.filterSteelMakeUp != 'Stainless Steel' and product.metafields.knifeStats.filterSteelMakeUp != blank %}
+  {%  if collection.metafields.custom.rust_prone == true %}
 <div class="tooltip"><a href="/pages/carbon-steel-knife-care-and-cleaning"> <b><i>{{ 'product.custom.rust_prone' | t }} ⓘ</b></i></a> 
   <span class="tooltiptext">This knife can rust, click to learn more.</span>
 </div>
@@ -28,8 +28,6 @@
 
 
 {% if collection.metafields.steel.steel-type != blank %} 
-
-<tr> <th>Steel Type</th> <td> {{ collection.metafields.steel.steel-type | metafield_tag }} </td> </tr>
 
 {% if collection.metafields.steel.steel-type  != blank %} <tr> <th>Steel Type</th> <td>
   <a href="{{ routes.collections_url }}/{{ collection.metafields.steel.steel-type | handleize }}">

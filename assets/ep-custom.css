@@ -8,6 +8,10 @@
 }
 
 
+.swym-btn-container[data-position=default] button.swym-add-to-wishlist.swym-iconbtnlink:after {
+    line-height: 18px !important;
+}
+
 .ep-softbanner {
     background: #eee;
     padding: 2%;

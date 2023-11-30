@@ -50,24 +50,8 @@ During the first day of Garage Sale, stock in our retail locations is reserved f
 
 
 {% unless product.tags contains 'filter_Location:In Stock in Warehouse' %}
-  These shoes are not awesome.
-{% endunless %}
-
-
- {% if  product.tags contains "YGroup_konro_grill" and product.available == false %}
-  {% if product.tags contains "filter_Location:In Stock in Vancouver" or 
-        product.tags contains "filter_Location:In Stock in Toronto" or 
-        product.tags contains "filter_Location:In Stock in Ottawa" or 
-        product.tags contains "filter_Location:In Stock in Calgary" %}
-
-<style> 
-.purchase-details,  
-a.action_button.klaviyo-bis-trigger {
-    display: none !important;
-}
-</style>
-
-<div class="gs-disclaimer"> 
+    
+    <div class="gs-disclaimer"> 
     <h5>Hey Garage Sailor!</h5>
 <b>Looking for this knife in store during Garage Sale?</b> It is in stock at 
 {% if product.tags contains "filter_Location:In Stock in Calgary"  %}Calgary {% endif %}
@@ -79,18 +63,6 @@ a.action_button.klaviyo-bis-trigger {
 During the first day of Garage Sale, stock in our retail locations is reserved for in store customers. In store stock will be made avilable on day two of the Garage Sale online. 
 </div>
 
-                 <div class="gs-disclaimer"> 
-                  <p> {{ settings.garageSaleLiveTxt }}</p>
-               <style>.findify-sticker-garage-sale { display: block !important; }</style>
-                </div>
 
-    {% endif %}  
-              {% elsif settings.show_garageSaleLiveTxt == true and  product.tags contains "garage sale" and product.available == true %}   
+{% endunless %}
 
-               <div class="gs-disclaimer"> 
-                  <p> {{ settings.garageSaleLiveTxt }}</p>
-               <style>.findify-sticker-garage-sale { display: block !important; }</style>
-                </div>
-
-
-                   {% endif %}   

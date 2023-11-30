@@ -58,7 +58,10 @@ During the first day of Garage Sale, stock in our retail locations is reserved f
 
 <!-- Konro out of stock in Warehouse -->
 
- 
+  
+
+{% if product.tags contains "filter_instock:In Stock" %}
+
 {% unless product.tags contains 'filter_Location:In Stock in Warehouse' %}
     
     <div class="gs-disclaimer"> 
@@ -82,3 +85,4 @@ Give us a call if you want to get one set aside for you!
 </style>
 
 {% endunless %}
+{% endif %} 

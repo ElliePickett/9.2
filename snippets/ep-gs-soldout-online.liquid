@@ -60,7 +60,7 @@ During the first day of Garage Sale, stock in our retail locations is reserved f
 
   
 
-{% if product.tags contains "filter_instock:In Stock" %}
+{% if product.tags contains "filter_instock:In Stock" and product.tags contains "YGroup_konro_grill" %}
 
 {% unless product.tags contains 'filter_Location:In Stock in Warehouse' %}
     

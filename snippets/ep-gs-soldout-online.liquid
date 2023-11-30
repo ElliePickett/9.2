@@ -52,6 +52,28 @@ During the first day of Garage Sale, stock in our retail locations is reserved f
 {% unless product.tags contains 'filter_Location:In Stock in Warehouse' %}
     
     <div class="gs-disclaimer"> 
+        <h5>Hey Griller!</h5>
+<b>Looking for this Konro? It is currently sold out for delivery, but is in stock in these stores:</b> 
+{% if product.tags contains "filter_Location:In Stock in Calgary"  %}Calgary {% endif %}
+{% if product.tags contains "filter_Location:In Stock in Edmonton"  %}Edmonton {% endif %}
+{% if product.tags contains "filter_Location:In Stock in Toronto"  %}Toronto {% endif %}
+{% if product.tags contains "filter_Location:In Stock in Ottawa"  %}Ottawa {% endif %}
+{% if product.tags contains "filter_Location:In Stock in Vancouver"  %}Vancouver{% endif %}
+<br><br>
+Give us a call if you want to get one set aside for you!
+</div>
+
+
+{% endunless %}
+
+
+
+
+
+
+
+
+<div class="gs-disclaimer"> 
     <h5>Hey Garage Sailor!</h5>
 <b>Looking for this knife in store during Garage Sale?</b> It is in stock at 
 {% if product.tags contains "filter_Location:In Stock in Calgary"  %}Calgary {% endif %}
@@ -63,6 +85,18 @@ During the first day of Garage Sale, stock in our retail locations is reserved f
 During the first day of Garage Sale, stock in our retail locations is reserved for in store customers. In store stock will be made avilable on day two of the Garage Sale online. 
 </div>
 
+                 <div class="gs-disclaimer"> 
+                  <p> {{ settings.garageSaleLiveTxt }}</p>
+               <style>.findify-sticker-garage-sale { display: block !important; }</style>
+                </div>
 
-{% endunless %}
+    {% endif %}  
+              {% elsif settings.show_garageSaleLiveTxt == true and  product.tags contains "garage sale" and product.available == true %}   
 
+               <div class="gs-disclaimer"> 
+                  <p> {{ settings.garageSaleLiveTxt }}</p>
+               <style>.findify-sticker-garage-sale { display: block !important; }</style>
+                </div>
+
+
+                   {% endif %}   

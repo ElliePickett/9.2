@@ -110,12 +110,14 @@ h3.regular_text {
     display: inline-block;
 }
 
+*/
+
 .ep-paint-block-wishlist {
     height: 24px;
     width: 100%;
     display: inline-block;
 }
-*/
+
 
 @media (max-width: 450px) {
 /*

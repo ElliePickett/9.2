@@ -50,11 +50,6 @@
 
     {% render 'ep-product-note-mail-in' %}
 
-
-   {% if product.gift_card? == true %}
- {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
-  {% endif %}
-
   <div
     class="
       select

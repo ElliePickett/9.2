@@ -90,7 +90,6 @@ Give us a call if you want to get one set aside for pickup!
 
 {% if product.tags contains "filter_instock:In Stock" and product.tags contains "YGroup_larch_boards" %}
 
-{% unless product.tags contains 'filter_Location:In Stock in Warehouse' %}
     
     <div class="gs-disclaimer"> 
 <b>Looking for this cutting board? It is currently sold out for delivery, but is in stock in these stores:</b> 
@@ -112,5 +111,4 @@ Give us a call if you want to get one set aside for pickup!
 }
 </style>
 
-{% endunless %}
 {% endif %} 

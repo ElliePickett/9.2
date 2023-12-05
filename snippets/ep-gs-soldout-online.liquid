@@ -87,3 +87,30 @@ Give us a call if you want to get one set aside for pickup!
 
 {% endunless %}
 {% endif %} 
+
+{% if product.tags contains "filter_instock:In Stock" and product.tags contains "YGroup_larch_boards" %}
+
+{% unless product.tags contains 'filter_Location:In Stock in Warehouse' %}
+    
+    <div class="gs-disclaimer"> 
+<b>Looking for this cutting board? It is currently sold out for delivery, but is in stock in these stores:</b> 
+{% if product.tags contains "filter_Location:In Stock in Calgary"  %}<br>Calgary - <a href="tel:4035140577">(403) 514-0577</a> {% endif %}
+{% if product.tags contains "filter_Location:In Stock in Edmonton"  %}<br>Edmonton - <a href="tel:5875212034">(587) 521-2034</a> {% endif %}
+{% if product.tags contains "filter_Location:In Stock in Toronto"  %}<br>Toronto - <a href="tel:4165325555">(416) 532-5555</a> {% endif %}
+{% if product.tags contains "filter_Location:In Stock in Ottawa"  %}<br>Ottawa - <a href="tel:6136954200">(613) 695-4200</a> {% endif %}
+{% if product.tags contains "filter_Location:In Stock in Vancouver"  %}<br>Vancouver - <a href="tel:6042151033">(604)-215-1033</a>{% endif %}
+<br><br>
+Give us a call if you want to get one set aside for pickup!
+</div>
+
+
+<style>
+    .fenix-fixd-delivery,
+    #ocu-widget,
+    .product_form {
+    display: none !important;
+}
+</style>
+
+{% endunless %}
+{% endif %} 

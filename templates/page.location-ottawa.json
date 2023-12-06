@@ -1,1 +1,158 @@
-{"sections":{"main":{"type":"page-template","settings":{}},"16470202353fb9c018":{"type":"text-columns-with-images","blocks":{"1647020235ae8f1ea3-0":{"type":"text_block","settings":{"enable_image":false,"title":"Hours ","heading_size":"regular_text","text":"<p><strong>Monday to Sunday: 10am - 6pm<br\/>Thursday: 10am - 8pm<br\/><br\/>Address: <\/strong><a href=\"https:\/\/www.google.com\/maps?ll=45.40274,-75.688308&z=16&t=m&hl=en-US&gl=CA&mapclient=embed&cid=17741927537471096441\">800 Bank Street, Ottawa, Ontario K1S 3V8<br\/><\/a><strong>Phone:<\/strong> <a href=\"tel:(613)%20695-4200\">(613) 695-4200<\/a><br\/><strong>Email:<\/strong> <a href=\"mailto:ottawa@knifewear.com%20\"><span style=\"text-decoration:underline\">ottawa@knifewear.com<\/span><\/a><span style=\"text-decoration:underline\"><br\/><\/span><strong>Parking and Transit: <\/strong>Buses are #1 and #7. Pay street parking directly in front of the store and a large city pay parking garage around the corner on Third Street.<\/p>","button_label":"","button_link":"","align_text":"left","border_style":"none"}},"1647020235ae8f1ea3-1":{"type":"text_block","disabled":true,"settings":{"enable_image":false,"image":"shopify:\/\/shop_images\/Screen_Shot_2021-03-04_at_2.10.38_PM_480x480_60272f00-a056-4d5c-80a3-6a179c9de66d.png","title":"Holiday Hours","heading_size":"regular_text","text":"<p><strong>December 15: <\/strong>9am -8pm<br\/><strong>December 16-21: <\/strong>9am -7pm<br\/><strong>December 22: <\/strong>9am -8pm<br\/><strong>December 23: <\/strong>9am -7pm<br\/><strong>Saturday December 24:<\/strong> 9am-2pm<br\/><em><strong>December 25-27: Closed<br\/><\/strong><\/em><strong>December 28 - 30:<\/strong>10am-6pm<br\/><strong>December 31:<\/strong>10am-2pm<br\/><em><strong>January 1-3:Closed<br\/><\/strong><\/em><strong>January 4:<\/strong>Normal hours resume<\/p>","button_label":"","button_link":"","align_text":"left","border_style":"none"}},"30ca2b85-b1d7-41e2-ac83-9b7d2d4a56ac":{"type":"text_block","settings":{"enable_image":false,"title":"Holiday Hours","heading_size":"regular_text","text":"<p><strong>July 1st - Canada Day - <\/strong>Closed<strong><br\/>October 8th - Thanksgiving  - <\/strong>Closed<strong><br\/>October 9th - Thanksgiving  - <\/strong>Closed<strong><br\/>November 11th - <\/strong>Open at 12pm<\/p>","button_label":"","button_link":"","align_text":"left","border_style":"none"}}},"block_order":["1647020235ae8f1ea3-0","1647020235ae8f1ea3-1","30ca2b85-b1d7-41e2-ac83-9b7d2d4a56ac"],"settings":{"title":"","css_class":"","custom_css":""}},"1647020910a0a2ac88":{"type":"text-columns-with-images","blocks":{"1647020910491fcbf7-0":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/sharpening_5000x_2674accc-e9cf-4e24-8a6b-5906e3432b94.jpg","title":"Sharpening Classes","heading_size":"regular_text","text":"","button_label":"Book a class","button_link":"shopify:\/\/products\/knife-sharpening-classes-ottawa","align_text":"left","border_style":"none"}},"1647020910491fcbf7-1":{"type":"text_block","settings":{"enable_image":true,"image":"shopify:\/\/shop_images\/IMG_2508_5000x_9c7cc3da-d240-4bb9-833d-a5ed2a01aa97.jpg","title":"Cut like a Chef Classes","heading_size":"regular_text","text":"","button_label":"Book a Class","button_link":"shopify:\/\/products\/cut-like-a-chef-classes-ottawa","align_text":"left","border_style":"none"}}},"block_order":["1647020910491fcbf7-0","1647020910491fcbf7-1"],"settings":{"title":"","css_class":"locations-page","custom_css":".global-button {font-size:15px;padding:10px}\n\n.locations-page h3 {font-size:16px;}"}},"164702012894b4b874":{"type":"map","settings":{"map_wide_display":true,"map_address":": 800 Bank Street, Ottawa, Ontario K1S 3V8","map_height":400,"zoom_level":16,"api_key":"","show_pin":true,"map_style":"default","css_class":"","custom_css":""}},"16470202723b5d63a2":{"type":"divider","disabled":true,"settings":{"divider_spacing":20,"divider_border":false,"css_class":"","custom_css":""}},"16829640670db5f8c5":{"type":"apps","blocks":{"bcd0b34e-5500-4b0b-8973-53bdd78fee57":{"type":"shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507","settings":{"formId":"TwXg2F"}}},"block_order":["bcd0b34e-5500-4b0b-8973-53bdd78fee57"],"custom_css":["div {background: black;}"],"settings":{}}},"order":["main","16470202353fb9c018","1647020910a0a2ac88","164702012894b4b874","16470202723b5d63a2","16829640670db5f8c5"]}
+{
+  "sections": {
+    "main": {
+      "type": "page-template",
+      "settings": {
+      }
+    },
+    "16470202353fb9c018": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "1647020235ae8f1ea3-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Hours ",
+            "heading_size": "regular_text",
+            "text": "<p><strong>Monday to Sunday: 10am - 6pm<br\/>Thursday: 10am - 8pm<br\/><br\/>Address: <\/strong><a href=\"https:\/\/www.google.com\/maps?ll=45.40274,-75.688308&z=16&t=m&hl=en-US&gl=CA&mapclient=embed&cid=17741927537471096441\">800 Bank Street, Ottawa, Ontario K1S 3V8<br\/><\/a><strong>Phone:<\/strong> <a href=\"tel:(613)%20695-4200\">(613) 695-4200<\/a><br\/><strong>Email:<\/strong> <a href=\"mailto:ottawa@knifewear.com%20\"><span style=\"text-decoration:underline\">ottawa@knifewear.com<\/span><\/a><span style=\"text-decoration:underline\"><br\/><\/span><strong>Parking and Transit: <\/strong>Buses are #1 and #7. Pay street parking directly in front of the store and a large city pay parking garage around the corner on Third Street.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "1647020235ae8f1ea3-1": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": false,
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-03-04_at_2.10.38_PM_480x480_60272f00-a056-4d5c-80a3-6a179c9de66d.png",
+            "title": "Holiday Hours",
+            "heading_size": "regular_text",
+            "text": "<p><strong>December 15: <\/strong>9am -8pm<br\/><strong>December 16-21: <\/strong>9am -7pm<br\/><strong>December 22: <\/strong>9am -8pm<br\/><strong>December 23: <\/strong>9am -7pm<br\/><strong>Saturday December 24:<\/strong> 9am-2pm<br\/><em><strong>December 25-27: Closed<br\/><\/strong><\/em><strong>December 28 - 30:<\/strong>10am-6pm<br\/><strong>December 31:<\/strong>10am-2pm<br\/><em><strong>January 1-3:Closed<br\/><\/strong><\/em><strong>January 4:<\/strong>Normal hours resume<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "30ca2b85-b1d7-41e2-ac83-9b7d2d4a56ac": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "Holiday Hours",
+            "heading_size": "regular_text",
+            "text": "<p><strong>December 16-21: <\/strong>9am -7pm<br\/><strong>December 22: <\/strong>9am -8pm<br\/><strong>December 23: <\/strong>9am -7pm<br\/><strong>Saturday December 24:<\/strong> 9am-2pm<br\/><em><strong>December 25-27: Closed<br\/><\/strong><\/em><strong>December 28 - 30:<\/strong>10am-6pm<br\/><strong>December 31:<\/strong>10am-2pm<br\/><em><strong>January 1-3:Closed<br\/><\/strong><\/em><strong>January 4:<\/strong>Normal hours resume<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "1647020235ae8f1ea3-0",
+        "1647020235ae8f1ea3-1",
+        "30ca2b85-b1d7-41e2-ac83-9b7d2d4a56ac"
+      ],
+      "settings": {
+        "title": "",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1647020910a0a2ac88": {
+      "type": "text-columns-with-images",
+      "blocks": {
+        "1647020910491fcbf7-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/sharpening_5000x_2674accc-e9cf-4e24-8a6b-5906e3432b94.jpg",
+            "title": "Sharpening Classes",
+            "heading_size": "regular_text",
+            "text": "",
+            "button_label": "Book a class",
+            "button_link": "shopify:\/\/products\/knife-sharpening-classes-ottawa",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "1647020910491fcbf7-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/IMG_2508_5000x_9c7cc3da-d240-4bb9-833d-a5ed2a01aa97.jpg",
+            "title": "Cut like a Chef Classes",
+            "heading_size": "regular_text",
+            "text": "",
+            "button_label": "Book a Class",
+            "button_link": "shopify:\/\/products\/cut-like-a-chef-classes-ottawa",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "1647020910491fcbf7-0",
+        "1647020910491fcbf7-1"
+      ],
+      "settings": {
+        "title": "",
+        "css_class": "locations-page",
+        "custom_css": ".global-button {font-size:15px;padding:10px}\n\n.locations-page h3 {font-size:16px;}"
+      }
+    },
+    "164702012894b4b874": {
+      "type": "map",
+      "settings": {
+        "map_wide_display": true,
+        "map_address": ": 800 Bank Street, Ottawa, Ontario K1S 3V8",
+        "map_height": 400,
+        "zoom_level": 16,
+        "api_key": "",
+        "show_pin": true,
+        "map_style": "default",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16470202723b5d63a2": {
+      "type": "divider",
+      "disabled": true,
+      "settings": {
+        "divider_spacing": 20,
+        "divider_border": false,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16829640670db5f8c5": {
+      "type": "apps",
+      "blocks": {
+        "bcd0b34e-5500-4b0b-8973-53bdd78fee57": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "TwXg2F"
+          }
+        }
+      },
+      "block_order": [
+        "bcd0b34e-5500-4b0b-8973-53bdd78fee57"
+      ],
+      "custom_css": [
+        "div {background: black;}"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16470202353fb9c018",
+    "1647020910a0a2ac88",
+    "164702012894b4b874",
+    "16470202723b5d63a2",
+    "16829640670db5f8c5"
+  ]
+}

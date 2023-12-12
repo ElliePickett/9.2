@@ -14,6 +14,11 @@
           "settings": {
             "custom_liquid": "{% if product.available == true %}\n\n{% unless product.tags contains \"YGroup_konro_grill\" %}\n    \t<div style=\"\npadding: 8px;\n    font-weight: bold;\n    border:;\n\"><a href=\"https:\/\/knifewear.com\/policies\/shipping-policy\" target=\"_blank\">Get it for Christmas Free Express shipping in Canada on orders over $200 *<\/a><\/div>\n\n {% endunless %}\n\t\n     \t{% if cart.currency.iso_code == 'CAD' or cart.currency.iso_code == 'USD' %}\n   \t{%render 'fenix-pdp-template' %} <\/div>\n\t{% endif %}\n{% if cart.currency.iso_code == 'CAD' %}\n    \t       <div class=\"surface-pick-up surface-pick-up--loading\" data-surface-pick-up>\n    <div class=\"surface-pick-up__modal\" data-surface-pick-up-modal><\/div>\n\t{% endif %}\n\n    <!--fenix\/pickup in store code snippet ends -->\n{% endif %}"
           }
+        },
+        "c74a36ef-9ab2-4a13-9ecf-1fc7e8f3ade5": {
+          "disabled": true,
+          "settings": {
+          }
         }
       },
       "block_order": [

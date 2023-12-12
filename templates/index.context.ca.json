@@ -4,5 +4,58 @@
     "market": "ca"
   },
   "sections": {
-  }
+    "5360d44e-662b-409c-9fe3-ef2cdb2bc5e5": {
+      "settings": {
+      },
+      "blocks": {
+        "af199736-8d0d-4471-b9cb-24ecc828108a": {
+          "type": "image",
+          "disabled": false,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/holiday_hours_2023n_kw_post_1.jpg",
+            "mobile_image": null,
+            "link": "",
+            "title": "",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "254e284c-67db-46a4-8690-dba4d76baf4c": {
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "af199736-8d0d-4471-b9cb-24ecc828108a",
+        "31316264-8b3a-4466-9767-e088e85aad56",
+        "254e284c-67db-46a4-8690-dba4d76baf4c",
+        "template--16346287177902__5360d44e-662b-409c-9fe3-ef2cdb2bc5e5-image-2",
+        "template--16346287177902__5360d44e-662b-409c-9fe3-ef2cdb2bc5e5-image-1",
+        "template--16346287177902__5360d44e-662b-409c-9fe3-ef2cdb2bc5e5-image-3"
+      ]
+    }
+  },
+  "order": [
+    "e0df2fcb-701a-4a29-988c-41b3d8c0b2da",
+    "05829759-9991-4acd-9316-d6694bfee816",
+    "163545626807ebdf23",
+    "image-with-text-overlay-1",
+    "16385609454ff757d6",
+    "5360d44e-662b-409c-9fe3-ef2cdb2bc5e5",
+    "c4f1409f-743c-4fa4-8895-69db6b1c091c",
+    "84f7e93b-0cb5-4ab7-b3f7-e587e060b255",
+    "16523856358f90a09e",
+    "collection-list-1",
+    "16643877582d47afea",
+    "a7bca414-c491-4195-a734-07b966edab6b",
+    "163105489298f07fd0",
+    "1631046176d9f4149f",
+    "163105500297c7eee3",
+    "blog-posts-1",
+    "newsletter-1",
+    "16373564403712a624",
+    "1655787262c884e479",
+    "165410847057422a4b"
+  ]
 }

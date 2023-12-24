@@ -1,1 +1,424 @@
-{"type":"header","name":"Header","sections":{"header":{"type":"header","settings":{"promo_text":"","social_icons_header":true,"phone_number":"1-888-669-6168","top_bar_menu":"top-nav","show_cart":true,"cart_icon":"cart","show_locale_selector":true,"show_currency_selector":true,"logo_display_width":130,"logo":"shopify:\/\/shop_images\/logo_gif_410x_84bdea55-a401-46a2-a6e4-87bf7acba9c2.png","main_linklist":"main-menu","main_linklist2":"","vertical_menu":true,"dropdown_click":false,"search_enabled":true,"fixed_header":true,"logo_position":"left","logo_alignment":"center","menu_position":"inline","menu_alignment":"align_left"}},"mega_menu_1":{"type":"mega-menu-1","blocks":{"column_0":{"type":"column","settings":{"richtext_top":"","image_top":"shopify:\/\/shop_images\/August_2_insta-10_ff9b1361-5b44-42f4-8c06-f3b3ef9291d7.jpg","image_caption_top":"","image_link_top":"shopify:\/\/collections\/japanese-kitchen-knives","menu_1":"all-japanese-knives","menu_1_link":"shopify:\/\/collections\/japanese-kitchen-knives","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"column_1":{"type":"column","settings":{"richtext_top":"","image_top":"shopify:\/\/shop_images\/313039679_1041633346646303_7676819084358351773_n.jpg","image_caption_top":"","image_link_top":"shopify:\/\/collections\/knife-shapes","menu_1":"shapes","menu_1_link":"shopify:\/\/collections\/knife-shapes","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"column_2":{"type":"column","settings":{"richtext_top":"","image_top":"shopify:\/\/shop_images\/quiz_square_1600x_2x_15a8079e-f142-45e4-8fdc-9fe75977ea39.jpg","image_caption_top":"","image_link_top":"shopify:\/\/pages\/japanese-knife-gift-quiz","menu_1":"quizs-and-other-resources","menu_1_link":"shopify:\/\/pages\/japanese-knife-gift-quiz","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"column_3":{"type":"column","settings":{"richtext_top":"","image_top":"shopify:\/\/shop_images\/294892041_100520076074858_3961781232779814319_n.jpg","image_caption_top":"","image_link_top":"shopify:\/\/collections\/our-blacksmiths","menu_1":"blacksmiths-mini","menu_1_link":"shopify:\/\/collections\/our-blacksmiths","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"column_4":{"type":"column","settings":{"richtext_top":"","image_top":"shopify:\/\/shop_images\/304686954_2621342698003315_1442396685050655769_n.jpg","image_caption_top":"","image_link_top":"shopify:\/\/collections\/all-knifelines","menu_1":"other-knifelines","menu_1_link":"shopify:\/\/collections\/all-knifelines","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"afbd795c-88c4-4e95-b4a1-a82d97b10fd5":{"type":"column","settings":{"richtext_top":"","image_top":"shopify:\/\/shop_images\/download_4e3a44f6-1ad5-4404-8db2-98f1a5b59452.jpg","image_caption_top":"","image_link_top":"shopify:\/\/collections\/new-arrivals","menu_1":"steel-types","menu_1_link":"shopify:\/\/collections\/new-arrivals","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}}},"block_order":["column_0","column_1","column_2","column_3","column_4","afbd795c-88c4-4e95-b4a1-a82d97b10fd5"],"settings":{"parent":"Japanese Knives"}},"4fc4450b-3dca-4718-820f-984a69438d60":{"type":"mega-menu-2","blocks":{"sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-0":{"type":"column","settings":{"richtext_top":"","image_top":"shopify:\/\/shop_images\/download_13613342-547e-4f51-abba-2a7f9df15046.jpg","image_caption_top":"","image_link_top":"shopify:\/\/collections\/knifewear-stones-and-accessories","menu_1":"sharpening","menu_1_link":"shopify:\/\/collections\/sharpening","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-1":{"type":"column","settings":{"richtext_top":"","image_top":"shopify:\/\/shop_images\/266968933_330030645311902_6131480808728163460_n.jpg","image_caption_top":"","image_link_top":"","menu_1":"knife-sharpening-stones-and-gear","menu_1_link":"shopify:\/\/collections\/sharpening","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-3":{"type":"column","settings":{"richtext_top":"","image_top":"shopify:\/\/shop_images\/september_26_3_of_31_1_3b8e990f-0c52-47dc-9502-d5856009ab41.jpg","image_caption_top":"","image_link_top":"","menu_1":"sharpening-services","menu_1_link":"","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-4":{"type":"column","settings":{"richtext_top":"","image_top":"shopify:\/\/shop_images\/sharpening_5000x_copy.jpg","image_caption_top":"","image_link_top":"shopify:\/\/products\/knife-sharpening-classes","menu_1":"sharpening-classes-cities","menu_1_link":"shopify:\/\/products\/knife-sharpening-classes","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-2":{"type":"column","settings":{"richtext_top":"","image_top":"shopify:\/\/shop_images\/september_26_6_of_31.jpg","image_caption_top":"","image_link_top":"","menu_1":"learn-more-about-sharpening","menu_1_link":"","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}}},"block_order":["sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-0","sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-1","sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-3","sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-4","sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-2"],"settings":{"parent":"Sharpening"}},"cf3b9b89-140d-405e-b8de-428eae3dd48b":{"type":"mega-menu-3","blocks":{"7c266d4a-19b6-41e2-9c0c-66626abfe498":{"type":"column","settings":{"richtext_top":"","image_top":"shopify:\/\/shop_images\/chicken_dish-13_600x_846aa584-95e9-4988-8513-b0c5fd5f1582.webp","image_caption_top":"","image_link_top":"shopify:\/\/collections\/accessories","menu_1":"chefs-tools","menu_1_link":"shopify:\/\/collections\/accessories","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-4":{"type":"column","settings":{"richtext_top":"","image_top":"shopify:\/\/shop_images\/fish-salad-3_600x_a88ce598-f414-4846-8608-863fd8c08297.webp","image_caption_top":"","image_link_top":"","menu_1":"cutting-boards","menu_1_link":"shopify:\/\/collections\/cutting-boards","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-0":{"type":"column","settings":{"richtext_top":"","image_top":"shopify:\/\/shop_images\/PXL_20220311_224620770.PORTRAIT.jpg","image_caption_top":"","image_link_top":"shopify:\/\/collections\/konro-grills-accessories","menu_1":"konro-and-bbq","menu_1_link":"shopify:\/\/collections\/konro-grills-accessories","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-1":{"type":"column","settings":{"richtext_top":"","image_top":"shopify:\/\/shop_images\/217836452_812119826331957_5880521860113610297_n_5000x_de797a6e-4c4d-4049-8c2c-f466e4222b09.jpg","image_caption_top":"","image_link_top":"shopify:\/\/collections\/storage","menu_1":"knife-storage","menu_1_link":"shopify:\/\/collections\/storage","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-2":{"type":"column","settings":{"richtext_top":"","image_top":"shopify:\/\/shop_images\/chicken_dish-20.jpg","image_caption_top":"","image_link_top":"","menu_1":"japanese-cookware-and-tools","menu_1_link":"shopify:\/\/collections\/japanese-kitchen-tools","menu_2":"","menu_2_link":"","menu_3":"","menu_3_link":"","menu_4":"","menu_4_link":"","image_caption_bottom":"","image_link_bottom":"","richtext_bottom":""}},"sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-3":{"type":"column","settings":{"richtext_top":"","image_caption_top":"","image_link_top":"","menu_1":"","menu_1_link":"","menu_2":"","menu_2_link":"shopify:\/\/collections\/konro-grills-accessories","menu_3":"","menu_3_link":"shopify:\/\/collections\/kids-at-knifewear","menu_4":"","menu_4_link":"shopify:\/\/collections\/in-the-garden-with-knifewear","image_bottom":"shopify:\/\/shop_images\/kawaiibutdeadly.jpg","image_caption_bottom":"Knifewear MERCH - Shirts, Stickers, & More","image_link_bottom":"shopify:\/\/collections\/shirts-stickers-more","richtext_bottom":""}}},"block_order":["7c266d4a-19b6-41e2-9c0c-66626abfe498","sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-4","sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-0","sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-1","sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-2","sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-3"],"settings":{"parent":"Accessories"}}},"order":["header","mega_menu_1","4fc4450b-3dca-4718-820f-984a69438d60","cf3b9b89-140d-405e-b8de-428eae3dd48b"]}
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "header": {
+      "type": "header",
+      "settings": {
+        "promo_text": "<p>Knifewear is closed <em><strong>December 25-27! <\/strong><\/em><strong>Stores will be open on the 28th! See you then!<\/strong><\/p>",
+        "social_icons_header": true,
+        "phone_number": "1-888-669-6168",
+        "top_bar_menu": "top-nav",
+        "show_cart": true,
+        "cart_icon": "cart",
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "logo_display_width": 130,
+        "logo": "shopify:\/\/shop_images\/logo_gif_410x_84bdea55-a401-46a2-a6e4-87bf7acba9c2.png",
+        "main_linklist": "main-menu",
+        "main_linklist2": "",
+        "vertical_menu": true,
+        "dropdown_click": false,
+        "search_enabled": true,
+        "fixed_header": true,
+        "logo_position": "left",
+        "logo_alignment": "center",
+        "menu_position": "inline",
+        "menu_alignment": "align_left"
+      }
+    },
+    "mega_menu_1": {
+      "type": "mega-menu-1",
+      "blocks": {
+        "column_0": {
+          "type": "column",
+          "settings": {
+            "richtext_top": "",
+            "image_top": "shopify:\/\/shop_images\/August_2_insta-10_ff9b1361-5b44-42f4-8c06-f3b3ef9291d7.jpg",
+            "image_caption_top": "",
+            "image_link_top": "shopify:\/\/collections\/japanese-kitchen-knives",
+            "menu_1": "all-japanese-knives",
+            "menu_1_link": "shopify:\/\/collections\/japanese-kitchen-knives",
+            "menu_2": "",
+            "menu_2_link": "",
+            "menu_3": "",
+            "menu_3_link": "",
+            "menu_4": "",
+            "menu_4_link": "",
+            "image_caption_bottom": "",
+            "image_link_bottom": "",
+            "richtext_bottom": ""
+          }
+        },
+        "column_1": {
+          "type": "column",
+          "settings": {
+            "richtext_top": "",
+            "image_top": "shopify:\/\/shop_images\/313039679_1041633346646303_7676819084358351773_n.jpg",
+            "image_caption_top": "",
+            "image_link_top": "shopify:\/\/collections\/knife-shapes",
+            "menu_1": "shapes",
+            "menu_1_link": "shopify:\/\/collections\/knife-shapes",
+            "menu_2": "",
+            "menu_2_link": "",
+            "menu_3": "",
+            "menu_3_link": "",
+            "menu_4": "",
+            "menu_4_link": "",
+            "image_caption_bottom": "",
+            "image_link_bottom": "",
+            "richtext_bottom": ""
+          }
+        },
+        "column_2": {
+          "type": "column",
+          "settings": {
+            "richtext_top": "",
+            "image_top": "shopify:\/\/shop_images\/quiz_square_1600x_2x_15a8079e-f142-45e4-8fdc-9fe75977ea39.jpg",
+            "image_caption_top": "",
+            "image_link_top": "shopify:\/\/pages\/japanese-knife-gift-quiz",
+            "menu_1": "quizs-and-other-resources",
+            "menu_1_link": "shopify:\/\/pages\/japanese-knife-gift-quiz",
+            "menu_2": "",
+            "menu_2_link": "",
+            "menu_3": "",
+            "menu_3_link": "",
+            "menu_4": "",
+            "menu_4_link": "",
+            "image_caption_bottom": "",
+            "image_link_bottom": "",
+            "richtext_bottom": ""
+          }
+        },
+        "column_3": {
+          "type": "column",
+          "settings": {
+            "richtext_top": "",
+            "image_top": "shopify:\/\/shop_images\/294892041_100520076074858_3961781232779814319_n.jpg",
+            "image_caption_top": "",
+            "image_link_top": "shopify:\/\/collections\/our-blacksmiths",
+            "menu_1": "blacksmiths-mini",
+            "menu_1_link": "shopify:\/\/collections\/our-blacksmiths",
+            "menu_2": "",
+            "menu_2_link": "",
+            "menu_3": "",
+            "menu_3_link": "",
+            "menu_4": "",
+            "menu_4_link": "",
+            "image_caption_bottom": "",
+            "image_link_bottom": "",
+            "richtext_bottom": ""
+          }
+        },
+        "column_4": {
+          "type": "column",
+          "settings": {
+            "richtext_top": "",
+            "image_top": "shopify:\/\/shop_images\/304686954_2621342698003315_1442396685050655769_n.jpg",
+            "image_caption_top": "",
+            "image_link_top": "shopify:\/\/collections\/all-knifelines",
+            "menu_1": "other-knifelines",
+            "menu_1_link": "shopify:\/\/collections\/all-knifelines",
+            "menu_2": "",
+            "menu_2_link": "",
+            "menu_3": "",
+            "menu_3_link": "",
+            "menu_4": "",
+            "menu_4_link": "",
+            "image_caption_bottom": "",
+            "image_link_bottom": "",
+            "richtext_bottom": ""
+          }
+        },
+        "afbd795c-88c4-4e95-b4a1-a82d97b10fd5": {
+          "type": "column",
+          "settings": {
+            "richtext_top": "",
+            "image_top": "shopify:\/\/shop_images\/download_4e3a44f6-1ad5-4404-8db2-98f1a5b59452.jpg",
+            "image_caption_top": "",
+            "image_link_top": "shopify:\/\/collections\/new-arrivals",
+            "menu_1": "steel-types",
+            "menu_1_link": "shopify:\/\/collections\/new-arrivals",
+            "menu_2": "",
+            "menu_2_link": "",
+            "menu_3": "",
+            "menu_3_link": "",
+            "menu_4": "",
+            "menu_4_link": "",
+            "image_caption_bottom": "",
+            "image_link_bottom": "",
+            "richtext_bottom": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_0",
+        "column_1",
+        "column_2",
+        "column_3",
+        "column_4",
+        "afbd795c-88c4-4e95-b4a1-a82d97b10fd5"
+      ],
+      "settings": {
+        "parent": "Japanese Knives"
+      }
+    },
+    "4fc4450b-3dca-4718-820f-984a69438d60": {
+      "type": "mega-menu-2",
+      "blocks": {
+        "sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-0": {
+          "type": "column",
+          "settings": {
+            "richtext_top": "",
+            "image_top": "shopify:\/\/shop_images\/download_13613342-547e-4f51-abba-2a7f9df15046.jpg",
+            "image_caption_top": "",
+            "image_link_top": "shopify:\/\/collections\/knifewear-stones-and-accessories",
+            "menu_1": "sharpening",
+            "menu_1_link": "shopify:\/\/collections\/sharpening",
+            "menu_2": "",
+            "menu_2_link": "",
+            "menu_3": "",
+            "menu_3_link": "",
+            "menu_4": "",
+            "menu_4_link": "",
+            "image_caption_bottom": "",
+            "image_link_bottom": "",
+            "richtext_bottom": ""
+          }
+        },
+        "sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-1": {
+          "type": "column",
+          "settings": {
+            "richtext_top": "",
+            "image_top": "shopify:\/\/shop_images\/266968933_330030645311902_6131480808728163460_n.jpg",
+            "image_caption_top": "",
+            "image_link_top": "",
+            "menu_1": "knife-sharpening-stones-and-gear",
+            "menu_1_link": "shopify:\/\/collections\/sharpening",
+            "menu_2": "",
+            "menu_2_link": "",
+            "menu_3": "",
+            "menu_3_link": "",
+            "menu_4": "",
+            "menu_4_link": "",
+            "image_caption_bottom": "",
+            "image_link_bottom": "",
+            "richtext_bottom": ""
+          }
+        },
+        "sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-3": {
+          "type": "column",
+          "settings": {
+            "richtext_top": "",
+            "image_top": "shopify:\/\/shop_images\/september_26_3_of_31_1_3b8e990f-0c52-47dc-9502-d5856009ab41.jpg",
+            "image_caption_top": "",
+            "image_link_top": "",
+            "menu_1": "sharpening-services",
+            "menu_1_link": "",
+            "menu_2": "",
+            "menu_2_link": "",
+            "menu_3": "",
+            "menu_3_link": "",
+            "menu_4": "",
+            "menu_4_link": "",
+            "image_caption_bottom": "",
+            "image_link_bottom": "",
+            "richtext_bottom": ""
+          }
+        },
+        "sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-4": {
+          "type": "column",
+          "settings": {
+            "richtext_top": "",
+            "image_top": "shopify:\/\/shop_images\/sharpening_5000x_copy.jpg",
+            "image_caption_top": "",
+            "image_link_top": "shopify:\/\/products\/knife-sharpening-classes",
+            "menu_1": "sharpening-classes-cities",
+            "menu_1_link": "shopify:\/\/products\/knife-sharpening-classes",
+            "menu_2": "",
+            "menu_2_link": "",
+            "menu_3": "",
+            "menu_3_link": "",
+            "menu_4": "",
+            "menu_4_link": "",
+            "image_caption_bottom": "",
+            "image_link_bottom": "",
+            "richtext_bottom": ""
+          }
+        },
+        "sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-2": {
+          "type": "column",
+          "settings": {
+            "richtext_top": "",
+            "image_top": "shopify:\/\/shop_images\/september_26_6_of_31.jpg",
+            "image_caption_top": "",
+            "image_link_top": "",
+            "menu_1": "learn-more-about-sharpening",
+            "menu_1_link": "",
+            "menu_2": "",
+            "menu_2_link": "",
+            "menu_3": "",
+            "menu_3_link": "",
+            "menu_4": "",
+            "menu_4_link": "",
+            "image_caption_bottom": "",
+            "image_link_bottom": "",
+            "richtext_bottom": ""
+          }
+        }
+      },
+      "block_order": [
+        "sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-0",
+        "sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-1",
+        "sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-3",
+        "sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-4",
+        "sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-2"
+      ],
+      "settings": {
+        "parent": "Sharpening"
+      }
+    },
+    "cf3b9b89-140d-405e-b8de-428eae3dd48b": {
+      "type": "mega-menu-3",
+      "blocks": {
+        "7c266d4a-19b6-41e2-9c0c-66626abfe498": {
+          "type": "column",
+          "settings": {
+            "richtext_top": "",
+            "image_top": "shopify:\/\/shop_images\/chicken_dish-13_600x_846aa584-95e9-4988-8513-b0c5fd5f1582.webp",
+            "image_caption_top": "",
+            "image_link_top": "shopify:\/\/collections\/accessories",
+            "menu_1": "chefs-tools",
+            "menu_1_link": "shopify:\/\/collections\/accessories",
+            "menu_2": "",
+            "menu_2_link": "",
+            "menu_3": "",
+            "menu_3_link": "",
+            "menu_4": "",
+            "menu_4_link": "",
+            "image_caption_bottom": "",
+            "image_link_bottom": "",
+            "richtext_bottom": ""
+          }
+        },
+        "sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-4": {
+          "type": "column",
+          "settings": {
+            "richtext_top": "",
+            "image_top": "shopify:\/\/shop_images\/fish-salad-3_600x_a88ce598-f414-4846-8608-863fd8c08297.webp",
+            "image_caption_top": "",
+            "image_link_top": "",
+            "menu_1": "cutting-boards",
+            "menu_1_link": "shopify:\/\/collections\/cutting-boards",
+            "menu_2": "",
+            "menu_2_link": "",
+            "menu_3": "",
+            "menu_3_link": "",
+            "menu_4": "",
+            "menu_4_link": "",
+            "image_caption_bottom": "",
+            "image_link_bottom": "",
+            "richtext_bottom": ""
+          }
+        },
+        "sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-0": {
+          "type": "column",
+          "settings": {
+            "richtext_top": "",
+            "image_top": "shopify:\/\/shop_images\/PXL_20220311_224620770.PORTRAIT.jpg",
+            "image_caption_top": "",
+            "image_link_top": "shopify:\/\/collections\/konro-grills-accessories",
+            "menu_1": "konro-and-bbq",
+            "menu_1_link": "shopify:\/\/collections\/konro-grills-accessories",
+            "menu_2": "",
+            "menu_2_link": "",
+            "menu_3": "",
+            "menu_3_link": "",
+            "menu_4": "",
+            "menu_4_link": "",
+            "image_caption_bottom": "",
+            "image_link_bottom": "",
+            "richtext_bottom": ""
+          }
+        },
+        "sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-1": {
+          "type": "column",
+          "settings": {
+            "richtext_top": "",
+            "image_top": "shopify:\/\/shop_images\/217836452_812119826331957_5880521860113610297_n_5000x_de797a6e-4c4d-4049-8c2c-f466e4222b09.jpg",
+            "image_caption_top": "",
+            "image_link_top": "shopify:\/\/collections\/storage",
+            "menu_1": "knife-storage",
+            "menu_1_link": "shopify:\/\/collections\/storage",
+            "menu_2": "",
+            "menu_2_link": "",
+            "menu_3": "",
+            "menu_3_link": "",
+            "menu_4": "",
+            "menu_4_link": "",
+            "image_caption_bottom": "",
+            "image_link_bottom": "",
+            "richtext_bottom": ""
+          }
+        },
+        "sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-2": {
+          "type": "column",
+          "settings": {
+            "richtext_top": "",
+            "image_top": "shopify:\/\/shop_images\/chicken_dish-20.jpg",
+            "image_caption_top": "",
+            "image_link_top": "",
+            "menu_1": "japanese-cookware-and-tools",
+            "menu_1_link": "shopify:\/\/collections\/japanese-kitchen-tools",
+            "menu_2": "",
+            "menu_2_link": "",
+            "menu_3": "",
+            "menu_3_link": "",
+            "menu_4": "",
+            "menu_4_link": "",
+            "image_caption_bottom": "",
+            "image_link_bottom": "",
+            "richtext_bottom": ""
+          }
+        },
+        "sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-3": {
+          "type": "column",
+          "settings": {
+            "richtext_top": "",
+            "image_caption_top": "",
+            "image_link_top": "",
+            "menu_1": "",
+            "menu_1_link": "",
+            "menu_2": "",
+            "menu_2_link": "shopify:\/\/collections\/konro-grills-accessories",
+            "menu_3": "",
+            "menu_3_link": "shopify:\/\/collections\/kids-at-knifewear",
+            "menu_4": "",
+            "menu_4_link": "shopify:\/\/collections\/in-the-garden-with-knifewear",
+            "image_bottom": "shopify:\/\/shop_images\/kawaiibutdeadly.jpg",
+            "image_caption_bottom": "Knifewear MERCH - Shirts, Stickers, & More",
+            "image_link_bottom": "shopify:\/\/collections\/shirts-stickers-more",
+            "richtext_bottom": ""
+          }
+        }
+      },
+      "block_order": [
+        "7c266d4a-19b6-41e2-9c0c-66626abfe498",
+        "sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-4",
+        "sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-0",
+        "sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-1",
+        "sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-2",
+        "sections--16111717318830__cf3b9b89-140d-405e-b8de-428eae3dd48b-168659590034a8fc85-3"
+      ],
+      "settings": {
+        "parent": "Accessories"
+      }
+    }
+  },
+  "order": [
+    "header",
+    "mega_menu_1",
+    "4fc4450b-3dca-4718-820f-984a69438d60",
+    "cf3b9b89-140d-405e-b8de-428eae3dd48b"
+  ]
+}

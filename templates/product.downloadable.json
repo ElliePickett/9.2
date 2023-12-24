@@ -36,33 +36,10 @@
             "product": "{{product}}"
           }
         },
-        "c74a36ef-9ab2-4a13-9ecf-1fc7e8f3ade5": {
-          "type": "custom-liquid",
-          "settings": {
-            "custom_liquid": "{% if product.available == true %}\n      \n    \t{% if cart.currency.iso_code == 'CAD' or cart.currency.iso_code == 'USD' %}\n   \t{%render 'fenix-pdp-template' %} <\/div>\n\t{% endif %}\n{% if cart.currency.iso_code == 'CAD' %}\n    \t       <div class=\"surface-pick-up surface-pick-up--loading\" data-surface-pick-up>\n    <div class=\"surface-pick-up__modal\" data-surface-pick-up-modal><\/div>\n\t{% endif %}\n \n\n \n    <!--fenix\/pickup in store code snippet ends -->\n{% endif %}"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "display_savings": true
-          }
-        },
-        "d21adcb5-c58a-47c5-8b1b-78a262788463": {
-          "type": "shopify:\/\/apps\/one-click-upsell-zipify-ocu\/blocks\/on-page\/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
-          "settings": {
-          }
-        },
-        "7c8239c5-e57c-4c24-9e8f-8a356f69d167": {
-          "type": "form",
-          "settings": {
-            "show_gift_card_recipient_form": true
-          }
-        },
         "7f3347be-f089-4bf4-989a-960ca076a8b4": {
           "type": "custom-liquid",
           "settings": {
-            "custom_liquid": "{%render 'ep-gs-soldout-online' %}"
+            "custom_liquid": "<br>\n<a class=\"button\" href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0780\/9439\/files\/origami_hocho.pdf?v=1679589469\"><strong>Download knife here! <\/strong><\/a>"
           }
         },
         "8689ba5b-d20e-4da0-a924-9211b3a50416": {
@@ -83,10 +60,6 @@
         "85d0d77c-b039-46b0-b112-b6af3ed762dd",
         "title",
         "619bd821-40ea-4ffd-a695-4115a4f4dc4a",
-        "c74a36ef-9ab2-4a13-9ecf-1fc7e8f3ade5",
-        "price",
-        "d21adcb5-c58a-47c5-8b1b-78a262788463",
-        "7c8239c5-e57c-4c24-9e8f-8a356f69d167",
         "7f3347be-f089-4bf4-989a-960ca076a8b4",
         "8689ba5b-d20e-4da0-a924-9211b3a50416"
       ],

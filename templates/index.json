@@ -2,6 +2,7 @@
   "sections": {
     "e0df2fcb-701a-4a29-988c-41b3d8c0b2da": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "wide_display": false,
         "image": "shopify:\/\/shop_images\/holiday_gift_sale_2023-WEBSITE_BANNER.jpg",
@@ -29,7 +30,6 @@
     },
     "05829759-9991-4acd-9316-d6694bfee816": {
       "type": "image-with-text-overlay",
-      "disabled": true,
       "settings": {
         "wide_display": false,
         "image": "shopify:\/\/shop_images\/download_7a158ca4-7060-40e5-9f38-d400a3057672.jpg",

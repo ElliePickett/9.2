@@ -192,7 +192,7 @@
             {{ media | media_tag }}
         {% endcase %}
 {{ media.alt }}
-          {%if media.alt != blank %}{{ media.alt }}{%endif%} 
+          {%if media.alt != product.title %}{{ media.alt }}{%endif%} 
 
       </div>
     {% endfor %}

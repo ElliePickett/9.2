@@ -191,7 +191,7 @@
           {% else %}
             {{ media | media_tag }}
         {% endcase %}
-
+{{ image.alt }}
           {%if image.alt != blank %}{{ image.alt }}{%endif%} 
 
       </div>

@@ -4,12 +4,5 @@
     "market": "us"
   },
   "sections": {
-    "header": {
-      "settings": {
-        "promo_text": "<p>EXPRESS SHIPPING TO THE USA ON ORDERS OVER $200<\/p>"
-      },
-      "blocks": {
-      }
-    }
   }
 }

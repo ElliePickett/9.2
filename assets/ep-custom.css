@@ -7,6 +7,13 @@
     -webkit-box-orient: inherit !important;
 }
 
+.ep-variant-txt {
+    background: black;
+    color: white;
+    margin: 10%;
+    padding: 10px;
+    font-weight: bold;
+}
 
 .swym-btn-container[data-position=default] button.swym-add-to-wishlist.swym-iconbtnlink:after {
     line-height: 18px !important;

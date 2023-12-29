@@ -192,7 +192,7 @@
             {{ media | media_tag }}
         {% endcase %}
 
-          {%if media.alt != product.title %}{{ media.alt }}{%endif%} 
+          {%if media.alt != product.title %}<span class="ep-variant-txt">{{ media.alt }}</span>{%endif%} 
 
       </div>
     {% endfor %}

@@ -191,6 +191,9 @@
           {% else %}
             {{ media | media_tag }}
         {% endcase %}
+
+          {{ image_alt | escape }}
+
       </div>
     {% endfor %}
   </div>

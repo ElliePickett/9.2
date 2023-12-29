@@ -192,7 +192,7 @@
             {{ media | media_tag }}
         {% endcase %}
 
-          {{ image_alt | escape }}
+          {%if image_alt =! blank %}{{ image_alt | escape }}{%endif%}
 
       </div>
     {% endfor %}

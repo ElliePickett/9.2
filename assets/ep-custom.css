@@ -5,6 +5,10 @@ button.needsclick.kl-teaser-R4R4hn {
     z-index: 1 !important;
 }
 
+iframe#chat-button {
+  z-index: 3 !important;
+}
+
 .ocu-name {
         overflow: visible !important;
     max-height: 80px !important;

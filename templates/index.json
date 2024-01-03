@@ -143,8 +143,20 @@
     "5360d44e-662b-409c-9fe3-ef2cdb2bc5e5": {
       "type": "featured-promotions",
       "blocks": {
+        "template--16346287177902__5360d44e-662b-409c-9fe3-ef2cdb2bc5e5-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Canmore_plain_square_regular.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Canmore_plain_square_regular.jpg",
+            "link": "shopify:\/\/blogs\/articles\/knifewear-canmore-pop-up-jan-14-at-alder-cafe-grocery",
+            "title": "",
+            "text": "",
+            "button_label": ""
+          }
+        },
         "31316264-8b3a-4466-9767-e088e85aad56": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/small-gift-guide-website-square_1_1200x_0d3ab14e-d206-4bf6-b45b-ef1147482ea5.webp",
             "link": "shopify:\/\/pages\/all-the-sharpest-knifewear-gifts",
@@ -183,24 +195,24 @@
             "button_label": ""
           }
         },
-        "template--16346287177902__5360d44e-662b-409c-9fe3-ef2cdb2bc5e5-image-3": {
+        "782cb3d9-0ef0-4cc9-843b-2b06f28ff424": {
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/holiday_gift_sale_2023-POST_EMAIL_SQUARE.jpg",
-            "link": "shopify:\/\/collections\/holiday-gift-sale",
-            "title": "",
-            "text": "",
+            "link": "",
+            "title": "Feature",
+            "text": "<p>Promotion description details.<\/p>",
             "button_label": ""
           }
         }
       },
       "block_order": [
+        "template--16346287177902__5360d44e-662b-409c-9fe3-ef2cdb2bc5e5-image-3",
         "31316264-8b3a-4466-9767-e088e85aad56",
         "254e284c-67db-46a4-8690-dba4d76baf4c",
         "template--16346287177902__5360d44e-662b-409c-9fe3-ef2cdb2bc5e5-image-2",
         "template--16346287177902__5360d44e-662b-409c-9fe3-ef2cdb2bc5e5-image-1",
-        "template--16346287177902__5360d44e-662b-409c-9fe3-ef2cdb2bc5e5-image-3"
+        "782cb3d9-0ef0-4cc9-843b-2b06f28ff424"
       ],
       "settings": {
         "wide_display": false,

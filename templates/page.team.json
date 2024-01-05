@@ -418,6 +418,7 @@
         },
         "16313119251f7b85d3-1": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/Ottawa_profile_3_large_0432c0ed-93ca-441c-a66f-f75054cc15d8.jpg",

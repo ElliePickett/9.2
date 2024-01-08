@@ -4,37 +4,6 @@
     "market": "ca"
   },
   "sections": {
-    "5360d44e-662b-409c-9fe3-ef2cdb2bc5e5": {
-      "settings": {
-      },
-      "blocks": {
-        "af199736-8d0d-4471-b9cb-24ecc828108a": {
-          "type": "image",
-          "disabled": false,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/holiday_hours_2023n_kw_post_1.jpg",
-            "mobile_image": null,
-            "link": "",
-            "title": "",
-            "text": "",
-            "button_label": ""
-          }
-        },
-        "254e284c-67db-46a4-8690-dba4d76baf4c": {
-          "disabled": true,
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "af199736-8d0d-4471-b9cb-24ecc828108a",
-        "31316264-8b3a-4466-9767-e088e85aad56",
-        "254e284c-67db-46a4-8690-dba4d76baf4c",
-        "template--16346287177902__5360d44e-662b-409c-9fe3-ef2cdb2bc5e5-image-2",
-        "template--16346287177902__5360d44e-662b-409c-9fe3-ef2cdb2bc5e5-image-1",
-        "template--16346287177902__5360d44e-662b-409c-9fe3-ef2cdb2bc5e5-image-3"
-      ]
-    }
   },
   "order": [
     "e0df2fcb-701a-4a29-988c-41b3d8c0b2da",

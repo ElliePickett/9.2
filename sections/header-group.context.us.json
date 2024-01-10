@@ -4,5 +4,12 @@
     "market": "us"
   },
   "sections": {
+    "header": {
+      "settings": {
+        "promo_text": "<p>Free shipping on orders over 200USD - Excluding  konro grills<\/p>"
+      },
+      "blocks": {
+      }
+    }
   }
 }

@@ -271,15 +271,14 @@
         },
         "843e8308-5352-4473-a1a5-d6cc9e3ec95d": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/image2_5f3ec374-d1f5-4f1a-ad98-461af2d5f85f.jpg",
-            "title": "Sebastien",
+            "image": "shopify:\/\/shop_images\/received_940774684289995.jpg",
+            "title": "Max",
             "heading_size": "regular_text",
-            "text": "<p>From chef to knifenerd, Sebastien came to us from Sky360 when he realized his favorite part of being a chef was talking about the knives he owned. If you like random fun facts and out of nowhere tips and tricks, Sebastien is your guy. He often spends his free time refining his game builds and using molecular gastronomy to deconstruct his food like an alien from the future.<\/p>",
-            "button_label": "SATOSHI NAKAGAWA AOICHI DAMASCUS KIRITSUKE GYUTO 210MM",
-            "button_link": "shopify:\/\/products\/satoshi-nakagawa-aoichi-damascus-kiritsuke-gyuto-210mm",
+            "text": "<p>After a few years in the world of rock climbing, Max returned to civilization and found their way to  Knifewear. An affinity for knives kindled by a lifelong obsession with swords and fantasy literature, you can find them riding their bike around the city, at a local game store playing dungeons and dragons, moshing in the crowd of a nearby punk show or escaping the city for a weekend in the wilderness. Max's newest frontier is a culinary one, looking for new food to try or new recipies to hone their fledgling cooking skills.<\/p>",
+            "button_label": "Kisuke Manaka ATS-34 Tsuchime Gyuto 210mm",
+            "button_link": "shopify:\/\/products\/kisuke-ats-34-tsuchime-gyuto-210mm",
             "align_text": "left",
             "border_style": "none"
           }

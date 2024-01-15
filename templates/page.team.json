@@ -122,6 +122,20 @@
             "align_text": "left",
             "border_style": "none"
           }
+        },
+        "text_block_mTTmxi": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-01-15_at_8.41.20_AM.jpg",
+            "title": "Brian",
+            "heading_size": "regular_text",
+            "text": "<p><strong>To quote his IMDB page:<\/strong> Brian J Graham was born in England and grew up in Canada. He has built a successful acting career as a strong character actor And is now selling Japanese knives at Knifewear Toronto. People have described him as a chameleon. He is able to go from cop to bad guy, drug dealer to dad - and now to knife nerd effortlessly. Being born in England he has a great ear and ability for accents. <\/p><p>He has lived in Japan and around the world, and believes every one deserves a good sharp knife. <\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/haruyuki-kokuto-gyuto-210mm",
+            "align_text": "left",
+            "border_style": "none"
+          }
         }
       },
       "block_order": [
@@ -129,7 +143,8 @@
         "template--15997583949998__bcf6ad95-3b4c-4a96-a17f-076d2bc0e7d3-16805419386e70bfff-1",
         "b1c19f58-cabf-4777-af0d-7aaaa976035b",
         "c428d5e6-cef0-48fd-a4d9-9bbf6a1ce90e",
-        "3299f8e7-209a-4d18-a95b-c9ce2185677c"
+        "3299f8e7-209a-4d18-a95b-c9ce2185677c",
+        "text_block_mTTmxi"
       ],
       "settings": {
         "title": "Toronto",

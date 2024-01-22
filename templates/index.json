@@ -146,10 +146,19 @@
         "template--16346287177902__5360d44e-662b-409c-9fe3-ef2cdb2bc5e5-image-3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Canmore_plain_square_regular.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/Canmore_plain_square_regular.jpg",
-            "link": "shopify:\/\/blogs\/articles\/knifewear-canmore-pop-up-jan-14-at-alder-cafe-grocery",
+            "image": "shopify:\/\/shop_images\/noto_earthquake_WEBSITE.jpg",
+            "link": "shopify:\/\/blogs\/articles\/sharpening-for-noto-peninsula-earthquake-relief-jan-29-feb-4",
             "title": "",
+            "text": "",
+            "button_label": ""
+          }
+        },
+        "image_PMgN49": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ToqueSocials_1.jpg",
+            "link": "https:\/\/knifewear.com\/collections\/shirts-stickers-more?view=products#\/sort:ss_days_since_published:asc",
+            "title": "New Toques!",
             "text": "",
             "button_label": ""
           }
@@ -187,6 +196,7 @@
         },
         "template--16346287177902__5360d44e-662b-409c-9fe3-ef2cdb2bc5e5-image-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/gift_card_xmas.jpg",
             "link": "shopify:\/\/products\/gift-card",
@@ -208,6 +218,7 @@
       },
       "block_order": [
         "template--16346287177902__5360d44e-662b-409c-9fe3-ef2cdb2bc5e5-image-3",
+        "image_PMgN49",
         "31316264-8b3a-4466-9767-e088e85aad56",
         "254e284c-67db-46a4-8690-dba4d76baf4c",
         "template--16346287177902__5360d44e-662b-409c-9fe3-ef2cdb2bc5e5-image-2",

@@ -11,7 +11,13 @@
       {% capture shapeHandle %}{{product.metafields.knifeStats.shape | handle }} {% endcapture %}
   {% assign collectionShape = collections[shapeHandle] %}
      <hr><div class="bundle-grid">
-          <div><a target="_blank" href="{{ product.url }}">{{ product.featured_image | image_url: width: 400 | image_tag: loading: 'lazy' }}</a></div>
+          <div>
+
+            {% if product.featured_image != blank }
+            <a target="_blank" href="{{ product.url }}">{{ product.featured_image | image_url: width: 400 | image_tag: loading: 'lazy' }}</a>
+            {%endif%}    
+
+          </div>
 
   <div>
     <h6><a target="_blank" href="{{ product.url }}">{{- product.title | escape -}}</a></h6>

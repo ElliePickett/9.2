@@ -13,9 +13,9 @@
      <hr><div class="bundle-grid">
           <div>
 
-            {% if product.featured_image != blank }
+            {% if product.featured_image != blank %}
             <a target="_blank" href="{{ product.url }}">{{ product.featured_image | image_url: width: 400 | image_tag: loading: 'lazy' }}</a>
-            {%endif%}    
+            {% endif %}    
 
           </div>
 

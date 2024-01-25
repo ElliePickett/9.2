@@ -4,36 +4,5 @@
     "market": "us"
   },
   "sections": {
-    "main": {
-      "settings": {
-      },
-      "blocks": {
-        "7f3347be-f089-4bf4-989a-960ca076a8b4": {
-          "settings": {
-            "custom_liquid": "{%render 'ep-gs-soldout-online' %}"
-          }
-        }
-      },
-      "block_order": [
-        "85d0d77c-b039-46b0-b112-b6af3ed762dd",
-        "title",
-        "619bd821-40ea-4ffd-a695-4115a4f4dc4a",
-        "aftership_order_tracking_edd_xCR8TC",
-        "price",
-        "d21adcb5-c58a-47c5-8b1b-78a262788463",
-        "7c8239c5-e57c-4c24-9e8f-8a356f69d167",
-        "7f3347be-f089-4bf4-989a-960ca076a8b4",
-        "8689ba5b-d20e-4da0-a924-9211b3a50416"
-      ]
-    }
-  },
-  "order": [
-    "sidebar",
-    "main",
-    "00067b09-6af5-45a4-8d49-a31a1684fc4a",
-    "ffa448c5-8b00-4c40-a775-5e70469e6864",
-    "1687554155cc9bd94b",
-    "43e4ff03-94d2-4cc3-bbd1-7de99ce4dbfc",
-    "recommendations"
-  ]
+  }
 }

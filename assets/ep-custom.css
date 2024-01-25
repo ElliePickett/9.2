@@ -112,11 +112,6 @@ h3.regular_text {
     float: left;
 }
 
-.ep-paint-block-1-fenix {
-    min-height: 48px;
-    width: 100%;
-    display: inline-block;
-}
 
 
 
@@ -899,19 +894,13 @@ hr.ep-clear {
     border: 0;
 }
 
-.fenix-fixd-delivery {
-    z-index: 1 !important;
-}
 
-.product-sharpeningclass .fenix-fixd-delivery,
 .product-sharpeningclass .swym-dummy,
 .product-sharpeningclass .shopify-payment-button.disabled,
 .product-sharpeningclass .swym-wishlist-button-bar,
-.product-cutclass .fenix-fixd-delivery,
 .product-cutclass .swym-dummy,
 .product-cutclass .shopify-payment-button.disabled,
 .product-cutclass .swym-wishlist-button-bar, 
-.product-class-honesuki .fenix-fixd-delivery,
 .product-class-honesuki .swym-dummy,
 .product-class-honesuki .shopify-payment-button.disabled,
 .product-class-honesuki .swym-wishlist-button-bar {

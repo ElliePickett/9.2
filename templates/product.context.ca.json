@@ -4,44 +4,5 @@
     "market": "ca"
   },
   "sections": {
-    "main": {
-      "settings": {
-      },
-      "blocks": {
-        "c95fbd9f-4381-4ee2-ad1d-bae401f5031e": {
-          "type": "custom-liquid",
-          "disabled": false,
-          "settings": {
-            "custom_liquid": "{% if product.available == true %}\n\n{% unless product.tags contains \"YGroup_konro_grill\" %}\n    \t<div style=\"\npadding: 8px;\n    font-weight: bold;\n    border:;\n\"><a href=\"https:\/\/knifewear.com\/policies\/shipping-policy\" target=\"_blank\">Free shipping on orders over $100 *<\/a><\/div>\n\n {% endunless %}\n\t\n     \t\n{% if cart.currency.iso_code == 'CAD' %}\n    \t       <div class=\"surface-pick-up surface-pick-up--loading\" data-surface-pick-up>\n    <div class=\"surface-pick-up__modal\" data-surface-pick-up-modal><\/div>\n\t{% endif %}\n\n    <!--fenix\/pickup in store code snippet ends -->\n{% endif %}"
-          }
-        },
-        "c74a36ef-9ab2-4a13-9ecf-1fc7e8f3ade5": {
-          "disabled": true,
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "85d0d77c-b039-46b0-b112-b6af3ed762dd",
-        "title",
-        "619bd821-40ea-4ffd-a695-4115a4f4dc4a",
-        "c95fbd9f-4381-4ee2-ad1d-bae401f5031e",
-        "c74a36ef-9ab2-4a13-9ecf-1fc7e8f3ade5",
-        "price",
-        "d21adcb5-c58a-47c5-8b1b-78a262788463",
-        "7c8239c5-e57c-4c24-9e8f-8a356f69d167",
-        "7f3347be-f089-4bf4-989a-960ca076a8b4",
-        "8689ba5b-d20e-4da0-a924-9211b3a50416"
-      ]
-    }
-  },
-  "order": [
-    "sidebar",
-    "main",
-    "00067b09-6af5-45a4-8d49-a31a1684fc4a",
-    "ffa448c5-8b00-4c40-a775-5e70469e6864",
-    "1687554155cc9bd94b",
-    "43e4ff03-94d2-4cc3-bbd1-7de99ce4dbfc",
-    "recommendations"
-  ]
+  }
 }

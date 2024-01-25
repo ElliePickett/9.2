@@ -46,9 +46,9 @@
           "type": "shopify:\/\/apps\/aftership-order-tracking\/blocks\/edd\/3375afd5-c790-4ee3-abbc-ae4972ab72ed",
           "settings": {
             "description": "Estimated delivery",
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "text-color": "#232933",
-            "icon-color": "#5C5F62",
+            "icon-color": "#5c5f62",
             "top-padding": 28,
             "bottom-padding": 28
           }
@@ -73,7 +73,7 @@
         "7f3347be-f089-4bf4-989a-960ca076a8b4": {
           "type": "custom-liquid",
           "settings": {
-            "custom_liquid": "{%render 'ep-gs-soldout-online' %}"
+            "custom_liquid": "{%render 'ep-gs-soldout-online' %}\n\n<style>\n.surface-pick-up {display:none;}\n\n<\/style>"
           }
         },
         "8689ba5b-d20e-4da0-a924-9211b3a50416": {

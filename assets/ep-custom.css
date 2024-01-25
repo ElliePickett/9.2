@@ -5,6 +5,11 @@ button.needsclick.kl-teaser-R4R4hn {
     z-index: 1 !important;
 }
 
+.aftership-container .as-aedd {
+    border: 0px;
+    padding: 0px;
+}
+
 iframe#chat-button {
   z-index: 3 !important;
 }

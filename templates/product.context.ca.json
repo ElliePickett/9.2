@@ -4,5 +4,16 @@
     "market": "ca"
   },
   "sections": {
+    "main": {
+      "settings": {
+      },
+      "blocks": {
+        "7f3347be-f089-4bf4-989a-960ca076a8b4": {
+          "settings": {
+            "custom_liquid": "{%render 'ep-gs-soldout-online' %}"
+          }
+        }
+      }
+    }
   }
 }

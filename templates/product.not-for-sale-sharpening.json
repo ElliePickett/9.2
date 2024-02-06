@@ -50,12 +50,14 @@
         },
         "7f3347be-f089-4bf4-989a-960ca076a8b4": {
           "type": "custom-liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% if product.available == false and product.tags contains \"kitchen-knives\" %}<div class=\"gs-disclaimer\"> \n<a href=\"https:\/\/knifewear.com\/blogs\/articles\/why-are-japanese-knives-always-sold-out-and-how-to-get-them\"><b>Frustrated?<\/b> Learn more about why Japanese knives are frequently out of stock.<\/a><\/div>\n<style>div.purchase-details__quantity.product-quantity-box {\n    display: none !important;\n}<\/style>\n{% endif %}\n\n{% if settings.show_garageSaleLiveTxt and product.metafields.custom.garage-sale == true and product.available == true %}\n                 <div class=\"gs-disclaimer\"> \n                  <p> {{ settings.garageSaleLiveTxt }}<\/p>\n               <style>.findify-sticker-garage-sale { display: block !important; }<\/style>\n   \n          <\/div>\n{% endif %}\n<!-- Swym button on product pages --><div class=\"ep-paint-block-wishlist\">        <div class=\"swym-wishlist-button-bar\"><\/div><\/div>\n<!-- Swym button on product pages -->"
           }
         },
         "8689ba5b-d20e-4da0-a924-9211b3a50416": {
           "type": "tabs",
+          "disabled": true,
           "settings": {
             "show_product_description": true,
             "show_tabs_below_product_gallery": false,
@@ -66,6 +68,11 @@
             "tab_heading_3": "",
             "tab_text_3": "<p>Use this text to share information about your product.<\/p>"
           }
+        },
+        "description_Cp4T8E": {
+          "type": "description",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -75,7 +82,8 @@
         "price",
         "7c8239c5-e57c-4c24-9e8f-8a356f69d167",
         "7f3347be-f089-4bf4-989a-960ca076a8b4",
-        "8689ba5b-d20e-4da0-a924-9211b3a50416"
+        "8689ba5b-d20e-4da0-a924-9211b3a50416",
+        "description_Cp4T8E"
       ],
       "settings": {
         "product_breadcrumb": false,

@@ -206,25 +206,6 @@
             "richtext_bottom": ""
           }
         },
-        "column_8BJjaq": {
-          "type": "column",
-          "settings": {
-            "richtext_top": "",
-            "image_caption_top": "",
-            "image_link_top": "",
-            "menu_1": "",
-            "menu_1_link": "",
-            "menu_2": "",
-            "menu_2_link": "",
-            "menu_3": "",
-            "menu_3_link": "",
-            "menu_4": "",
-            "menu_4_link": "",
-            "image_caption_bottom": "",
-            "image_link_bottom": "",
-            "richtext_bottom": ""
-          }
-        },
         "sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-3": {
           "type": "column",
           "settings": {
@@ -289,7 +270,6 @@
       "block_order": [
         "sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-0",
         "sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-1",
-        "column_8BJjaq",
         "sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-3",
         "sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-4",
         "sections--16111717318830__4fc4450b-3dca-4718-820f-984a69438d60-1686595896f8cf1f60-2"
@@ -345,7 +325,7 @@
           "type": "column",
           "settings": {
             "richtext_top": "",
-            "image_top": "shopify:\/\/shop_images\/PXL_20220311_224620770.PORTRAIT.jpg",
+            "image_top": "shopify:\/\/shop_images\/Screenshot_2024-02-07_at_9.47.29_AM.jpg",
             "image_caption_top": "",
             "image_link_top": "shopify:\/\/collections\/konro-grills-accessories",
             "menu_1": "konro-and-bbq",

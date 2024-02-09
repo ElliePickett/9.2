@@ -36,11 +36,20 @@
       "settings": {
         "profileId": "superspecialupsell"
       }
+    },
+    "custom_liquid_qtNTtr": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"searchspring\/personalized-recommendations\" profile=\"superspecialupsell\">\n\n\n\n<\/script>",
+        "css_class": "",
+        "custom_css": ""
+      }
     }
   },
   "order": [
     "main",
     "newsletter",
-    "searchspring_recommendations_3PCTap"
+    "searchspring_recommendations_3PCTap",
+    "custom_liquid_qtNTtr"
   ]
 }

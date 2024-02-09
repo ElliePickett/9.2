@@ -3,7 +3,7 @@
     "main": {
       "type": "collection-template-ss-disabled",
       "custom_css": [
-        ".product-list .thumbnail img, .slider-gallery .thumbnail img {max-height: 380px; width: 100%; object-fit: contain;}"
+        ".product-list .thumbnail img,.slider-gallery .thumbnail img {max-height: 380px; width: 100%; object-fit: contain;}"
       ],
       "settings": {
         "featured_collection_image": false,
@@ -30,10 +30,17 @@
         "css_class": "",
         "custom_css": ""
       }
+    },
+    "searchspring_recommendations_3PCTap": {
+      "type": "searchspring-recommendations",
+      "settings": {
+        "profileId": "superspecialupsell"
+      }
     }
   },
   "order": [
     "main",
-    "newsletter"
+    "newsletter",
+    "searchspring_recommendations_3PCTap"
   ]
 }

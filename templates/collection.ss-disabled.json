@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "collection-template",
+      "type": "collection-template-ss-disabled",
       "settings": {
         "featured_collection_image": false,
         "wide_display": true,

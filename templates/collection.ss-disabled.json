@@ -2,6 +2,9 @@
   "sections": {
     "main": {
       "type": "collection-template-ss-disabled",
+      "custom_css": [
+        ".product-list .thumbnail img, .slider-gallery .thumbnail img {max-height: 380px; width: 100%; object-fit: contain;}"
+      ],
       "settings": {
         "featured_collection_image": false,
         "wide_display": true,

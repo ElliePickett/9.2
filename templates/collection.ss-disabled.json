@@ -18,6 +18,12 @@
         "toggle": false
       }
     },
+    "searchspring_recommendations_3PCTap": {
+      "type": "searchspring-recommendations",
+      "settings": {
+        "profileId": "superspecialupsell"
+      }
+    },
     "newsletter": {
       "type": "newsletter",
       "settings": {
@@ -31,14 +37,9 @@
         "custom_css": ""
       }
     },
-    "searchspring_recommendations_3PCTap": {
-      "type": "searchspring-recommendations",
-      "settings": {
-        "profileId": "superspecialupsell"
-      }
-    },
     "custom_liquid_qtNTtr": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<script type=\"searchspring\/personalized-recommendations\" profile=\"superspecialupsell\">\n\n\n\n<\/script>",
         "css_class": "",
@@ -48,8 +49,8 @@
   },
   "order": [
     "main",
-    "newsletter",
     "searchspring_recommendations_3PCTap",
+    "newsletter",
     "custom_liquid_qtNTtr"
   ]
 }

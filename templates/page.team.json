@@ -282,13 +282,28 @@
             "align_text": "left",
             "border_style": "none"
           }
+        },
+        "text_block_dR4QW7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/SamK.jpg",
+            "title": "Sam",
+            "heading_size": "regular_text",
+            "text": "<p>Sam spent a decade exploring the many provinces of this lovely country before returning to his hometown of Calgary because he liked the weather. After finishing photography school, Sam found himself enamoured by the organized chaos of kitchen life, where he spent many early mornings and late late nights. If you see him in the shop, ask him about his affinity for extremely reactive carbon steel knives, old bicycles, titanium cookware and whether or not a pop tart can be considered a dumpling. <\/p>",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/moritaka-ishime-mega-nakiri-165mm",
+            "align_text": "left",
+            "border_style": "none"
+          }
         }
       },
       "block_order": [
         "864c66fb-a365-419e-be3f-694ad156a5fb",
         "84b1e706-f3ff-49fd-9035-413ec6931a55",
         "00adef78-0022-48b4-8a86-293aba5c70c1",
-        "843e8308-5352-4473-a1a5-d6cc9e3ec95d"
+        "843e8308-5352-4473-a1a5-d6cc9e3ec95d",
+        "text_block_dR4QW7"
       ],
       "settings": {
         "title": "",

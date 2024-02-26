@@ -1,1 +1,122 @@
-{"wrapper":"div.shopify-section-wrapper.section","sections":{"sidebar":{"type":"product-sidebar","settings":{"toggle":false}},"main":{"type":"product-template","blocks":{"7a96d0db-fe5c-4c73-b888-c517beaf462b":{"type":"custom-liquid","settings":{"custom_liquid":"<!-- Yopto top Start -->\n {% if request.locale.iso_code == 'en' %}\n          \t{% if product.template_suffix != 'sharpening' %}\n\t\t\t\t\t<div class=\"yotpo yotpo-shoppers-say\" data-product-id=\"{{ product.id }}\">&nbsp;<\/div>\n   \t\t\t{% endif %}\n   {% endif %}\n\t\t\t<!-- Yopto top end -->"}},"title":{"type":"title","settings":{}},"1bf6a1ca-d095-4880-982e-cd2fe258726f":{"type":"custom-liquid","settings":{"custom_liquid":"<div class=\"yotpo bottomLine\"\n  data-product-id=\"{{ product.id }}\">\n{%- assign yotpo_offload_content = shop.metafields.yotpo.yotpo_offload_content %}\n {%- assign time_now = 'now' | date: '%s' %}\n {%- assign yotpo_live_time = shop.metafields.yotpo.yotpo_live | date: '%s' %}\n {%- assign diff_seconds_from_live = time_now | minus: yotpo_live_time %}\n {%- assign yotpo_bottomline_last_updated = product.metafields.yotpo.bottomline_update_time | date: '%s' %}\n {%- assign diff_seconds_from_last_bottomline_update = time_now | minus: yotpo_bottomline_last_updated %}\n {%- if yotpo_live_time and diff_seconds_from_live < 86400 or yotpo_bottomline_last_updated and diff_seconds_from_last_bottomline_update < 86400 -%}\n   {%- assign yotpo_bottomline_obsolete = false %}\n {%- else %}\n   {%- assign yotpo_bottomline_obsolete = true %}\n {%- endif %}\n {%- if yotpo_offload_content == 'yes' and yotpo_bottomline_obsolete != true -%}\n   {{ product.metafields.yotpo.bottomline }}\n {%- endif %}\n<\/div>\n          <div class='yotpo QABottomLine'\n  data-product-id=\"{{ product.id }}\">\n{%- assign yotpo_offload_content = shop.metafields.yotpo.yotpo_offload_content %}\n {%- assign time_now = 'now' | date: '%s' %}\n {%- assign yotpo_live_time = shop.metafields.yotpo.yotpo_live | date: '%s' %}\n {%- assign diff_seconds_from_live = time_now | minus: yotpo_live_time %}\n {%- assign yotpo_qa_bottomline_last_updated = product.metafields.yotpo.qa_bottomline_update_time | date: '%s' %}\n {%- assign diff_seconds_from_last_qa_bottomline_update = time_now | minus: yotpo_qa_bottomline_last_updated %}\n {%- if yotpo_live_time and diff_seconds_from_live < 86400 or yotpo_qa_bottomline_last_updated and diff_seconds_from_last_qa_bottomline_update < 86400 -%}\n   {%- assign yotpo_qa_bottomline_obsolete = false %}\n {%- else %}\n   {%- assign yotpo_qa_bottomline_obsolete = true %}\n {%- endif %}\n {%- if yotpo_offload_content == 'yes' and yotpo_qa_bottomline_obsolete != true -%}\n   {{ product.metafields.yotpo.qa_bottomline }}\n {%- endif %}\n<\/div>"}},"price":{"type":"price","settings":{"display_savings":true}},"a39e8aaa-dadc-4840-a44d-4055aea5352a":{"type":"custom-liquid","settings":{"custom_liquid":"{% render 'ep-cities-for-classes' %}"}},"form":{"type":"form","settings":{}},"description":{"type":"description","settings":{}}},"block_order":["7a96d0db-fe5c-4c73-b888-c517beaf462b","title","1bf6a1ca-d095-4880-982e-cd2fe258726f","price","a39e8aaa-dadc-4840-a44d-4055aea5352a","form","description"],"settings":{"product_breadcrumb":false,"media_position":"is-flex-row","set_product_height":false,"product_height":500,"video_looping":false,"product_thumbs":true,"gallery_arrows":true,"enable_product_lightbox":true,"activate_zoom":true,"slideshow_speed":0,"slideshow_animation":"slide","thumbnail_position":"bottom","enable_thumbnail_slider":true}},"recommendations":{"type":"product-recommendations","disabled":true,"settings":{"show_product_recommendations":false,"wide_display":false,"product_recommendations_style":"grid","product_recommendations_heading":"You may also like","products_per_row":3,"recommended_products_limit":4}},"1631043431d7d27f27":{"type":"custom-liquid","settings":{"custom_liquid":"<div\n\tclass=\"yotpo yotpo-pictures-widget\"\n\tdata-gallery-id=\"61b3d73ea55ece52a770ae51\"\n\tdata-product-id=\"{{ product.id }}\">\n<\/div>\n\n<div class=\"yotpo yotpo-main-widget\" data-product-id=\"{{ product.id }}\" data-name=\"{{ product.title | escape }}\" data-url=\"{{ shop.url }}{{ product.url }}\" data-image-url=\"{{ product.featured_image | product_img_url: 'large' |replace: '?', '%3F' | replace: '&','%26'}}\" data-description=\"{{ product.description | escape }}\">\n{%- assign yotpo_offload_content = shop.metafields.yotpo.yotpo_offload_content %}\n  {%- assign time_now = 'now' | date: '%s' %}\n  {%- assign yotpo_live_time = shop.metafields.yotpo.yotpo_live | date: '%s' %}\n  {%- assign diff_seconds_from_live = time_now | minus: yotpo_live_time %}\n  {%- assign yotpo_main_widget_last_updated = product.metafields.yotpo.main_widget_update_time | date: '%s' %}\n  {%- assign diff_seconds_from_last_main_widget_update = time_now | minus: yotpo_main_widget_last_updated %}\n  {%- if yotpo_live_time and diff_seconds_from_live < 86400 or yotpo_main_widget_last_updated and diff_seconds_from_last_main_widget_update < 86400 -%}\n    {%- assign yotpo_main_widget_obsolete = false %}\n  {%- else %}\n    {%- assign yotpo_main_widget_obsolete = true %}\n  {%- endif %}\n  {%- if yotpo_offload_content == 'yes' and yotpo_main_widget_obsolete != true -%}\n    {%- for field in product.metafields.yotpo_reviews -%}\n      {{ field | last }}\n    {%- endfor -%}\n  {%- endif %}\n<\/div>","css_class":"","custom_css":""}},"1631043446e35c4014":{"type":"custom-liquid","settings":{"custom_liquid":"{% if product.options.size == 1 and product.tags contains \"kitchen-knives\" %}\n  <script>\n    var product_variants_removed = [\n      {%- for variant in product.variants -%}\n        {%- unless variant.available -%}\n          '{{ variant.title }}',\n        {%- endunless -%}\n      {%- endfor -%}\n    ];\n  <\/script>\n{% endif %}","css_class":"","custom_css":""}}},"order":["sidebar","main","recommendations","1631043431d7d27f27","1631043446e35c4014"]}
+{
+  "wrapper": "div.shopify-section-wrapper.section",
+  "sections": {
+    "sidebar": {
+      "type": "product-sidebar",
+      "settings": {
+        "toggle": false
+      }
+    },
+    "main": {
+      "type": "product-template",
+      "blocks": {
+        "7a96d0db-fe5c-4c73-b888-c517beaf462b": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<!-- Yopto top Start -->\n {% if request.locale.iso_code == 'en' %}\n          \t{% if product.template_suffix != 'sharpening' %}\n\t\t\t\t\t<div class=\"yotpo yotpo-shoppers-say\" data-product-id=\"{{ product.id }}\">&nbsp;<\/div>\n   \t\t\t{% endif %}\n   {% endif %}\n\t\t\t<!-- Yopto top end -->"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1bf6a1ca-d095-4880-982e-cd2fe258726f": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"yotpo bottomLine\"\n  data-product-id=\"{{ product.id }}\">\n{%- assign yotpo_offload_content = shop.metafields.yotpo.yotpo_offload_content %}\n {%- assign time_now = 'now' | date: '%s' %}\n {%- assign yotpo_live_time = shop.metafields.yotpo.yotpo_live | date: '%s' %}\n {%- assign diff_seconds_from_live = time_now | minus: yotpo_live_time %}\n {%- assign yotpo_bottomline_last_updated = product.metafields.yotpo.bottomline_update_time | date: '%s' %}\n {%- assign diff_seconds_from_last_bottomline_update = time_now | minus: yotpo_bottomline_last_updated %}\n {%- if yotpo_live_time and diff_seconds_from_live < 86400 or yotpo_bottomline_last_updated and diff_seconds_from_last_bottomline_update < 86400 -%}\n   {%- assign yotpo_bottomline_obsolete = false %}\n {%- else %}\n   {%- assign yotpo_bottomline_obsolete = true %}\n {%- endif %}\n {%- if yotpo_offload_content == 'yes' and yotpo_bottomline_obsolete != true -%}\n   {{ product.metafields.yotpo.bottomline }}\n {%- endif %}\n<\/div>\n          <div class='yotpo QABottomLine'\n  data-product-id=\"{{ product.id }}\">\n{%- assign yotpo_offload_content = shop.metafields.yotpo.yotpo_offload_content %}\n {%- assign time_now = 'now' | date: '%s' %}\n {%- assign yotpo_live_time = shop.metafields.yotpo.yotpo_live | date: '%s' %}\n {%- assign diff_seconds_from_live = time_now | minus: yotpo_live_time %}\n {%- assign yotpo_qa_bottomline_last_updated = product.metafields.yotpo.qa_bottomline_update_time | date: '%s' %}\n {%- assign diff_seconds_from_last_qa_bottomline_update = time_now | minus: yotpo_qa_bottomline_last_updated %}\n {%- if yotpo_live_time and diff_seconds_from_live < 86400 or yotpo_qa_bottomline_last_updated and diff_seconds_from_last_qa_bottomline_update < 86400 -%}\n   {%- assign yotpo_qa_bottomline_obsolete = false %}\n {%- else %}\n   {%- assign yotpo_qa_bottomline_obsolete = true %}\n {%- endif %}\n {%- if yotpo_offload_content == 'yes' and yotpo_qa_bottomline_obsolete != true -%}\n   {{ product.metafields.yotpo.qa_bottomline }}\n {%- endif %}\n<\/div>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "display_savings": true
+          }
+        },
+        "a39e8aaa-dadc-4840-a44d-4055aea5352a": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "{% render 'ep-cities-for-classes' %}"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "custom_liquid_d4dVzg": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0780\/9439\/files\/honesuki_class_handout.pdf?v=1708987347\">Looking for the recipes from the class? Download them here. <\/a>"
+          }
+        }
+      },
+      "block_order": [
+        "7a96d0db-fe5c-4c73-b888-c517beaf462b",
+        "title",
+        "1bf6a1ca-d095-4880-982e-cd2fe258726f",
+        "price",
+        "a39e8aaa-dadc-4840-a44d-4055aea5352a",
+        "form",
+        "description",
+        "custom_liquid_d4dVzg"
+      ],
+      "settings": {
+        "product_breadcrumb": false,
+        "media_position": "is-flex-row",
+        "set_product_height": false,
+        "product_height": 500,
+        "video_looping": false,
+        "product_thumbs": true,
+        "gallery_arrows": true,
+        "enable_product_lightbox": true,
+        "activate_zoom": true,
+        "slideshow_speed": 0,
+        "slideshow_animation": "slide",
+        "thumbnail_position": "bottom",
+        "enable_thumbnail_slider": true
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": false,
+        "wide_display": false,
+        "product_recommendations_style": "grid",
+        "product_recommendations_heading": "You may also like",
+        "products_per_row": 3,
+        "recommended_products_limit": 4
+      }
+    },
+    "1631043431d7d27f27": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div\n\tclass=\"yotpo yotpo-pictures-widget\"\n\tdata-gallery-id=\"61b3d73ea55ece52a770ae51\"\n\tdata-product-id=\"{{ product.id }}\">\n<\/div>\n\n<div class=\"yotpo yotpo-main-widget\" data-product-id=\"{{ product.id }}\" data-name=\"{{ product.title | escape }}\" data-url=\"{{ shop.url }}{{ product.url }}\" data-image-url=\"{{ product.featured_image | product_img_url: 'large' |replace: '?', '%3F' | replace: '&','%26'}}\" data-description=\"{{ product.description | escape }}\">\n{%- assign yotpo_offload_content = shop.metafields.yotpo.yotpo_offload_content %}\n  {%- assign time_now = 'now' | date: '%s' %}\n  {%- assign yotpo_live_time = shop.metafields.yotpo.yotpo_live | date: '%s' %}\n  {%- assign diff_seconds_from_live = time_now | minus: yotpo_live_time %}\n  {%- assign yotpo_main_widget_last_updated = product.metafields.yotpo.main_widget_update_time | date: '%s' %}\n  {%- assign diff_seconds_from_last_main_widget_update = time_now | minus: yotpo_main_widget_last_updated %}\n  {%- if yotpo_live_time and diff_seconds_from_live < 86400 or yotpo_main_widget_last_updated and diff_seconds_from_last_main_widget_update < 86400 -%}\n    {%- assign yotpo_main_widget_obsolete = false %}\n  {%- else %}\n    {%- assign yotpo_main_widget_obsolete = true %}\n  {%- endif %}\n  {%- if yotpo_offload_content == 'yes' and yotpo_main_widget_obsolete != true -%}\n    {%- for field in product.metafields.yotpo_reviews -%}\n      {{ field | last }}\n    {%- endfor -%}\n  {%- endif %}\n<\/div>",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1631043446e35c4014": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if product.options.size == 1 and product.tags contains \"kitchen-knives\" %}\n  <script>\n    var product_variants_removed = [\n      {%- for variant in product.variants -%}\n        {%- unless variant.available -%}\n          '{{ variant.title }}',\n        {%- endunless -%}\n      {%- endfor -%}\n    ];\n  <\/script>\n{% endif %}",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "sidebar",
+    "main",
+    "recommendations",
+    "1631043431d7d27f27",
+    "1631043446e35c4014"
+  ]
+}

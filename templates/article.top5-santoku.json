@@ -125,8 +125,8 @@
       "settings": {
         "title": "",
         "content": "<p>Hopefully this article made it easier, not harder, to pick a Santoku for your collection. I know that with so many great options, choosing can be challenging. If you ever need more help choosing, don’t hesitate to<a href=\"https:\/\/knifewear.com\/#shopify-section-1575997080091\">contact us <\/a>or visit our shops in person. For our full line of santokus, <a href=\"https:\/\/knifewear.com\/collections\/santoku\">you can check out the full selection here.<\/a><\/p>",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "Shop All Santokus",
+        "button_link": "shopify:\/\/collections\/santoku",
         "text_size": "regular_text",
         "text_alignment": "align_left",
         "css_class": "",

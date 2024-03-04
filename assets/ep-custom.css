@@ -1,6 +1,10 @@
 /* #Custom Styles
 ================================================== */
 
+button.shopify-payment-button__more-options.BUz42FHpSPncCPJ4Pr_f {
+    z-index: 1000;
+}
+
 button.needsclick.kl-teaser-R4R4hn {
     z-index: 1 !important;
 }

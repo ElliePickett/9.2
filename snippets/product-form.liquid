@@ -694,7 +694,7 @@
       {% capture add_to_cart_label %}{% if collection_handles contains 'pre-order' %}{{ 'collections.general.pre_order' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endif %}{% endcapture %}
 
 
-{% if product.tags contains "filter_instock:In Stock" and product.tags contains "YGroup_larch_boards" %}
+{% if product.tags contains "YGroup_larch_boards" %}
 {% unless product.tags contains 'filter_Location:In Stock in Warehouse' %}
     
 test

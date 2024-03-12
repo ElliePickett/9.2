@@ -489,20 +489,6 @@
             "border_style": "none"
           }
         },
-        "74955b6f-ed18-43bc-bdef-6e5f97571688": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/image0_636f7cd8-5251-46e7-a4f2-0554e0f8c23f.jpg",
-            "title": "Jessie",
-            "heading_size": "regular_text",
-            "text": "<p>Jessie is Knifewear Ottawa’s resident croc-wearing vegetarian. They’re passionate about cooking, gardening and community food security. Jessie has been working in hospitality and kitchens in both Ottawa and Toronto for over 12 years. In their spare time, you can catch them cycling around the city, drinking way too much coffee or having a picnic with friends in the park. Ask them about their favourite Keanu Reeves movie or tips on how to best take care of your house plants!<\/p>",
-            "button_label": "Shibata Koutetsu R2 Migaki Ko-Bunka 130mm",
-            "button_link": "shopify:\/\/products\/kotetsu-r2-migaki-ko-bunka-130mm",
-            "align_text": "left",
-            "border_style": "none"
-          }
-        },
         "7d770efe-a8eb-4bf1-8057-557caadc8aac": {
           "type": "text_block",
           "settings": {
@@ -516,6 +502,20 @@
             "align_text": "left",
             "border_style": "none"
           }
+        },
+        "74955b6f-ed18-43bc-bdef-6e5f97571688": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/IMG_1805.jpg",
+            "title": "Robert",
+            "heading_size": "regular_text",
+            "text": "<p>A new addition to the Knifewear Rehabilitation Centre for Cooks & Chefs. Robert isn’t very good at talking about himself, but if you get him going on things like sharp knives, cool rock climbs or good music, he may never stop. But when he isn't doing a deep dive into every blacksmith he can, you'll find him climbing rocks, experimenting in the kitchen or listening to rad tunes out in the woods with his dog, Ava<\/p>",
+            "button_label": "Shibata Koutetsu R2 Migaki Ko-Bunka 130mm",
+            "button_link": "shopify:\/\/products\/kotetsu-r2-migaki-ko-bunka-130mm",
+            "align_text": "left",
+            "border_style": "none"
+          }
         }
       },
       "block_order": [
@@ -523,8 +523,8 @@
         "16313119251f7b85d3-1",
         "1d74bf49-7ac5-4661-a49e-b77c645f6fac",
         "633988aa-8998-45ab-b71a-3033f3aa281f",
-        "74955b6f-ed18-43bc-bdef-6e5f97571688",
-        "7d770efe-a8eb-4bf1-8057-557caadc8aac"
+        "7d770efe-a8eb-4bf1-8057-557caadc8aac",
+        "74955b6f-ed18-43bc-bdef-6e5f97571688"
       ],
       "settings": {
         "title": "Ottawa",

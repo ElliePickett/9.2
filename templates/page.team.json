@@ -241,20 +241,6 @@
             "border_style": "none"
           }
         },
-        "84b1e706-f3ff-49fd-9035-413ec6931a55": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/image1_1.jpg",
-            "title": "Matt",
-            "heading_size": "regular_text",
-            "text": "<p>Joining us from Manchester, UK, by way of Vancouver, Matt was introduced to Knifewear during the pandemic when West Coast Knife Nerd Ryan hooked up the kitchen with free sharpening (rewarded with a super sexy grilled cheese, of course).  Since then, Matt has put his 10 years of kitchens behind him to get a grip (geddit?) on some awesome knives!  Rocking some colourful tattoos, be sure to ask Matt about mid-west Punk, Pork Belly, and Pizza.<\/p>",
-            "button_label": "Hado Sakai Ginsan Kiritsuke Gyuto 240mm",
-            "button_link": "shopify:\/\/products\/hado-sakai-ginsan-kiritsuke-gyuto-240mm",
-            "align_text": "left",
-            "border_style": "none"
-          }
-        },
         "00adef78-0022-48b4-8a86-293aba5c70c1": {
           "type": "text_block",
           "settings": {
@@ -296,14 +282,29 @@
             "align_text": "left",
             "border_style": "none"
           }
+        },
+        "84b1e706-f3ff-49fd-9035-413ec6931a55": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/image1_1.jpg",
+            "title": "Matt",
+            "heading_size": "regular_text",
+            "text": "<p>Joining us from Manchester, UK, by way of Vancouver, Matt was introduced to Knifewear during the pandemic when West Coast Knife Nerd Ryan hooked up the kitchen with free sharpening (rewarded with a super sexy grilled cheese, of course).  Since then, Matt has put his 10 years of kitchens behind him to get a grip (geddit?) on some awesome knives!  Rocking some colourful tattoos, be sure to ask Matt about mid-west Punk, Pork Belly, and Pizza.<\/p>",
+            "button_label": "Hado Sakai Ginsan Kiritsuke Gyuto 240mm",
+            "button_link": "shopify:\/\/products\/hado-sakai-ginsan-kiritsuke-gyuto-240mm",
+            "align_text": "left",
+            "border_style": "none"
+          }
         }
       },
       "block_order": [
         "864c66fb-a365-419e-be3f-694ad156a5fb",
-        "84b1e706-f3ff-49fd-9035-413ec6931a55",
         "00adef78-0022-48b4-8a86-293aba5c70c1",
         "843e8308-5352-4473-a1a5-d6cc9e3ec95d",
-        "text_block_dR4QW7"
+        "text_block_dR4QW7",
+        "84b1e706-f3ff-49fd-9035-413ec6931a55"
       ],
       "settings": {
         "title": "",
@@ -489,20 +490,6 @@
             "border_style": "none"
           }
         },
-        "74955b6f-ed18-43bc-bdef-6e5f97571688": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/image0_636f7cd8-5251-46e7-a4f2-0554e0f8c23f.jpg",
-            "title": "Jessie",
-            "heading_size": "regular_text",
-            "text": "<p>Jessie is Knifewear Ottawa’s resident croc-wearing vegetarian. They’re passionate about cooking, gardening and community food security. Jessie has been working in hospitality and kitchens in both Ottawa and Toronto for over 12 years. In their spare time, you can catch them cycling around the city, drinking way too much coffee or having a picnic with friends in the park. Ask them about their favourite Keanu Reeves movie or tips on how to best take care of your house plants!<\/p>",
-            "button_label": "Shibata Koutetsu R2 Migaki Ko-Bunka 130mm",
-            "button_link": "shopify:\/\/products\/kotetsu-r2-migaki-ko-bunka-130mm",
-            "align_text": "left",
-            "border_style": "none"
-          }
-        },
         "7d770efe-a8eb-4bf1-8057-557caadc8aac": {
           "type": "text_block",
           "settings": {
@@ -516,6 +503,20 @@
             "align_text": "left",
             "border_style": "none"
           }
+        },
+        "74955b6f-ed18-43bc-bdef-6e5f97571688": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/IMG_1805.jpg",
+            "title": "Robert",
+            "heading_size": "regular_text",
+            "text": "<p>A new addition to the Knifewear Rehabilitation Centre for Cooks & Chefs. Robert isn’t very good at talking about himself, but if you get him going on things like sharp knives, cool rock climbs or good music, he may never stop. But when he isn't doing a deep dive into every blacksmith he can, you'll find him climbing rocks, experimenting in the kitchen or listening to rad tunes out in the woods with his dog, Ava<\/p>",
+            "button_label": "Mutsumi Hinoura \"Ajikataya\" Shirogami Stainless Nashiji Hakata 180mm",
+            "button_link": "shopify:\/\/products\/mutsumi-hinoura-ajikataya-shirogami-stainless-nashiji-hakata-180mm",
+            "align_text": "left",
+            "border_style": "none"
+          }
         }
       },
       "block_order": [
@@ -523,8 +524,8 @@
         "16313119251f7b85d3-1",
         "1d74bf49-7ac5-4661-a49e-b77c645f6fac",
         "633988aa-8998-45ab-b71a-3033f3aa281f",
-        "74955b6f-ed18-43bc-bdef-6e5f97571688",
-        "7d770efe-a8eb-4bf1-8057-557caadc8aac"
+        "7d770efe-a8eb-4bf1-8057-557caadc8aac",
+        "74955b6f-ed18-43bc-bdef-6e5f97571688"
       ],
       "settings": {
         "title": "Ottawa",
@@ -808,6 +809,19 @@
     "165902198070d84d92": {
       "type": "text-columns-with-images",
       "blocks": {
+        "text_block_VYq4mg": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Matt",
+            "heading_size": "regular_text",
+            "text": "<p>Joining us from Manchester, UK, by way of Vancouver, Matt was introduced to Knifewear during the pandemic when West Coast Knife Nerd Ryan hooked up the kitchen with free sharpening (rewarded with a super sexy grilled cheese, of course).  Since then, Matt has put his 10 years of kitchens behind him to get a grip (geddit?) on some awesome knives!  Rocking some colourful tattoos, be sure to ask Matt about mid-west Punk, Pork Belly, and Pizza.<\/p>",
+            "button_label": "Hado Sakai Ginsan Kiritsuke Gyuto 210mm",
+            "button_link": "shopify:\/\/products\/hado-sakai-ginsan-kiritsuke-gyuto-210mm",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
         "16590219809e41533d-1": {
           "type": "text_block",
           "settings": {
@@ -852,6 +866,7 @@
         }
       },
       "block_order": [
+        "text_block_VYq4mg",
         "16590219809e41533d-1",
         "0d327464-386d-4ab8-b177-da261a727684",
         "ab590271-a656-4687-bf72-9c36402cf738"

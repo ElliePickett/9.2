@@ -692,6 +692,22 @@
       {% endif %}
 
       {% capture add_to_cart_label %}{% if collection_handles contains 'pre-order' %}{{ 'collections.general.pre_order' | t }}{% else %}{{ 'products.product.add_to_cart' | t }}{% endif %}{% endcapture %}
+
+
+
+{% unless product.tags contains 'filter_Location:In Stock in Warehouse' %}
+    
+test
+
+<style>
+    . {
+    display: none !important;
+}
+</style>
+
+{% endunless %}
+
+
       <button
         type="{% if settings.cart_action == 'ajax' %}button{% else %}submit{% endif %}"
         name="add"
@@ -719,6 +735,9 @@
           <path fill="none" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11"/>
         </svg>
       </button>
+
+
+
       {% if show_payment_button %}
         {{ form | payment_button }}
       {% endif %}

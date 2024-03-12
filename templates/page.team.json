@@ -241,20 +241,6 @@
             "border_style": "none"
           }
         },
-        "84b1e706-f3ff-49fd-9035-413ec6931a55": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/image1_1.jpg",
-            "title": "Matt",
-            "heading_size": "regular_text",
-            "text": "<p>Joining us from Manchester, UK, by way of Vancouver, Matt was introduced to Knifewear during the pandemic when West Coast Knife Nerd Ryan hooked up the kitchen with free sharpening (rewarded with a super sexy grilled cheese, of course).  Since then, Matt has put his 10 years of kitchens behind him to get a grip (geddit?) on some awesome knives!  Rocking some colourful tattoos, be sure to ask Matt about mid-west Punk, Pork Belly, and Pizza.<\/p>",
-            "button_label": "Hado Sakai Ginsan Kiritsuke Gyuto 240mm",
-            "button_link": "shopify:\/\/products\/hado-sakai-ginsan-kiritsuke-gyuto-240mm",
-            "align_text": "left",
-            "border_style": "none"
-          }
-        },
         "00adef78-0022-48b4-8a86-293aba5c70c1": {
           "type": "text_block",
           "settings": {
@@ -296,14 +282,29 @@
             "align_text": "left",
             "border_style": "none"
           }
+        },
+        "84b1e706-f3ff-49fd-9035-413ec6931a55": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/image1_1.jpg",
+            "title": "Matt",
+            "heading_size": "regular_text",
+            "text": "<p>Joining us from Manchester, UK, by way of Vancouver, Matt was introduced to Knifewear during the pandemic when West Coast Knife Nerd Ryan hooked up the kitchen with free sharpening (rewarded with a super sexy grilled cheese, of course).  Since then, Matt has put his 10 years of kitchens behind him to get a grip (geddit?) on some awesome knives!  Rocking some colourful tattoos, be sure to ask Matt about mid-west Punk, Pork Belly, and Pizza.<\/p>",
+            "button_label": "Hado Sakai Ginsan Kiritsuke Gyuto 240mm",
+            "button_link": "shopify:\/\/products\/hado-sakai-ginsan-kiritsuke-gyuto-240mm",
+            "align_text": "left",
+            "border_style": "none"
+          }
         }
       },
       "block_order": [
         "864c66fb-a365-419e-be3f-694ad156a5fb",
-        "84b1e706-f3ff-49fd-9035-413ec6931a55",
         "00adef78-0022-48b4-8a86-293aba5c70c1",
         "843e8308-5352-4473-a1a5-d6cc9e3ec95d",
-        "text_block_dR4QW7"
+        "text_block_dR4QW7",
+        "84b1e706-f3ff-49fd-9035-413ec6931a55"
       ],
       "settings": {
         "title": "",
@@ -808,6 +809,19 @@
     "165902198070d84d92": {
       "type": "text-columns-with-images",
       "blocks": {
+        "text_block_VYq4mg": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Matt",
+            "heading_size": "regular_text",
+            "text": "<p>Joining us from Manchester, UK, by way of Vancouver, Matt was introduced to Knifewear during the pandemic when West Coast Knife Nerd Ryan hooked up the kitchen with free sharpening (rewarded with a super sexy grilled cheese, of course).  Since then, Matt has put his 10 years of kitchens behind him to get a grip (geddit?) on some awesome knives!  Rocking some colourful tattoos, be sure to ask Matt about mid-west Punk, Pork Belly, and Pizza.<\/p>",
+            "button_label": "Hado Sakai Ginsan Kiritsuke Gyuto 210mm",
+            "button_link": "shopify:\/\/products\/hado-sakai-ginsan-kiritsuke-gyuto-210mm",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
         "16590219809e41533d-1": {
           "type": "text_block",
           "settings": {
@@ -852,6 +866,7 @@
         }
       },
       "block_order": [
+        "text_block_VYq4mg",
         "16590219809e41533d-1",
         "0d327464-386d-4ab8-b177-da261a727684",
         "ab590271-a656-4687-bf72-9c36402cf738"

@@ -34,10 +34,23 @@
             "url": "https:\/\/www.inglewooddrivein.com\/",
             "insta": "inglewooddrivein"
           }
+        },
+        "content_fyEAtf": {
+          "type": "content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image3_42c83e4d-290e-416d-b7ef-62827bdf338b.jpg",
+            "heading": "Ryuko (Recommended by: Matt)",
+            "text": "<p>Tucked away in the south of Calgary is an excellent restaurant from Chef Jun Young Park.  Offering a beautiful array of Japanese dishes from Wagyu Tartare to chef-curated Bento boxes to a beautiful sushi and sashimi offering, this place is worth the trip! Don’t forget to try their cocktails!<\/p><p><\/p>",
+            "fun-fact-heading": " Must Try:",
+            "fun-fact": "<p><em>Nasu Yaki, Tonkatsu<\/em><\/p>",
+            "url": "https:\/\/www.ryuko.ca\/",
+            "insta": "ryuko.yyc"
+          }
         }
       },
       "block_order": [
-        "content_ziYgb3"
+        "content_ziYgb3",
+        "content_fyEAtf"
       ],
       "settings": {
         "layout": "small"

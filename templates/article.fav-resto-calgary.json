@@ -20,6 +20,29 @@
         "toggle": false
       }
     },
+    "ep_blog_feature_content_NBGYCF": {
+      "type": "ep-blog-feature-content",
+      "blocks": {
+        "content_ziYgb3": {
+          "type": "content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image4_efb8f2ed-f202-414a-98dc-7d1dc882afe1.jpg",
+            "heading": "Inglewood Drive-In (Recommended by: All)",
+            "text": "<p>If you come and visit us in Inglewood and you have a hankering for a beautifully greasy burger and fries, look no further than the Drive-In. A classic burger joint located maybe 30 seconds walk from our front door, serving a range of classic, mouthwatering burgers and an ever-changing list of milkshakes.<\/p>",
+            "fun-fact-heading": "Must Try:",
+            "fun-fact": "<p><em>Deluxe Combo, Strawberry Milkshake and a Dole Whip! <\/em><\/p>",
+            "url": "https:\/\/www.inglewooddrivein.com\/",
+            "insta": "inglewooddrivein"
+          }
+        }
+      },
+      "block_order": [
+        "content_ziYgb3"
+      ],
+      "settings": {
+        "layout": "small"
+      }
+    },
     "02522705-a16e-42af-adf0-0559785bfd7a": {
       "type": "divider",
       "settings": {
@@ -67,6 +90,7 @@
   },
   "order": [
     "main",
+    "ep_blog_feature_content_NBGYCF",
     "02522705-a16e-42af-adf0-0559785bfd7a",
     "47b31a9c-4f8b-4ae7-9a78-1308c2cfe08a",
     "newsletter",

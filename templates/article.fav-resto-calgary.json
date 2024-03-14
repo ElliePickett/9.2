@@ -46,18 +46,71 @@
             "url": "https:\/\/www.ryuko.ca\/",
             "insta": "ryuko.yyc"
           }
+        },
+        "content_ykakC7": {
+          "type": "content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image5_7114d66b-cfa8-4e3f-a512-4a54f55f2839.jpg",
+            "heading": "Shokunin (Recommended by: Connor)",
+            "text": "<p>Chicken ass, bumping hip-hop, a couple too many cocktails. This is a night at Shokunin. Firmly established as a Calgary staple, Shokunin raised the bar for Calgary’s food scene with its salty and sweet Canadian Izakaya food. The skewers are grilled on binchotan, the appetizers are perfectly balanced, and the atmosphere is electric. If you haven’t eaten at Chef Darren MacLean’s flagship, you need to.<\/p><p><\/p>",
+            "fun-fact-heading": "Must try:",
+            "fun-fact": "<p><em>EVERYTHING<\/em><\/p>",
+            "url": "https:\/\/shokuninyyc.ca\/",
+            "insta": "shokuninyyc"
+          }
+        },
+        "content_y3wrxB": {
+          "type": "content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image1_34dd0187-e7f3-4a00-9489-e0005683ff03.jpg",
+            "heading": "Class Clown Hamburgers (Recommended by: Samii)",
+            "text": "<p>This awesome smash burger spot dots the i’s and tosses the t’s. Tucked away in Mission in a small space, this place makes my mouth water any time I think about those juice patties. Great vibes and an awesome selection of beers and other drinks. They really keep things retro and fun.<\/p><p><\/p>",
+            "fun-fact-heading": "Must try:",
+            "fun-fact": "<p><em>Coney Island Cowboy and Winnipeg Fat Boy <\/em><\/p>",
+            "url": "https:\/\/www.classclown.ca\/",
+            "insta": "classclownhamburgers"
+          }
+        },
+        "content_QwfwED": {
+          "type": "content",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image2_fe45f1be-38ad-4e01-ab1c-7fe7fc877881.jpg",
+            "heading": "Alvin's Jazz Club (Recommended by: Kyle)",
+            "text": "<p>Living down in the southern reaches of Calgary has its perks, but one thing that has always eluded me is finding that perfect spot where you can savour the exquisite blend of soulful music and delectable cuisine. That was until I stumbled upon Alvin's Jazz Club. From the moment you step inside, you're transported back to the glamour and allure of 1920s New York City jazz clubs. The ambiance oozes with vintage charm, making it the ideal escape from the hustle and bustle of everyday life.  What truly sets Alvin's apart is its unbeatable Wednesday special – a three-course meal for two priced at just $99. Great for a special night out with food and music!<\/p><p><\/p>",
+            "fun-fact-heading": "Must try:",
+            "fun-fact": "<p><em>Short Rib Wellington<\/em><\/p>",
+            "url": "https:\/\/alvinsjazzclub.com\/",
+            "insta": "alvinsjazzclub"
+          }
         }
       },
       "block_order": [
         "content_ziYgb3",
-        "content_fyEAtf"
+        "content_fyEAtf",
+        "content_ykakC7",
+        "content_y3wrxB",
+        "content_QwfwED"
       ],
       "settings": {
         "layout": "small"
       }
     },
+    "featured_text_8w9JDd": {
+      "type": "featured-text",
+      "settings": {
+        "title": "",
+        "content": "<p>If none of those tickle your fancy, just ask us; there are always new restaurants opening or hidden gems to discover!<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "regular_text",
+        "text_alignment": "align_left",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
     "02522705-a16e-42af-adf0-0559785bfd7a": {
       "type": "divider",
+      "disabled": true,
       "settings": {
         "divider_spacing": 30,
         "divider_border": false,
@@ -104,6 +157,7 @@
   "order": [
     "main",
     "ep_blog_feature_content_NBGYCF",
+    "featured_text_8w9JDd",
     "02522705-a16e-42af-adf0-0559785bfd7a",
     "47b31a9c-4f8b-4ae7-9a78-1308c2cfe08a",
     "newsletter",

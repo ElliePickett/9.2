@@ -3,7 +3,7 @@
     "main": {
       "type": "article-template",
       "settings": {
-        "featured_image": "content",
+        "featured_image": "none",
         "wide_display": false,
         "caption_content_background": "original",
         "blog_breadcrumb": true,

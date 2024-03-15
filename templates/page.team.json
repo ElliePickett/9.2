@@ -853,6 +853,7 @@
         },
         "ab590271-a656-4687-bf72-9c36402cf738": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/ToqueSocials_3.jpg",

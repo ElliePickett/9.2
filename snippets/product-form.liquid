@@ -48,7 +48,7 @@
   {% form 'product', product %}
 
 
-    {% render 'ep-product-note-mail-in' %}
+    
 
   <div
     class="
@@ -84,6 +84,8 @@
       {% endfor %}
     </div>
   {% endif %}
+
+  {% render 'ep-product-note-mail-in' %}
 
   {% if product.available %}
     {% if settings.display_inventory_left %}

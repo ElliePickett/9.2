@@ -169,20 +169,6 @@
             "border_style": "none"
           }
         },
-        "be605233-7528-4a5e-9725-f4b10556a28d": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/IMG_20230810_011615.jpg",
-            "title": "Samii \/ Assistant Manager",
-            "heading_size": "regular_text",
-            "text": "<p>Samii is our expert ceramic artist in the shop. Having spent years in the food industry while attending art school she is a lover of art, good food and beautiful knives! Fanatic of all things funky, flashy and perhaps a little gaudy. You're guaranteed to spot Samii in the shop rocking some flamboyant bright hair and fashion, and she's a big ol’ ray of sunshine and spunk in or out of the shop. You might see Samii out in the world at her art studio in Inglewood, hustling at markets being a badass local maker for her own brand Fox Den Studio or enjoying beers, punk rock and trivia in the city.<\/p>",
-            "button_label": "Masashi Shiroshu Kiritsuke 210mm",
-            "button_link": "shopify:\/\/products\/masashi-sld-damascus-kiritsuke-210mm",
-            "align_text": "left",
-            "border_style": "none"
-          }
-        },
         "00d464da-7135-4120-b27c-a6c78e28d5f1": {
           "type": "text_block",
           "settings": {
@@ -214,7 +200,6 @@
       },
       "block_order": [
         "16312285267abd387e-1",
-        "be605233-7528-4a5e-9725-f4b10556a28d",
         "00d464da-7135-4120-b27c-a6c78e28d5f1",
         "16312285267abd387e-0"
       ],

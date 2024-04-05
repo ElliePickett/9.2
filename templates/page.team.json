@@ -58,7 +58,7 @@
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/fullsizeoutput_10d.jpeg",
-            "title": "Kasumi",
+            "title": "Kasumi \/ Manager",
             "heading_size": "regular_text",
             "text": "<p>Since early 2010 Kasumi has been bringing a bit of class to Knifewear. Though she insists she's not a knife nerd, we often catch her contemplating her next purchase. She makes bagels at home and ice cream too, how cool is that? Kasumi was the manager of the Calgary store and has move to Toronto to get setup in the Big TO! We often wonder how she ended up with a bunch of misfits like us.<\/p>",
             "button_label": "TOJIRO ATELIER VG10 DAMASCUS SUJIHIKI 270MM",
@@ -196,23 +196,8 @@
             "align_text": "left",
             "border_style": "none"
           }
-        }
-      },
-      "block_order": [
-        "16312285267abd387e-1",
-        "00d464da-7135-4120-b27c-a6c78e28d5f1",
-        "16312285267abd387e-0"
-      ],
-      "settings": {
-        "title": "Calgary",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "1631228733a246418c": {
-      "type": "text-columns-with-images",
-      "blocks": {
-        "864c66fb-a365-419e-be3f-694ad156a5fb": {
+        },
+        "text_block_qkWFpi": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
@@ -226,21 +211,7 @@
             "border_style": "none"
           }
         },
-        "00adef78-0022-48b4-8a86-293aba5c70c1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/jacob.jpg",
-            "title": "Jacob",
-            "heading_size": "regular_text",
-            "text": "<p>Meet Jacob! While bouncing around national parks and the west coast of Canada, one thing remained constant for him, his love of Barbecue. If you see him, feel free to ask him anything smoking related, because he loves a good brisket. Hailing from Calgary, Jacob came back from his adventures to be closer to family, and to go to marketing school. His love of food and sharp things eventually landed him a job at the Inglewood location, where they needed someone to reach stuff off the top shelf. If you see him, you’ll be greeted with a smile and wave, and he’s happy to help you find something that fits you perfectly!<\/p>",
-            "button_label": "Kobayashi SG2 Santoku 170mm",
-            "button_link": "shopify:\/\/products\/kobayashi-sg2-santoku-170mm",
-            "align_text": "left",
-            "border_style": "none"
-          }
-        },
-        "843e8308-5352-4473-a1a5-d6cc9e3ec95d": {
+        "text_block_nJ3J3N": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
@@ -254,7 +225,7 @@
             "border_style": "none"
           }
         },
-        "text_block_dR4QW7": {
+        "text_block_kqGxCJ": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
@@ -262,37 +233,23 @@
             "title": "Sam",
             "heading_size": "regular_text",
             "text": "<p>Sam spent a decade exploring the many provinces of this lovely country before returning to his hometown of Calgary because he liked the weather. After finishing photography school, Sam found himself enamoured by the organized chaos of kitchen life, where he spent many early mornings and late late nights. If you see him in the shop, ask him about his affinity for extremely reactive carbon steel knives, old bicycles, titanium cookware and whether or not a pop tart can be considered a dumpling. <\/p>",
-            "button_label": "",
+            "button_label": "Moritaka Ishime Mega Nakiri 165mm",
             "button_link": "shopify:\/\/products\/moritaka-ishime-mega-nakiri-165mm",
-            "align_text": "left",
-            "border_style": "none"
-          }
-        },
-        "84b1e706-f3ff-49fd-9035-413ec6931a55": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/image1_1.jpg",
-            "title": "Matt",
-            "heading_size": "regular_text",
-            "text": "<p>Joining us from Manchester, UK, by way of Vancouver, Matt was introduced to Knifewear during the pandemic when West Coast Knife Nerd Ryan hooked up the kitchen with free sharpening (rewarded with a super sexy grilled cheese, of course).  Since then, Matt has put his 10 years of kitchens behind him to get a grip (geddit?) on some awesome knives!  Rocking some colourful tattoos, be sure to ask Matt about mid-west Punk, Pork Belly, and Pizza.<\/p>",
-            "button_label": "Hado Sakai Ginsan Kiritsuke Gyuto 240mm",
-            "button_link": "shopify:\/\/products\/hado-sakai-ginsan-kiritsuke-gyuto-240mm",
             "align_text": "left",
             "border_style": "none"
           }
         }
       },
       "block_order": [
-        "864c66fb-a365-419e-be3f-694ad156a5fb",
-        "00adef78-0022-48b4-8a86-293aba5c70c1",
-        "843e8308-5352-4473-a1a5-d6cc9e3ec95d",
-        "text_block_dR4QW7",
-        "84b1e706-f3ff-49fd-9035-413ec6931a55"
+        "16312285267abd387e-1",
+        "00d464da-7135-4120-b27c-a6c78e28d5f1",
+        "16312285267abd387e-0",
+        "text_block_qkWFpi",
+        "text_block_nJ3J3N",
+        "text_block_kqGxCJ"
       ],
       "settings": {
-        "title": "",
+        "title": "Calgary",
         "css_class": "",
         "custom_css": ""
       }
@@ -431,21 +388,6 @@
             "border_style": "none"
           }
         },
-        "16313119251f7b85d3-1": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Ottawa_profile_3_large_0432c0ed-93ca-441c-a66f-f75054cc15d8.jpg",
-            "title": "Alex \/ Manager",
-            "heading_size": "regular_text",
-            "text": "<p>Another ex-chef turned professional Knife Nerd, Alex hails from the metropolis of Trenton. His career in the kitchen started at The Niagara Food & Wine Institute and finished at Union Local: 613 with our very own Lordy. Just ask him about the time Chris drank a bottle of honey for $5…<\/p>",
-            "button_label": "Takeda NAS Bunka 170mm",
-            "button_link": "shopify:\/\/products\/takeda-nas-bunka-170mm",
-            "align_text": "left",
-            "border_style": "none"
-          }
-        },
         "1d74bf49-7ac5-4661-a49e-b77c645f6fac": {
           "type": "text_block",
           "settings": {
@@ -456,21 +398,6 @@
             "text": "<p>Familiar story with this fella, a decade spent in the kitchen led him to Knifewear. Since joining the “Knifewear Restaurant Workers Rehabilitation ProgramTM” he’s back to enjoying actually cooking at home with his wife, who’s really the one in charge in the kitchen. With a fierce love of all things food, particularly pasta, he’s a natural fit with the rest of the crew at the Ottawa shop. Make sure to wave hello when you’re walking down Bank Street and he’s eating lunch on a bench in the sun. <\/p>",
             "button_label": "Masakage Koishi AS Nakiri 165mm",
             "button_link": "shopify:\/\/products\/masakage-koishi-as-nakiri-165mm",
-            "align_text": "left",
-            "border_style": "none"
-          }
-        },
-        "633988aa-8998-45ab-b71a-3033f3aa281f": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-08-29_at_2.23.50_PM.png",
-            "title": "Mekki",
-            "heading_size": "regular_text",
-            "text": "<p>An Ottawan through and through, Mr. Mekki, the prefix he officially picked up in his year of teaching English in China, may be the most seasoned traveler of the Ottawa bunch. Having worked as a cook for the better part of a decade he is also no stranger to everything pickled, cured and fermented. In his spare time, you’ll find him grooving to hip hop or shreddin’ to punk and metal. A wealth of mostly useless factoids, Mekki is as quick answering any trivial question as he is shaping a pierogi. If you get the chance to meet Mekki, you should ask him how many pierogies he’s made, the count is very impressive and definitely too high.<\/p>",
-            "button_label": "Hado Sakai Sumi Bunka 180mm",
-            "button_link": "shopify:\/\/products\/hado-sakai-sumi-bunka-180mm",
             "align_text": "left",
             "border_style": "none"
           }
@@ -506,9 +433,7 @@
       },
       "block_order": [
         "16313119251f7b85d3-0",
-        "16313119251f7b85d3-1",
         "1d74bf49-7ac5-4661-a49e-b77c645f6fac",
-        "633988aa-8998-45ab-b71a-3033f3aa281f",
         "7d770efe-a8eb-4bf1-8057-557caadc8aac",
         "74955b6f-ed18-43bc-bdef-6e5f97571688"
       ],
@@ -777,13 +702,28 @@
             "align_text": "left",
             "border_style": "none"
           }
+        },
+        "text_block_Qgr8wD": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/jacob.jpg",
+            "title": "Jacob \/ Brand Communications",
+            "heading_size": "regular_text",
+            "text": "<p>Meet Jacob! While bouncing around national parks and the west coast of Canada, one thing remained constant for him, his love of Barbecue. If you see him, feel free to ask him anything smoking related, because he loves a good brisket. Hailing from Calgary, Jacob came back from his adventures to be closer to family, and to go to marketing school. His love of food and sharp things eventually landed him a job at the Inglewood location, where they needed someone to reach stuff off the top shelf. If you see him, you’ll be greeted with a smile and wave, and he’s happy to help you find something that fits you perfectly!<\/p>",
+            "button_label": "Kobayashi SG2 Santoku 170mm",
+            "button_link": "shopify:\/\/products\/kobayashi-sg2-santoku-170mm",
+            "align_text": "left",
+            "border_style": "none"
+          }
         }
       },
       "block_order": [
         "243bbd56-b7aa-4329-847d-20f7135752f9",
         "1631312791fef1d203-1",
         "c0a51d29-6bef-4b2c-ad2f-a4c1c4583edf",
-        "ebcccef1-bd46-4378-bbfa-c3a71123ac12"
+        "ebcccef1-bd46-4378-bbfa-c3a71123ac12",
+        "text_block_Qgr8wD"
       ],
       "settings": {
         "title": "",
@@ -871,7 +811,6 @@
     "16313126990ce7a384",
     "bcf6ad95-3b4c-4a96-a17f-076d2bc0e7d3",
     "16312285267abd387e",
-    "1631228733a246418c",
     "163131175226d1f1cf",
     "16313119251f7b85d3",
     "1631311935c45bc8e5",

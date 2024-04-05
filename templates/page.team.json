@@ -716,30 +716,13 @@
             "align_text": "left",
             "border_style": "none"
           }
-        }
-      },
-      "block_order": [
-        "243bbd56-b7aa-4329-847d-20f7135752f9",
-        "1631312791fef1d203-1",
-        "c0a51d29-6bef-4b2c-ad2f-a4c1c4583edf",
-        "ebcccef1-bd46-4378-bbfa-c3a71123ac12",
-        "text_block_Qgr8wD"
-      ],
-      "settings": {
-        "title": "",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "165902198070d84d92": {
-      "type": "text-columns-with-images",
-      "blocks": {
-        "text_block_VYq4mg": {
+        },
+        "text_block_4YyU8W": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/in-action_1.jpg",
-            "title": "Matt",
+            "title": "Matt \/ Warehouse team",
             "heading_size": "regular_text",
             "text": "<p>Joining us from Manchester, UK, by way of Vancouver, Matt was introduced to Knifewear during the pandemic when West Coast Knife Nerd Ryan hooked up the kitchen with free sharpening (rewarded with a super sexy grilled cheese, of course).  Since then, Matt has put his 10 years of kitchens behind him to get a grip (geddit?) on some awesome knives!  Rocking some colourful tattoos, be sure to ask Matt about mid-west Punk, Pork Belly, and Pizza.<\/p>",
             "button_label": "Hado Sakai Ginsan Kiritsuke Gyuto 210mm",
@@ -748,26 +731,26 @@
             "border_style": "none"
           }
         },
-        "16590219809e41533d-1": {
+        "text_block_64Ppc3": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/PXL_20220728_150845286.jpg",
-            "title": "Nolan",
+            "title": "Nolan \/ Warehouse team",
             "heading_size": "regular_text",
             "text": "<p>Nolan was a chef with an extensive knife, spoon, and maybe every other kitchen utensil collection. As his collection grew, he became aware that the only path forward for him was to come to the source of his addiction!  He’s brought his extensive collections and ample cooking knowledge to the warehouse where he truly shines as an ace customer service rep, shipper, receiver and bringer of treats.  <\/p><p>On top of being awesome for advice on tools, cooking and camping, Nolan has amazing tattoos with great stories behind many of them– you should ask him about the greatest prank ever pulled sometime!<\/p>",
-            "button_label": "Moritaka Ishime Kiritsuke 240mm",
-            "button_link": "shopify:\/\/products\/moritaka-ishime-kiritsuke-240mm",
+            "button_label": "",
+            "button_link": "",
             "align_text": "left",
             "border_style": "none"
           }
         },
-        "0d327464-386d-4ab8-b177-da261a727684": {
+        "text_block_9WXQaw": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/ramen-bowl-tee.jpg",
-            "title": "Tiago",
+            "title": "Tiago \/ Warehouse team",
             "heading_size": "regular_text",
             "text": "<p>Tiago is an international man of mystery! He reveals himself to be funnier, more hardworking and a better problem solver every day.  He keeps us on our toes in the warehouse and can move a pallet of charcoal with only his mind! (we think-- we haven't tested this). Tiago's favourite activities are waiting for the bus on super cold days and writing lists.<\/p>",
             "button_label": "Higo no Kami",
@@ -775,28 +758,17 @@
             "align_text": "left",
             "border_style": "none"
           }
-        },
-        "ab590271-a656-4687-bf72-9c36402cf738": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/ToqueSocials_3.jpg",
-            "title": "Quinn",
-            "heading_size": "regular_text",
-            "text": "<p>Quinn comes to us from the misty hills of Virginia. Drawn to bustling big city life by his musical career with CACTUS ORANGE, he found love and now can never leave.  Working hard to provide for their cats, Quinn now spends his days in the ever challenging environs of the Knifewear Warehouse.  He’s the fastest shipper in the West; delivering your orders with precision and passion. <\/p>",
-            "button_label": "Makoto Kurosaki VG10W Kodama Santoku 165mm",
-            "button_link": "shopify:\/\/products\/makoto-kurosaki-vg10w-kodama-santoku-165mm",
-            "align_text": "left",
-            "border_style": "none"
-          }
         }
       },
       "block_order": [
-        "text_block_VYq4mg",
-        "16590219809e41533d-1",
-        "0d327464-386d-4ab8-b177-da261a727684",
-        "ab590271-a656-4687-bf72-9c36402cf738"
+        "243bbd56-b7aa-4329-847d-20f7135752f9",
+        "1631312791fef1d203-1",
+        "c0a51d29-6bef-4b2c-ad2f-a4c1c4583edf",
+        "ebcccef1-bd46-4378-bbfa-c3a71123ac12",
+        "text_block_Qgr8wD",
+        "text_block_4YyU8W",
+        "text_block_64Ppc3",
+        "text_block_9WXQaw"
       ],
       "settings": {
         "title": "",
@@ -816,7 +788,6 @@
     "1631311935c45bc8e5",
     "16313123761fbe7b98",
     "1631311948d2240365",
-    "1631312791fef1d203",
-    "165902198070d84d92"
+    "1631312791fef1d203"
   ]
 }

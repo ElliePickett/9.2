@@ -1,0 +1,10 @@
+<!-- 
+Simple method for detecting an Admin in Shopify using liquid.
+Quick code by jason at freakdesign.com.au
+Related Blog post: http://freakdesign.com.au/blogs/news/34154561
+-->
+{% capture CFH %}{{ content_for_header  }}{% endcapture %}{{ CFH }}
+
+{% if CFH contains 'admin_bar_iframe' %}
+  {% assign isAdmin = true %}
+{% endif %}

@@ -4,7 +4,11 @@ Quick code by jason at freakdesign.com.au
 Related Blog post: http://freakdesign.com.au/blogs/news/34154561
 -->
 {% capture CFH %}{{ content_for_header  }}{% endcapture %}{{ CFH }}
-boo!
+
 {% if CFH contains 'admin_bar_iframe' %}
   {% assign isAdmin = true %}
+
+
+  boo!
+  
 {% endif %}

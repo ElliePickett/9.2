@@ -22,7 +22,7 @@
         "85d0d77c-b039-46b0-b112-b6af3ed762dd": {
           "type": "custom-liquid",
           "settings": {
-            "custom_liquid": "{% assign yoptoreviewcount = product.metafields.yotpo.reviews_count | plus:0 %}\n\n{% if product.available == true and yoptoreviewcount >= 3 %}\n<div class=\"ep-paint-block-review-snippet\">\n<!-- Yopto top Start -->\n {% if request.locale.iso_code == 'en' %}\n          \t{% if product.template_suffix != 'sharpening' %}\n\t\t\t\t\t<div class=\"yotpo yotpo-shoppers-say\" data-product-id=\"{{ product.id }}\">&nbsp;<\/div>\n{% endif %}\n   {% endif %}\n<!-- Yopto top end -->\n<\/div>\n {% endif %}\n\n   {% render 'ep-admin-user' %}"
+            "custom_liquid": "{% assign yoptoreviewcount = product.metafields.yotpo.reviews_count | plus:0 %}\n\n{% if product.available == true and yoptoreviewcount >= 3 %}\n<div class=\"ep-paint-block-review-snippet\">\n<!-- Yopto top Start -->\n {% if request.locale.iso_code == 'en' %}\n          \t{% if product.template_suffix != 'sharpening' %}\n\t\t\t\t\t<div class=\"yotpo yotpo-shoppers-say\" data-product-id=\"{{ product.id }}\">&nbsp;<\/div>\n{% endif %}\n   {% endif %}\n<!-- Yopto top end -->\n<\/div>\n {% endif %}"
           }
         },
         "title": {

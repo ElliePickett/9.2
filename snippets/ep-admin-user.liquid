@@ -9,7 +9,25 @@ Related Blog post: http://freakdesign.com.au/blogs/news/34154561
   {% assign isAdmin = true %}
 
 {%if product.metafields.custom.product_flags != true %}
-<div style="background: black;color:white;padding:5px;">
+
+<style>
+ul.metafield-single_line_text_field-array {
+list-style: none;
+    display: inline-flex;
+    padding: 5px 0 0 25px;
+    margin: 12px 0 0;
+}
+
+li.metafield-single_line_text_field {
+    padding: 0 10px 0 0;
+}
+</style>  
+
+<div style="background: #777;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}">
 
 
 <b>Product Flags: </b>{{ product.metafields.custom.product_flags | metafield_tag }}

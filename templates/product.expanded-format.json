@@ -127,6 +127,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "{{ product.metafields.custom.expanded_format_information.value.media.value }}",
             "title": "",
             "heading_size": "regular_text",
             "text": "",

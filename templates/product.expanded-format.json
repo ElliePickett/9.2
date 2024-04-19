@@ -2,12 +2,12 @@
   "order": [
     "sidebar",
     "main",
-    "text_columns_with_images_CxBtAL",
     "00067b09-6af5-45a4-8d49-a31a1684fc4a",
     "ffa448c5-8b00-4c40-a775-5e70469e6864",
     "1687554155cc9bd94b",
     "43e4ff03-94d2-4cc3-bbd1-7de99ce4dbfc",
-    "recommendations"
+    "recommendations",
+    "text_columns_with_images_two_fifths_9L6DVL"
   ],
   "sections": {
     "sidebar": {
@@ -120,48 +120,6 @@
         "enable_thumbnail_slider": true
       }
     },
-    "text_columns_with_images_CxBtAL": {
-      "type": "text-columns-with-images",
-      "blocks": {
-        "text_block_BqQBrd": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "{{ product.metafields.custom.expanded_format_information.value.media.value }}",
-            "title": "",
-            "heading_size": "regular_text",
-            "text": "",
-            "button_label": "",
-            "button_link": "",
-            "align_text": "left",
-            "border_style": "none"
-          }
-        },
-        "text_block_Vfb3j9": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image": "{{ product.metafields.custom.expanded_format_information.value.media.value }}",
-            "title": "See {{ product.title }} in action",
-            "heading_size": "regular_text",
-            "text": "<p>{{ product.metafields.custom.expanded_format_information.value.desc | metafield_tag }}<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "align_text": "left",
-            "border_style": "none"
-          }
-        }
-      },
-      "block_order": [
-        "text_block_BqQBrd",
-        "text_block_Vfb3j9"
-      ],
-      "settings": {
-        "title": "",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
     "00067b09-6af5-45a4-8d49-a31a1684fc4a": {
       "type": "searchspring-recommendations",
       "settings": {
@@ -208,6 +166,47 @@
         "product_recommendations_heading": "CUSTOMERS WHO VIEWED THIS ENDED UP WITH",
         "products_per_row": 5,
         "recommended_products_limit": 5
+      }
+    },
+    "text_columns_with_images_two_fifths_9L6DVL": {
+      "type": "text-columns-with-images-two-fifths",
+      "blocks": {
+        "text_block_3QyEW7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "title": "{{ product.metafields.custom.expanded_format_information.value.title.value }}",
+            "heading_size": "regular_text",
+            "text": "<p>{{ product.metafields.custom.expanded_format_information.value.desc | metafield_tag }}<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "text_block_kFNVwj": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "{{ product.metafields.custom.expanded_format_information.value.media.value }}",
+            "title": "",
+            "heading_size": "regular_text",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_3QyEW7",
+        "text_block_kFNVwj"
+      ],
+      "settings": {
+        "title": "",
+        "css_class": "",
+        "custom_css": ""
       }
     }
   },

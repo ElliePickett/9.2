@@ -1,7 +1,5 @@
-{% if product.tags contains "filter_Location:In Stock in Warehouse" and settings.first_day_garage_sale == true and settings.show_garageSaleLiveTxt == true %}
+{% if product.tags contains "filter_Location:In Stock in Warehouse" and product.tags contains "garage sale" and settings.first_day_garage_sale == true and settings.show_garageSaleLiveTxt == true %}
   
-
- {% if settings.show_garageSaleLiveTxt == true and  product.tags contains "garage sale" %}
   {% if product.tags contains "filter_Location:In Stock in Vancouver" or 
   		product.tags contains "filter_Location:In Stock in Toronto" or 
   		product.tags contains "filter_Location:In Stock in Ottawa" or 
@@ -31,7 +29,7 @@ During the first day of Garage Sale, stock in our retail locations is reserved f
                <style>.findify-sticker-garage-sale { display: block !important; }</style>
           		</div>
 
-    {% endif %}  {% endif %}   
+    {% endif %}  
 
 {% elsif settings.show_garageSaleLiveTxt == true and  product.tags contains "garage sale" and product.available == true %}   
 

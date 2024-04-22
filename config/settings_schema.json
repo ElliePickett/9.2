@@ -37,7 +37,7 @@
         "id": "first_day_garage_sale",
         "label": "Enable for First day of Garage Sale",
         "default": false
-      },
+      }
     ]
   },
   {

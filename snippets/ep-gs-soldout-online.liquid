@@ -1,4 +1,4 @@
-{% if product.tags contains "filter_Location:In Stock in Warehouse" and settings.first_day_garage_sale == true %}
+{% if product.tags contains "filter_Location:In Stock in Warehouse" and settings.first_day_garage_sale == true and settings.show_garageSaleLiveTxt == true %}
   
 
  {% if settings.show_garageSaleLiveTxt == true and  product.tags contains "garage sale" %}
@@ -55,6 +55,7 @@ During the first day of Garage Sale, stock in our retail locations is reserved f
     div.purchase-details__quantity.product-quantity-box {
     display: none !important;
 }</style>
+
 {% endif %}  
 
 

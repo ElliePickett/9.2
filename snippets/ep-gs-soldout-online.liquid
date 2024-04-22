@@ -1,4 +1,4 @@
-{% unless product.tags contains "filter_Location:In Stock in Warehouse" %}
+{% unless product.tags contains "filter_Location:In Stock in Warehouse" and settings.first_day_garage_sale == true %}
   
 
 

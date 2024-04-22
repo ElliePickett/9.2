@@ -31,7 +31,13 @@
         "type": "richtext",
         "id": "garageSaleLiveTxt",
         "label": "Garage Sale - Live up text"
-      }
+      },
+      {
+        "type": "checkbox",
+        "id": "first_day_garage_sale",
+        "label": "Enable for First day of Garage Sale",
+        "default": false
+      },
     ]
   },
   {

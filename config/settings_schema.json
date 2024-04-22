@@ -34,7 +34,7 @@
       },
       {
         "type": "checkbox",
-        "id": "first_day_garage_sale",
+        "id": "first_dayGarageSale",
         "label": "Enable for First day of Garage Sale",
         "default": false
       }

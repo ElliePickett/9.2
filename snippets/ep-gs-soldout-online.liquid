@@ -1,4 +1,4 @@
-{% unless product.tags contains "filter_Location:In Stock in Warehouse" and settings.first_day_garage_sale == true %}
+{% if product.tags contains "filter_Location:In Stock in Warehouse" and settings.first_day_garage_sale == true %}
   
 
  {% if settings.show_garageSaleLiveTxt == true and  product.tags contains "garage sale" %}
@@ -31,18 +31,17 @@ During the first day of Garage Sale, stock in our retail locations is reserved f
                <style>.findify-sticker-garage-sale { display: block !important; }</style>
           		</div>
 
-    {% endif %}  
-             <!-- {% elsif settings.show_garageSaleLiveTxt == true and  product.tags contains "garage sale" and product.available == true %}   
+    {% endif %}  {% endif %}   
+
+{% elsif settings.show_garageSaleLiveTxt == true and  product.tags contains "garage sale" and product.available == true %}   
 
                <div class="gs-disclaimer"> 
                   <p> {{ settings.garageSaleLiveTxt }}</p>
                <style>.findify-sticker-garage-sale { display: block !important; }</style>
-          		</div> -->
+                </div>
 
 
-                   {% endif %}   
-
-{% endunless %}
+{% endif %}
 
 
 <!-- Swym button on product pages --><div class="ep-paint-block-wishlist">        <div class="swym-wishlist-button-bar"></div></div>

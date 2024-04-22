@@ -1,7 +1,6 @@
 {% unless product.tags contains "filter_Location:In Stock in Warehouse" and settings.first_day_garage_sale == true %}
   
 
-
  {% if settings.show_garageSaleLiveTxt == true and  product.tags contains "garage sale" %}
   {% if product.tags contains "filter_Location:In Stock in Vancouver" or 
   		product.tags contains "filter_Location:In Stock in Toronto" or 

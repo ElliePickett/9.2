@@ -61,6 +61,7 @@
         },
         "d21adcb5-c58a-47c5-8b1b-78a262788463": {
           "type": "shopify:\/\/apps\/one-click-upsell-zipify-ocu\/blocks\/on-page\/bfe6e378-b73a-4871-b8d3-7d6ede22678e",
+          "disabled": true,
           "settings": {
           }
         },

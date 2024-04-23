@@ -1,19 +1,27 @@
-{% if product.tags contains "filter_Location:In Stock in Warehouse" and product.tags contains "garage sale" and settings.first_dayGarageSale == true and settings.show_garageSaleLiveTxt == true %}
-  
-  {% if product.tags contains "filter_Location:In Stock in Vancouver" or 
-  		product.tags contains "filter_Location:In Stock in Toronto" or 
-  		product.tags contains "filter_Location:In Stock in Ottawa" or 
-  		product.tags contains "filter_Location:In Stock in Calgary" %}
+
+
+<!-- Check if product is avilable in the warehouse and if it isn't....-->
+{% unless product.tags contains "filter_Location:In Stock in Warehouse" and product.tags contains "garage sale" %}
+
+
+<!-- Check if it is the first day of the Garage Sale -->
+{% if settings.first_dayGarageSale == true and settings.show_garageSaleLiveTxt == true %}
+
+ {% if product.tags contains "filter_Location:In Stock in Vancouver" or 
+        product.tags contains "filter_Location:In Stock in Toronto" or 
+        product.tags contains "filter_Location:In Stock in Ottawa" or 
+        product.tags contains "filter_Location:In Stock in Calgary" or
+        product.tags contains "filter_Location:In Stock in Edmonton" %}
 
 <style> 
-.purchase-details,	
+.purchase-details,  
 a.action_button.klaviyo-bis-trigger {
     display: none !important;
 }
 </style>
 
 <div class="gs-disclaimer"> 
-	<h5>Hey Garage Sailor!</h5>
+    <h5>Hey Garage Sailor!</h5>
 <b>Looking for this knife in store during Garage Sale?</b> It is in stock at 
 {% if product.tags contains "filter_Location:In Stock in Calgary"  %}Calgary, {% endif %}
 {% if product.tags contains "filter_Location:In Stock in Edmonton"  %}Edmonton, {% endif %}
@@ -24,14 +32,17 @@ a.action_button.klaviyo-bis-trigger {
 During the first day of Garage Sale, stock in our retail locations is reserved for in store customers. In store stock will be made avilable on day two of the Garage Sale online. 
 </div>
 
-                 <div class="gs-disclaimer"> 
-                  <p> {{ settings.garageSaleLiveTxt }}</p>
-               <style>.findify-sticker-garage-sale { display: block !important; }</style>
-          		</div>
+    {% endif %}  {% endif %}  
 
-    {% endif %}  
 
-{% elsif settings.show_garageSaleLiveTxt == true and  product.tags contains "garage sale" and product.available == true %}   
+{% endunless %}
+
+
+
+ <!-- Display Garage Sale Disclaimer -->
+
+
+{% if settings.show_garageSaleLiveTxt == true and  product.tags contains "garage sale"  %}   
 
                <div class="gs-disclaimer"> 
                   <p> {{ settings.garageSaleLiveTxt }}</p>

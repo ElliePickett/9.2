@@ -119,7 +119,7 @@
     "display_price": true,
     "free_price_text": "Free",
     "pagination_type": "basic_pagination",
-    "collection_secondary_image": true,
+    "collection_secondary_image": false,
     "align_height": true,
     "collection_height": 200,
     "quick_shop_enabled": false,

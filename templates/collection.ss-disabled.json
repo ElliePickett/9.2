@@ -31,6 +31,7 @@
     },
     "searchspring_recommendations_3PCTap": {
       "type": "searchspring-recommendations",
+      "disabled": true,
       "settings": {
         "profileId": "superspecialupsell"
       }

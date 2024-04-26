@@ -125,7 +125,7 @@
     %}
   {% endunless %}
 
-  {% if settings.quick_shop_style == 'inline' and settings.quick_shop_enabled %}
+  {% if settings.quick_shop_style == 'inline' and settings.quick_shop_enabled or collection.title contains "B2B" %}
     {% unless collection_handles contains 'coming-soon' %}
       <div
         class="

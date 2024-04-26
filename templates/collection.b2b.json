@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "collection-template-ss-disabled",
+      "type": "collection-template-b2b",
       "blocks": {
         "faceted_filtering_ghz8Am": {
           "type": "faceted_filtering",

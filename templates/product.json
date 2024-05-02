@@ -74,7 +74,7 @@
         "7f3347be-f089-4bf4-989a-960ca076a8b4": {
           "type": "custom-liquid",
           "settings": {
-            "custom_liquid": "{%render 'ep-gs-soldout-online' %}\n\n<style>\n.surface-pick-up {display:none;}\n\n<\/style>"
+            "custom_liquid": "{%render 'ep-gs-soldout-online' %}"
           }
         },
         "8689ba5b-d20e-4da0-a924-9211b3a50416": {

@@ -30,6 +30,7 @@
     },
     "05829759-9991-4acd-9316-d6694bfee816": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "wide_display": false,
         "image": "shopify:\/\/shop_images\/download_7a158ca4-7060-40e5-9f38-d400a3057672.jpg",
@@ -57,10 +58,9 @@
     },
     "163545626807ebdf23": {
       "type": "image-with-text-overlay",
-      "disabled": true,
       "settings": {
         "wide_display": false,
-        "image": "shopify:\/\/shop_images\/garage_sale_assets_fall_2023-BANNER.jpg",
+        "image": "shopify:\/\/shop_images\/garage_sale_assets_spring_2024_BANNER.jpg",
         "pretext": "",
         "title": "",
         "subtitle": "",
@@ -226,6 +226,7 @@
         "template--16346287177902__5360d44e-662b-409c-9fe3-ef2cdb2bc5e5-image-1",
         "image_yF7Hi8"
       ],
+      "disabled": true,
       "settings": {
         "wide_display": false,
         "promo_text_on_image_enabled": true,
@@ -236,15 +237,8 @@
         "custom_css": ""
       }
     },
-    "c4f1409f-743c-4fa4-8895-69db6b1c091c": {
-      "type": "searchspring-recommendations",
-      "settings": {
-        "profileId": "home"
-      }
-    },
     "84f7e93b-0cb5-4ab7-b3f7-e587e060b255": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Garage sale picks!",
         "collection_description": false,
@@ -505,7 +499,6 @@
     "image-with-text-overlay-1",
     "16385609454ff757d6",
     "5360d44e-662b-409c-9fe3-ef2cdb2bc5e5",
-    "c4f1409f-743c-4fa4-8895-69db6b1c091c",
     "84f7e93b-0cb5-4ab7-b3f7-e587e060b255",
     "16523856358f90a09e",
     "collection-list-1",

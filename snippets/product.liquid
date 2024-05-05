@@ -341,7 +341,7 @@
 
                 {% unless collection_handles contains 'coming-soon' %}
 
-                 {% if settings.enable_garage_sale_preview == true and product.tags contains "garage sale" and product.available == true  %}
+                 {% if settings.enable_garage_sale_preview == true and product.tags contains "garage sale" and product.available == true or settings.enable_garage_sale_preview == true and product.tags contains "Garage Sale" and product.available == true  %}
 
                    <h6> {{ settings.garageSaleLeadTxt }} </h6>
                     <style>.swym-wishlist-button-bar,.ep-paint-block-1, aftership-aedd {display:none !important;}</style>

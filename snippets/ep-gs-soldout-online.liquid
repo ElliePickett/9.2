@@ -1,5 +1,5 @@
 
-
+{% if product.tags contains "garage sale" %}
 <!-- Check if product is avilable in the warehouse and if it isn't....-->
 {% unless product.tags contains "filter_Location:In Stock in Warehouse" and product.tags contains "garage sale" %}
 
@@ -37,8 +37,7 @@ During the first day of Garage Sale, stock in our retail locations is reserved f
 
 
 {% endunless %}
-
-
+{% endif %}  
 
  <!-- Display Garage Sale Disclaimer -->
 

@@ -67,6 +67,20 @@
             "border_style": "none"
           }
         },
+        "3299f8e7-209a-4d18-a95b-c9ce2185677c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/image0_5a985c7d-3f44-4a8e-92dd-f6f65047c85c.jpg",
+            "title": "Twigg \/ Assistant manager",
+            "heading_size": "regular_text",
+            "text": "<p>With 15 years of experience in the music industry and a few years working in the baking space, Twigg was eager to embark on a fresh venture. Driven by an unwavering commitment to quality over quantity, he discovered a new calling at Knifewear. When not immersed in the world of knives, you'll often find Twigg indulging his passions for watches, medium format cameras, Berserk, and savouring a glass of peanut punch.<\/p>",
+            "button_label": "Masashi Shirogami Kurouchi Makiri 150mm",
+            "button_link": "shopify:\/\/products\/masashi-shirogami-kurouchi-makiri-150mm",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
         "template--15997583949998__bcf6ad95-3b4c-4a96-a17f-076d2bc0e7d3-16805419386e70bfff-1": {
           "type": "text_block",
           "settings": {
@@ -109,20 +123,6 @@
             "border_style": "none"
           }
         },
-        "3299f8e7-209a-4d18-a95b-c9ce2185677c": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/image0_5a985c7d-3f44-4a8e-92dd-f6f65047c85c.jpg",
-            "title": "Twigg",
-            "heading_size": "regular_text",
-            "text": "<p>With 15 years of experience in the music industry and a few years working in the baking space, Twigg was eager to embark on a fresh venture. Driven by an unwavering commitment to quality over quantity, he discovered a new calling at Knifewear. When not immersed in the world of knives, you'll often find Twigg indulging his passions for watches, medium format cameras, Berserk, and savouring a glass of peanut punch.<\/p>",
-            "button_label": "Masashi Shirogami Kurouchi Makiri 150mm",
-            "button_link": "shopify:\/\/products\/masashi-shirogami-kurouchi-makiri-150mm",
-            "align_text": "left",
-            "border_style": "none"
-          }
-        },
         "text_block_mTTmxi": {
           "type": "text_block",
           "settings": {
@@ -140,10 +140,10 @@
       },
       "block_order": [
         "template--15997583949998__bcf6ad95-3b4c-4a96-a17f-076d2bc0e7d3-16805419386e70bfff-0",
+        "3299f8e7-209a-4d18-a95b-c9ce2185677c",
         "template--15997583949998__bcf6ad95-3b4c-4a96-a17f-076d2bc0e7d3-16805419386e70bfff-1",
         "b1c19f58-cabf-4777-af0d-7aaaa976035b",
         "c428d5e6-cef0-48fd-a4d9-9bbf6a1ce90e",
-        "3299f8e7-209a-4d18-a95b-c9ce2185677c",
         "text_block_mTTmxi"
       ],
       "settings": {
@@ -490,6 +490,7 @@
         },
         "d647d0d1-6ee8-4258-8a33-c513219af2da": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/liam.jpg",
@@ -518,16 +519,16 @@
     "16313123761fbe7b98": {
       "type": "text-columns-with-images",
       "blocks": {
-        "84183197-26cf-48ed-babc-a374adfdc5ac": {
+        "text_block_RjWtWq": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/jordan.jpg",
-            "title": "Jordan",
+            "image": "shopify:\/\/shop_images\/liam.jpg",
+            "title": "Liam",
             "heading_size": "regular_text",
-            "text": "<p>Jordan Siu is a “Siurious” fan of food, cooking, knives, sharpening, and METAL! Not only has he got a badass set of pipes in that neck, he’s also a gigantic knife and sharpening stone nerd. Swing by and pick his brain about the practical uses of Autosol, and the somewhat more impractical uses of a mirror polished Higo knife. Also, grab some good headphones and check out his band “Inpathos” on almost any streaming service.<\/p>",
-            "button_label": "Hado Junpaku 240mm Gyuto",
-            "button_link": "shopify:\/\/products\/hado-sakai-junpaku-gyuto-240mm",
+            "text": "<p>Liam \"Work Milk\" Duplantis is named after one of the Gallagher Brothers and is a huge fan of dairy products in general. He also makes horseradish and kimchi and is generally a pretty pleasant person. He knows a lot about whisk(e)y and thinks knives are neat-o. He has read \"The Silmarillion\", but is kind enough to keep his mouth shut about it. Hi Liam!<\/p>",
+            "button_label": "Hado Sakai Sumi Gyuto 240mm",
+            "button_link": "shopify:\/\/products\/hado-sakai-sumi-gyuto-240mm",
             "align_text": "left",
             "border_style": "none"
           }
@@ -562,7 +563,7 @@
         }
       },
       "block_order": [
-        "84183197-26cf-48ed-babc-a374adfdc5ac",
+        "text_block_RjWtWq",
         "16313123761fbe7b98-1",
         "b202fabe-05fb-4ccc-9efb-4ebd794b4b78"
       ],
@@ -744,20 +745,6 @@
             "align_text": "left",
             "border_style": "none"
           }
-        },
-        "text_block_9WXQaw": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/ramen-bowl-tee.jpg",
-            "title": "Tiago \/ Warehouse team",
-            "heading_size": "regular_text",
-            "text": "<p>Tiago is an international man of mystery! He reveals himself to be funnier, more hardworking and a better problem solver every day.  He keeps us on our toes in the warehouse and can move a pallet of charcoal with only his mind! (we think-- we haven't tested this). Tiago's favourite activities are waiting for the bus on super cold days and writing lists.<\/p>",
-            "button_label": "Higo no Kami",
-            "button_link": "shopify:\/\/products\/higo-knife",
-            "align_text": "left",
-            "border_style": "none"
-          }
         }
       },
       "block_order": [
@@ -767,8 +754,7 @@
         "ebcccef1-bd46-4378-bbfa-c3a71123ac12",
         "text_block_Qgr8wD",
         "text_block_4YyU8W",
-        "text_block_64Ppc3",
-        "text_block_9WXQaw"
+        "text_block_64Ppc3"
       ],
       "settings": {
         "title": "",

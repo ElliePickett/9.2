@@ -36,9 +36,29 @@
         "product_XRXkEB": {
           "type": "product",
           "settings": {
-            "featured_product": "",
-            "text": "<p>Promotion description details.<\/p>",
+            "featured_product": "littledeer-wok-paddle",
+            "text": "<p>This long flipper is a dream for stir-frying and sautéing while also excellent at stirring deep pots of sauce & preserves!<\/p>",
+            "review": false,
+            "fun-fact-heading": "",
+            "fun-fact": ""
+          }
+        },
+        "product_BtaAVW": {
+          "type": "product",
+          "settings": {
+            "featured_product": "littledeer-better-spreader",
+            "text": "<p>It's so much more than just a spreader - it gets under the lips of jam jars and perfectly smears everything from peanut butter to cream cheese. The Better Spreader is also a great first knife for kids and a handy tool for scraping out bowls!<\/p>",
             "review": true,
+            "fun-fact-heading": "",
+            "fun-fact": ""
+          }
+        },
+        "product_fnwNQP": {
+          "type": "product",
+          "settings": {
+            "featured_product": "",
+            "text": "<p>The oft-overlooked essential to a good dinner party - the serving spoon. Scoop & serve grains, taters, stews, salads, and dessert with the Littledeer Serving Scoop!<\/p>",
+            "review": false,
             "fun-fact-heading": "",
             "fun-fact": ""
           }
@@ -46,83 +66,13 @@
       },
       "block_order": [
         "product_ecMt6r",
-        "product_XRXkEB"
+        "product_XRXkEB",
+        "product_BtaAVW",
+        "product_fnwNQP"
       ],
       "settings": {
         "layout": "small",
         "hide-price": false
-      }
-    },
-    "featured_products_6MjLpj": {
-      "type": "featured-products",
-      "blocks": {
-        "product_RCLAXP": {
-          "type": "product",
-          "settings": {
-            "featured_product": "littledeer-pot-scoop"
-          }
-        },
-        "product_JxmdtA": {
-          "type": "product",
-          "settings": {
-            "featured_product": "littledeer-wok-paddle"
-          }
-        },
-        "product_myhDN9": {
-          "type": "product",
-          "settings": {
-            "featured_product": "littledeer-better-spreader"
-          }
-        },
-        "product_Mwmhjn": {
-          "type": "product",
-          "settings": {
-            "featured_product": "littledeer-serving-scoop"
-          }
-        },
-        "product_fTNwgy": {
-          "type": "product",
-          "settings": {
-            "featured_product": ""
-          }
-        },
-        "product_4wCVQe": {
-          "type": "product",
-          "settings": {
-            "featured_product": "littledeer-propeller"
-          }
-        }
-      },
-      "block_order": [
-        "product_RCLAXP",
-        "product_JxmdtA",
-        "product_myhDN9",
-        "product_Mwmhjn",
-        "product_fTNwgy",
-        "product_4wCVQe"
-      ],
-      "settings": {
-        "wide_display": false,
-        "frontpage_product_stagger": true,
-        "product_thumbs": true,
-        "gallery_arrows": true,
-        "enable_product_lightbox": true,
-        "activate_zoom": false,
-        "slideshow_speed": 0,
-        "slideshow_animation": "slide",
-        "thumbnail_position": "bottom",
-        "enable_thumbnail_slider": true,
-        "display_vendor": false,
-        "frontpage_display_description": true,
-        "product_description_position": "top",
-        "display_savings": true,
-        "enable_shopify_product_badges": false,
-        "show_payment_button": true,
-        "set_product_height": false,
-        "product_height": 500,
-        "video_looping": false,
-        "css_class": "",
-        "custom_css": ""
       }
     },
     "4d45cf67-37e6-49eb-b4f8-f67282fe7279": {
@@ -151,7 +101,6 @@
   "order": [
     "main",
     "ep_blog_feature_products_he8aAR",
-    "featured_products_6MjLpj",
     "4d45cf67-37e6-49eb-b4f8-f67282fe7279",
     "1655832228289470c4"
   ]

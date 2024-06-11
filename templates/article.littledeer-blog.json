@@ -20,6 +20,39 @@
         "toggle": false
       }
     },
+    "ep_blog_feature_products_he8aAR": {
+      "type": "ep-blog-feature-products",
+      "blocks": {
+        "product_ecMt6r": {
+          "type": "product",
+          "settings": {
+            "featured_product": "littledeer-pot-scoop",
+            "text": "<p>The Pot Scoop is so much more than a humble wooden spoon - the flat side scrapes pot sides. The curve perfectly contacts a bowl's bottom. The sturdy handle and flat paddle make scraping, stirring, and beating batter a treat, while narrow enough to fit in a tomato paste can!<\/p>",
+            "review": false,
+            "fun-fact-heading": "",
+            "fun-fact": ""
+          }
+        },
+        "product_XRXkEB": {
+          "type": "product",
+          "settings": {
+            "featured_product": "",
+            "text": "<p>Promotion description details.<\/p>",
+            "review": true,
+            "fun-fact-heading": "",
+            "fun-fact": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_ecMt6r",
+        "product_XRXkEB"
+      ],
+      "settings": {
+        "layout": "small",
+        "hide-price": false
+      }
+    },
     "featured_products_6MjLpj": {
       "type": "featured-products",
       "blocks": {
@@ -47,6 +80,12 @@
             "featured_product": "littledeer-serving-scoop"
           }
         },
+        "product_fTNwgy": {
+          "type": "product",
+          "settings": {
+            "featured_product": ""
+          }
+        },
         "product_4wCVQe": {
           "type": "product",
           "settings": {
@@ -59,10 +98,11 @@
         "product_JxmdtA",
         "product_myhDN9",
         "product_Mwmhjn",
+        "product_fTNwgy",
         "product_4wCVQe"
       ],
       "settings": {
-        "wide_display": true,
+        "wide_display": false,
         "frontpage_product_stagger": true,
         "product_thumbs": true,
         "gallery_arrows": true,
@@ -110,6 +150,7 @@
   },
   "order": [
     "main",
+    "ep_blog_feature_products_he8aAR",
     "featured_products_6MjLpj",
     "4d45cf67-37e6-49eb-b4f8-f67282fe7279",
     "1655832228289470c4"

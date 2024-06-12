@@ -14,19 +14,26 @@
       "settings": {
       }
     },
+    "ep_meta_object_loop_K4NajH": {
+      "type": "ep-meta-object-loop",
+      "settings": {
+        "layout": "large"
+      }
+    },
     "1690995114ba8b49aa": {
       "type": "apps",
       "blocks": {
         "2e5973ce-7298-40e4-a714-7308643769c3": {
           "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
           "settings": {
+            "badgeMode": "info",
             "showLogo": true,
             "showMoreInfo": true,
             "showStats": true,
             "showProjects": true,
             "backgroundColor": "#000000",
             "textColor": "#ffffff",
-            "borderColor": "#95C9B4",
+            "borderColor": "#95c9b4",
             "fullWidth": true,
             "marginTop": 0,
             "marginBottom": 3,
@@ -56,6 +63,7 @@
   },
   "order": [
     "main",
+    "ep_meta_object_loop_K4NajH",
     "1690995114ba8b49aa",
     "newsletter"
   ]

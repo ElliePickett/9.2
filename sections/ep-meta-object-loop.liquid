@@ -42,7 +42,7 @@
         {% else  %} 
              <div class="one-whole column medium-down--one-whole">
         {% endif %}
-       {{ the_pigeon_back_issues.cover.value | image_url: width: 500 | image_tag: loading: 'lazy' }}
+       {{ entry.cover.value | image_url: width: 500 | image_tag: loading: 'lazy' }}
            
             </div>
 
@@ -60,7 +60,7 @@
                     <div class="feature-details {% if block.settings.review == true and section.settings.layout == 'large'%}feature-details-w-review{% endif %}">
                       {% if block.settings.text != blank %}
                         <div class="description">
-                          {{ the_pigeon_back_issues.title.value  }}
+                          {{ entry.title.value  }}
                           {{ block.settings.text }}
                           }
 

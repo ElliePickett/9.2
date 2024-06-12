@@ -1,0 +1,160 @@
+{%- assign id = section.id -%}
+
+{% comment %} Content settings {% endcomment %}
+{%- assign blocks = section.blocks -%}
+{% comment %} End content settings {% endcomment %}
+
+{% comment %} Advanced {% endcomment %}
+{%- assign css_class = section.settings.css_class -%}
+{%- assign custom_css = section.settings.custom_css -%} 
+
+{% comment %} Section specific CSS {% endcomment %}
+{% style %}
+  {%
+    render 'css-loop',
+    css: custom_css,
+    id: id
+  %}
+{% endstyle %}
+
+
+  <section class="section {{ css_class }} {% if section.settings.wide_display == true %}is-width-wide has-no-side-gutter{% endif %} {% if section.settings.layout == 'panel' %}panel{% endif %}">
+    
+
+    {% for entry in shop.metaobjects. knifewear_glossary.values %}
+   
+      
+
+      <div class="product-{{ product.id }} ep-article-product-features">
+        <div
+          class="
+            product_section
+            js-product_section
+            product--description-{{ product_description_position }}
+          "
+          data-block-id="{{ block.id }}"
+          {{ block.shopify_attributes }}
+        >
+        {% unless section.settings.layout == 'panel' %}<div class="container fourteen">{% endunless %} 
+
+  {% if section.settings.layout == 'small' %} 
+            <div class="one-half column medium-down--one-whole">
+
+
+        {% else  %} 
+             <div class="one-whole column medium-down--one-whole">
+        {% endif %}
+       {{ the_pigeon_back_issues.cover | image_url: width: 500 | image_tag: loading: 'lazy' }}
+           
+            </div>
+
+         {% if section.settings.layout == 'small' %} 
+           <div class="one-half column medium-down--one-whole product__details product__details">
+
+      
+        {% else %} 
+            <div class="one-whole column medium-down--one-whole product__details product__details">
+        {% endif %}
+                {% if block.settings.heading != blank %}<h3 class="product_name">{{ block.settings.heading }}</h3>{% endif %}   
+              
+                <div class="feature_divider"></div>
+
+                    <div class="feature-details {% if block.settings.review == true and section.settings.layout == 'large'%}feature-details-w-review{% endif %}">
+                      {% if block.settings.text != blank %}
+                        <div class="description">
+                          {{ block.settings.text }}
+
+                           
+                          
+
+                        
+
+                        
+                      
+                        </div>
+                      {% endif %}
+
+
+     {% if section.settings.layout == 'small' %} 
+           
+
+
+        {% elsif section.settings.layout == 'large' %} 
+             
+            <!-- Yopto top Start -->
+    {% if block.settings.review == true %}
+       {% if request.locale.iso_code == 'en' %}
+        <div class="yotpo yotpo-shoppers-say" data-product-id="{{ product.id }}">&nbsp;</div>
+      {% endif %}
+   {% endif %}
+      <!-- Yopto top end -->
+       
+ {% endif %}
+                         
+
+                 
+                    </div>
+
+              
+                          <div class="feature_divider"></div>
+
+             
+
+              
+
+
+            </div>
+           {% unless section.settings.layout == 'panel' %}</div>{% endunless %} 
+        </div>
+      </div>
+    {% endfor %}
+  </section>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Custom - Meta Object Loop",
+    "settings": [
+       {
+        "type": "radio",
+        "id": "layout",
+        "label": "Layout",
+        "default": "large",
+        "options": [
+        {
+            "value": "panel",
+            "label": "3 Panel"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "large",
+            "label": "Large"
+          }
+        ]
+      }
+    ],
+,  "presets": [
+    {
+      "name": "Custom - Meta Object Loop",
+      "category": "Product",
+      "blocks": [
+        {
+          "type": "content"
+        },
+        {
+          "type": "content"
+        }
+      ]
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

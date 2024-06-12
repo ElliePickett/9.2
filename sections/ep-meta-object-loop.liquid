@@ -30,11 +30,9 @@
           class="
             product_section
             js-product_section
-            product--description-{{ product_description_position }}
           "
-          data-block-id="{{ block.id }}"
-          {{ block.shopify_attributes }}
-        >
+
+>
         {% unless section.settings.layout == 'panel' %}<div class="container fourteen">{% endunless %} 
 
   {% if section.settings.layout == 'small' %} 
@@ -62,7 +60,9 @@
                     <div class="feature-details {% if block.settings.review == true and section.settings.layout == 'large'%}feature-details-w-review{% endif %}">
                       {% if block.settings.text != blank %}
                         <div class="description">
+                          {{ the_pigeon_back_issues.title.value  }}
                           {{ block.settings.text }}
+                          }
 
                            
                           
@@ -81,13 +81,7 @@
 
         {% elsif section.settings.layout == 'large' %} 
              
-            <!-- Yopto top Start -->
-    {% if block.settings.review == true %}
-       {% if request.locale.iso_code == 'en' %}
-        <div class="yotpo yotpo-shoppers-say" data-product-id="{{ product.id }}">&nbsp;</div>
-      {% endif %}
-   {% endif %}
-      <!-- Yopto top end -->
+          
        
  {% endif %}
                          

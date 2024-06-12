@@ -9,8 +9,16 @@
  */
 {
   "sections": {
+    "content_page_mAhRjn": {
+      "type": "content-page",
+      "settings": {
+        "content_page": "",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
   },
   "order": [
-
+    "content_page_mAhRjn"
   ]
 }

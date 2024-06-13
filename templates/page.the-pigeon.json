@@ -11,6 +11,34 @@
         "layout": "panel"
       }
     },
+    "image_text_QCriR7": {
+      "type": "image-text",
+      "blocks": {
+        "image_jeB9Tr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/origamihocho4_1of1_5000x_b936e375-4a85-476d-baae-fbd9f9544a51.webp",
+            "title": "Bonus download - Onigami Hocho",
+            "text": "<p>The original paper craft knife - learn more more about it <a href=\"https:\/\/knifewear.com\/products\/origami-hocho\">here.<\/a><\/p>",
+            "button_label": "Download PDF",
+            "link": "https:\/\/knifewear.com\/cdn\/shop\/files\/origami_hocho.pdf?v=2044509472899672663",
+            "bg_color": "#000000",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_jeB9Tr"
+      ],
+      "settings": {
+        "wide_display": false,
+        "featured_links_per_row": "1",
+        "frontpage_text_align": "left",
+        "frontpage_image_position": "row",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
     "1690995114ba8b49aa": {
       "type": "apps",
       "blocks": {
@@ -55,6 +83,7 @@
   "order": [
     "main",
     "ep_meta_object_loop_K4NajH",
+    "image_text_QCriR7",
     "1690995114ba8b49aa",
     "newsletter"
   ]

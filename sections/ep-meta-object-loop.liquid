@@ -42,7 +42,7 @@
         {% else  %} 
              <div class="one-whole column medium-down--one-whole">
         {% endif %}
-       {{ entry.cover.value | image_url: width: 500 | image_tag: loading: 'lazy' }}
+       <a class="button" target="_blank" href="{{ entry.pdf_download | file_url}}">{{ entry.cover.value | image_url: width: 500 | image_tag: loading: 'lazy' }}</a>
            
             </div>
 
@@ -62,8 +62,8 @@
                         <div class="description">
                           
                             {{ entry.short_desc.value  }}
-{{ entry.pdf_download.value}}
-<a class="button" href="{{ entry.pdf_download | file_url}}">Download PDF</a>
+
+<a class="button" target="_blank" href="{{ entry.pdf_download | file_url}}">Download PDF</a>
                         </div>
                      
 

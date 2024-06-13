@@ -18,12 +18,12 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/origamihocho4_1of1_5000x_b936e375-4a85-476d-baae-fbd9f9544a51.webp",
-            "title": "Bonus download - Onigami Hocho",
+            "title": "Bonus download Onigami Hocho",
             "text": "<p>The original paper craft knife - learn more more about it <a href=\"https:\/\/knifewear.com\/products\/origami-hocho\">here.<\/a><\/p>",
             "button_label": "Download PDF",
             "link": "https:\/\/knifewear.com\/cdn\/shop\/files\/origami_hocho.pdf?v=2044509472899672663",
-            "bg_color": "#000000",
-            "text_color": "#ffffff"
+            "bg_color": "rgba(0,0,0,0)",
+            "text_color": "#363636"
           }
         }
       },

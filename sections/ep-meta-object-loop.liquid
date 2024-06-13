@@ -63,7 +63,7 @@
                           
                             {{ entry.short_desc.value  }}
 {{ entry.pdf_download.value}}
-                            <a class="button" href="{{ entry.pdf_download.value}}">Download PDF</a>
+<a class="button" href="{{ entry.pdf_download | file_url}}">Download PDF</a>
                         </div>
                      
 

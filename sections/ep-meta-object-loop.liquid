@@ -42,7 +42,7 @@
         {% else  %} 
              <div class="one-whole column medium-down--one-whole">
         {% endif %}
-       <a  target="_blank" style="border:1px solid black" href="{{ entry.pdf_download | file_url}}">{{ entry.cover.value | image_url: width: 500 | image_tag: loading: 'lazy' }}</a>
+       <a  target="_blank" style="border:1px solid black; display: flex;" href="{{ entry.pdf_download | file_url}}">{{ entry.cover.value | image_url: width: 500 | image_tag: loading: 'lazy' }}</a>
            
             </div>
 

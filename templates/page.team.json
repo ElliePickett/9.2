@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -429,13 +438,43 @@
             "align_text": "left",
             "border_style": "none"
           }
+        },
+        "text_block_E3Vf9W": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/9B477C5D-A6E3-4774-8FEF-960E516F0DC4_0406860f-7cd6-4dd3-9ac4-43c672771b33.jpg",
+            "title": "YUKARI",
+            "heading_size": "regular_text",
+            "text": "<p>Yukari loves to relax on the grass and take her time enjoying nature in Canada. However, she is far from boring; she enjoys skiing, scuba diving, traveling, and even earned her marine license! She also has a passion for eating and exploring new foods. With experience working at a fishmonger and teaching Japanese cuisine in her home country, she continues to learn about new dishes after graduating from a culinary program in Ottawa. <\/p>",
+            "button_label": "Moritaka Ishime Nakiri 165mm",
+            "button_link": "shopify:\/\/products\/moritaka-ishime-nakiri-165mm",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
+        "text_block_PNzdTy": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/DFD32438-81C1-4439-8A76-9979D47DBE0C.jpg",
+            "title": "Steven",
+            "heading_size": "regular_text",
+            "text": "<p>A Winnipegger turned Johner turned Haligonian turned Ottawan, Steven finally made his way to a city with a Knifewear store. Joining the Ottawa team has allowed him to express his sharp wit, and eye rolling puns with a wider audience. Ask him about his DJ joke, it's a real knee slapper. Steven has a keen attention to detail which he applies to honing and sharpening knives, and honing his puns a plenty! When not hunched over a polishing stone assuring a perfect finish, you can find him discovering new Ottawa Restaurants, biking along the river, and rewatching Bob's Burgers.<\/p>",
+            "button_label": "Masashi Shiroshu Ko-Bunka 135mm",
+            "button_link": "shopify:\/\/products\/masashi-sld-damascus-santoku-135mm",
+            "align_text": "left",
+            "border_style": "none"
+          }
         }
       },
       "block_order": [
         "16313119251f7b85d3-0",
         "1d74bf49-7ac5-4661-a49e-b77c645f6fac",
         "7d770efe-a8eb-4bf1-8057-557caadc8aac",
-        "74955b6f-ed18-43bc-bdef-6e5f97571688"
+        "74955b6f-ed18-43bc-bdef-6e5f97571688",
+        "text_block_E3Vf9W",
+        "text_block_PNzdTy"
       ],
       "settings": {
         "title": "Ottawa",

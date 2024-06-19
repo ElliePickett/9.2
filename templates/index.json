@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "e0df2fcb-701a-4a29-988c-41b3d8c0b2da": {
@@ -146,9 +155,9 @@
         "31316264-8b3a-4466-9767-e088e85aad56": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/fathers-day-2024.jpg",
-            "link": "shopify:\/\/collections\/dads-day-at-knifewear",
-            "title": "",
+            "image": "shopify:\/\/shop_images\/takeda_mailout_social_3.jpg",
+            "link": "shopify:\/\/blogs\/articles\/shoshui-takeda-knife-restock-july-5",
+            "title": "TAKEDA RESTOCK JULY 5",
             "text": "",
             "button_label": ""
           }

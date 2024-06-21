@@ -247,6 +247,20 @@
             "align_text": "left",
             "border_style": "none"
           }
+        },
+        "text_block_piGHAf": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/IMG_6233.jpg",
+            "title": "Cory",
+            "heading_size": "regular_text",
+            "text": "<p>After tiring of the desolate rain forest of coastal BC, Cory desired sunshine and city vibes. Coming with over a decade of experience in the construction industry they have happily cast away that past life for handmade, shiny, sharp things. Free time is spent with their incredible family and trying to focus on one of many interests (including voice acting, table top games, and music). Want advice on sparky stuff, imaginary monsters, or Japanese kitchen knives, look no further!<\/p>",
+            "button_label": "Mcusta Zanmai Becho VG10 Damascus Chuka-Bocho 180mm",
+            "button_link": "shopify:\/\/products\/mcusta-zanmai-becho-vg10-damascus-chinese-cleaver-180mm",
+            "align_text": "left",
+            "border_style": "none"
+          }
         }
       },
       "block_order": [
@@ -255,7 +269,8 @@
         "16312285267abd387e-0",
         "text_block_qkWFpi",
         "text_block_nJ3J3N",
-        "text_block_kqGxCJ"
+        "text_block_kqGxCJ",
+        "text_block_piGHAf"
       ],
       "settings": {
         "title": "Calgary",

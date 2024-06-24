@@ -21,8 +21,9 @@
   <section class="section {{ css_class }} {% if section.settings.wide_display == true %}is-width-wide has-no-side-gutter{% endif %} {% if section.settings.layout == 'panel' %}panel{% endif %}">
     
 
-    {% for entry in shop.metaobjects.the_pigeon_back_issues.values %}
+    {% for entry in shop.metaobjects.[section.settings.menu-heading].values %}
    
+  
       
 
       <div class="product-{{ product.id }} ep-article-product-features">
@@ -102,6 +103,16 @@
   {
     "name": "Custom - Meta Object Loop",
     "settings": [
+    {
+      "type": "text",
+      "id": "section-heading",
+      "label": "Heading"
+      },
+      {
+      "type": "text",
+      "id": "metaobject-name",
+      "label": "Metaobject Name"
+      },
        {
         "type": "radio",
         "id": "layout",

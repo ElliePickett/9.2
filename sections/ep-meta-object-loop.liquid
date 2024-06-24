@@ -19,12 +19,11 @@
 
 
   <section class="section {{ css_class }} {% if section.settings.wide_display == true %}is-width-wide has-no-side-gutter{% endif %} {% if section.settings.layout == 'panel' %}panel{% endif %}">
-    
- {% capture metaobjectname %}
-    shop.metaobjects.{{section.settings.menu-heading}}.values
-  {% endcapture}
+  
 
-    {% for entry in metaobjectname %}
+  {% assign metaobjectname = section.settings.menu-heading %}
+
+    {% for entry in shop.metaobjects.metaobjectname.values %}
    
 
       

@@ -544,7 +544,6 @@
         },
         "d647d0d1-6ee8-4258-8a33-c513219af2da": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/liam.jpg",
@@ -573,20 +572,6 @@
     "16313123761fbe7b98": {
       "type": "text-columns-with-images",
       "blocks": {
-        "text_block_RjWtWq": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/liam.jpg",
-            "title": "Liam",
-            "heading_size": "regular_text",
-            "text": "<p>Liam \"Work Milk\" Duplantis is named after one of the Gallagher Brothers and is a huge fan of dairy products in general. He also makes horseradish and kimchi and is generally a pretty pleasant person. He knows a lot about whisk(e)y and thinks knives are neat-o. He has read \"The Silmarillion\", but is kind enough to keep his mouth shut about it. Hi Liam!<\/p>",
-            "button_label": "Hado Sakai Sumi Gyuto 240mm",
-            "button_link": "shopify:\/\/products\/hado-sakai-sumi-gyuto-240mm",
-            "align_text": "left",
-            "border_style": "none"
-          }
-        },
         "16313123761fbe7b98-1": {
           "type": "text_block",
           "settings": {
@@ -617,7 +602,6 @@
         }
       },
       "block_order": [
-        "text_block_RjWtWq",
         "16313123761fbe7b98-1",
         "b202fabe-05fb-4ccc-9efb-4ebd794b4b78"
       ],

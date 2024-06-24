@@ -86,7 +86,10 @@
     },
     "ep_meta_object_loop_nxf4fE": {
       "type": "ep-meta-object-loop",
+      "disabled": true,
       "settings": {
+        "section-heading": "",
+        "metaobject-name": "",
         "layout": "panel"
       }
     },

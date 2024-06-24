@@ -23,9 +23,9 @@
 
   {% assign metaobjectname = section.settings.metaobject-name %}
 
-  {% assign moarry = 'shop.metaobjects.' | append: metaobjectname %}
+  {% assign moarry = 'shop.metaobjects.' | append: metaobjectname | append:'.values' %}
 
-    {% for entry in moarry.values %}
+    {% for entry in moarry %}
          
 
       <div class="product-{{ product.id }} ep-article-product-features">

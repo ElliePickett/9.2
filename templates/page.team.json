@@ -178,6 +178,20 @@
             "border_style": "none"
           }
         },
+        "16312285267abd387e-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/image_6483441.jpg",
+            "title": "Kat \/ Assistant Manger",
+            "heading_size": "regular_text",
+            "text": "<p>Meet Kat! A born and raised Calgarian who joined the Knifewear team after they escaped their life as a manager at a grocery store. They are a lover of flavourful body-builder food who wanted to explore the world of cool kitchen knives. They can often be found attending local shows and throwing themself into the mosh pit. If you ever need advice on which local shows to attend or how to make your recipe allergy friendly then Kat is your person! <\/p>",
+            "button_label": "Masakage Koishi AS Bunka 170mm",
+            "button_link": "shopify:\/\/products\/masakage-koishi-as-bunka-170mm",
+            "align_text": "left",
+            "border_style": "none"
+          }
+        },
         "00d464da-7135-4120-b27c-a6c78e28d5f1": {
           "type": "text_block",
           "settings": {
@@ -188,20 +202,6 @@
             "text": "<p>If you like piña coladas and getting caught in the rain, you’re not the type of person for Connor, because he hates both of those things. He’d rather replace those rainy days and slushy drinks with Dungeons and Dragons, metal and punk, and comically bad puns. Connor comes from an industry background, graduating from the culinary program at SAIT, and busting out plates at local joints before making his way to the knife life. There’s good reason that we all refer to him as Sunshine, and you’d be hard-pressed to find someone with a shinier personality and positive mindset. With Connor, we’ve always got Sunshine on a cloudy day.<\/p>",
             "button_label": "Yu Kurosaki R2 Senko Santoku 165mm",
             "button_link": "shopify:\/\/products\/yu-kurosaki-r2-senko-santoku-165mm",
-            "align_text": "left",
-            "border_style": "none"
-          }
-        },
-        "16312285267abd387e-0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/image_6483441.jpg",
-            "title": "Kat",
-            "heading_size": "regular_text",
-            "text": "<p>Meet Kat! A born and raised Calgarian who joined the Knifewear team after they escaped their life as a manager at a grocery store. They are a lover of flavourful body-builder food who wanted to explore the world of cool kitchen knives. They can often be found attending local shows and throwing themself into the mosh pit. If you ever need advice on which local shows to attend or how to make your recipe allergy friendly then Kat is your person! <\/p>",
-            "button_label": "Masakage Koishi AS Bunka 170mm",
-            "button_link": "shopify:\/\/products\/masakage-koishi-as-bunka-170mm",
             "align_text": "left",
             "border_style": "none"
           }
@@ -265,8 +265,8 @@
       },
       "block_order": [
         "16312285267abd387e-1",
-        "00d464da-7135-4120-b27c-a6c78e28d5f1",
         "16312285267abd387e-0",
+        "00d464da-7135-4120-b27c-a6c78e28d5f1",
         "text_block_qkWFpi",
         "text_block_nJ3J3N",
         "text_block_kqGxCJ",

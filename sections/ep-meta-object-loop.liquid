@@ -21,7 +21,7 @@
   <section class="section {{ css_class }} {% if section.settings.wide_display == true %}is-width-wide has-no-side-gutter{% endif %} {% if section.settings.layout == 'panel' %}panel{% endif %}">
   
 
-  {% assign metaobjectname = section.settings.menu-heading %}
+  {% assign metaobjectname = section.settings.metaobject-name %}
 
     {% for entry in shop.metaobjects.metaobjectname.values %}
    

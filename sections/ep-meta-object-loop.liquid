@@ -21,9 +21,12 @@
   <section class="section {{ css_class }} {% if section.settings.wide_display == true %}is-width-wide has-no-side-gutter{% endif %} {% if section.settings.layout == 'panel' %}panel{% endif %}">
   
 
+     {% assign metaloopKey = section.settings.metaobject-name %}
+
     {% assign metaloop = shop.metaobjects.the_pigeon_back_issues.values %}
 
-  
+    {{metaloopKey}}
+
     {% for entry in metaloop %}
          
 

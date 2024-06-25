@@ -59,7 +59,9 @@
           data-slideshow-text-animation="{{ section.settings.testimonial_text_animation }}"
           data-adaptive-height="{{ section.settings.activate_adaptiveHeight }}"
         >
-          {% for block in section.blocks %}
+               {% assign metaloopKey = section.settings.metaobject-name %}
+
+    {% for entry in shop.metaobjects[ metaloopKey ].values %}
             <div
               class="
                 testimonial-block

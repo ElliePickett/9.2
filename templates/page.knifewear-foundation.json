@@ -87,6 +87,8 @@
     "ep_meta_object_loop_nxf4fE": {
       "type": "ep-meta-object-loop",
       "settings": {
+        "section-heading": "",
+        "metaobject-name": "",
         "layout": "panel"
       }
     },
@@ -147,6 +149,13 @@
             "image": "shopify:\/\/shop_images\/growing-chefs.jpg",
             "link": "https:\/\/www.growingchefs.ca\/"
           }
+        },
+        "logo_image_3R4RUA": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/water_first.jpg",
+            "link": "https:\/\/waterfirst.ngo\/"
+          }
         }
       },
       "block_order": [
@@ -155,7 +164,8 @@
         "logo_image_cLNGHC",
         "logo_image_34LLz9",
         "logo_image_cpTxVc",
-        "logo_image_zmcTYk"
+        "logo_image_zmcTYk",
+        "logo_image_3R4RUA"
       ],
       "settings": {
         "title": "",
@@ -203,6 +213,14 @@
         "css_class": "",
         "custom_css": ""
       }
+    },
+    "ep_meta_object_loop_kJmrHz": {
+      "type": "ep-meta-object-loop",
+      "settings": {
+        "section-heading": "",
+        "metaobject-name": "knifewear_foundation_testimonials",
+        "layout": "large"
+      }
     }
   },
   "order": [
@@ -214,6 +232,7 @@
     "featured_text_EW4Mmn",
     "logo_bar_zkMRFG",
     "1690995114ba8b49aa",
-    "newsletter"
+    "newsletter",
+    "ep_meta_object_loop_kJmrHz"
   ]
 }

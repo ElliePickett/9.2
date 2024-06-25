@@ -19,7 +19,8 @@
 
 
 
-  <h2 class="title">{{ section.settings.section-heading }}</h2>
+  {% if section.settings.section-heading != blank %}
+   <section class="section"><h2 class="title">{{ section.settings.section-heading }}</h2></section>{%endif%}
 
   <section class="section {{ css_class }} {% if section.settings.wide_display == true %}is-width-wide has-no-side-gutter{% endif %} {% if section.settings.layout == 'panel' %}panel{% endif %}">
   

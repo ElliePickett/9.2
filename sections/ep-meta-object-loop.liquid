@@ -23,7 +23,7 @@
 
      {% assign metaloopKey = section.settings.metaobject-name %}
 
-    {% assign metaloop = "shop.metaobjects." | append: metaloopKey | append: ".values" | rstrip %}
+    {% assign metaloop = "shop.metaobjects." | append: metaloopKey | append: ".values" | strip %}
 
     {{metaloopKey}}
      {{metaloop}}

@@ -23,12 +23,12 @@
 
      {% assign metaloopKey = section.settings.metaobject-name %}
 
-    {% assign metaloop = "shop.metaobjects." | append: metaloopKey | append: ".values" %}
+    {% assign metaloop = "shop.metaobjects." | append: metaloopKey | append: ".values" | rstrip %}
 
     {{metaloopKey}}
      {{metaloop}}
 
-    {% for entry in metaloop | handle %}
+    {% for entry in metaloop %}
          
 
       <div class="product-{{ product.id }} ep-article-product-features">

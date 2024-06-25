@@ -100,25 +100,25 @@
                  
 
 
-                    <p class="headline">{{ entry.title.value }}</p>
+                
                     <div class="feature-divider"></div>
                  
 
                   <div class="subtitle">
 
-                    <div style="width:25%">
+                    <div style="width: 25%;float: left;margin-right: 3%;">
                                     {%
                   render 'image-element',
                   image: entry.cover.value,
                   stretch_width: true,
                 %}
               </div>
-                  <div style="width:75%">
+                  <div style="width:73%;float: left;">
                     {{ entry.short_desc.value  }}
 
                     <p>
-                      
-                        {{ entry.title.value  }}<br>
+                      <br>
+                       <b><i>- {{ entry.title.value  }} </i></b>
                      
                      </div>
                       
@@ -129,7 +129,7 @@
                     </p>
                   </div>
 
-                  
+
                 </div>
               </div>
             </div>

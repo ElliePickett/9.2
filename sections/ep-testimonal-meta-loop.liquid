@@ -98,17 +98,19 @@
                   "
                 >
                  
-                {%
-                  render 'image-element',
-                  image: entry.cover.value,
-                  stretch_width: true,
-                %}
+
 
                     <p class="headline">{{ entry.title.value }}</p>
                     <div class="feature-divider"></div>
                  
 
                   <div class="subtitle">
+                                    {%
+                  render 'image-element',
+                  image: entry.cover.value,
+                  stretch_width: true,
+                %}
+
                     {{ entry.short_desc.value  }}
 
                     <p>

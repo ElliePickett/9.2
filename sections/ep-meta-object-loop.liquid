@@ -23,9 +23,9 @@
 
      {% assign metaloopKey = section.settings.metaobject-name %}
 
-    {% assign metaloop = shop.metaobjects.the_pigeon_back_issues.values %}
+    {% assign metaloop = 'shop.metaobjects.'.metaloopKey.'.values' %}
 
-    {{metaloopKey}}
+    {{metaloop}}
 
     {% for entry in metaloop %}
          

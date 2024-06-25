@@ -18,18 +18,16 @@
 {% endstyle %}
 
 
+
+  <h2 class="title">{{ section.settings.section-heading }}</h2>
+
   <section class="section {{ css_class }} {% if section.settings.wide_display == true %}is-width-wide has-no-side-gutter{% endif %} {% if section.settings.layout == 'panel' %}panel{% endif %}">
   
 
-  <h2 class="title">{{ section.settings.section-heading }}</h2>
 
      {% assign metaloopKey = section.settings.metaobject-name %}
 
     {% assign metaloops = "shop.metaobjects." | append: metaloopKey | append: ".values" %}
-
-
-
-
 
     {% for entry in shop.metaobjects[ metaloopKey ].values %}
          

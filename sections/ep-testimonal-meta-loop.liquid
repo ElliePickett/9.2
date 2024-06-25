@@ -79,21 +79,9 @@
             >
               
 
-                {%
-                  render 'image-element',
-                  image: entry.cover.value,
-                  stretch_width: true,
-                %}
+               
 
                
-                  <div class="darken-bg"></div>
-                
-
-               
-                 
-
-               
-             
 
               <div
                 class="
@@ -106,10 +94,16 @@
                   class="
                     caption-content
                     testimonial-text
-                    align-center
+                    align-left
                   "
                 >
                  
+                {%
+                  render 'image-element',
+                  image: entry.cover.value,
+                  stretch_width: true,
+                %}
+
                     <p class="headline">{{ entry.title.value }}</p>
                     <div class="feature-divider"></div>
                  
@@ -122,7 +116,7 @@
                         {{ entry.title.value  }}<br>
                      
 
-                      {
+                      
                         <a href="{{ block.settings.link }}">
                        
                         </a>

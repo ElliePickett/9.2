@@ -77,7 +77,6 @@
               {{ block.shopify_attributes }}
               data-block-id="{{ block.id }}"
             >
-              {% if entry.cover.value %}
               
 
                 {%
@@ -86,32 +85,20 @@
                   stretch_width: true,
                 %}
 
-                {% if block.settings.caption_content_background == 'darken_bg' %}
+               
                   <div class="darken-bg"></div>
-                {% endif %}
+                
 
-                {% if block.settings.mobile_image %}
+               
                   </div>
-                  <div class="is-hidden-desktop-only">
-                    {%
-                      render 'image-element',
-                      image: block.settings.mobile_image,
-                      alt: block.settings.mobile_image.alt,
-                      stretch_width: true,
-                      focal_point: block.settings.mobile_image.presentation.focal_point,
-                    %}
 
-                    {% if block.settings.caption_content_background == 'darken_bg' %}
-                      <div class="darken-bg"></div>
-                    {% endif %}
-                  </div>
-                {% endif %}
-              {% endif %}
+               
+             
 
               <div
                 class="
                   caption
-                  position-{{ block.settings.text_position }}
+                  position-center
                   js-caption
                 "
               >
@@ -119,26 +106,26 @@
                   class="
                     caption-content
                     testimonial-text
-                    align-{{ block.settings.text_align }}
+                    align-center
                   "
                 >
-                  {% if block.settings.title != blank %}
-                    <p class="headline">{{ block.settings.title }}</p>
+                 
+                    <p class="headline">{{ entry.title.value }}</p>
                     <div class="feature-divider"></div>
-                  {% endif %}
+                 
 
                   <div class="subtitle">
                     {{ entry.title.short_desc  }}
 
                     <p>
-                      {% if block.settings.name != blank %}
+                      
                         {{ entry.title.value  }}<br>
-                      {% endif %}
+                     
 
-                      {% if block.settings.store_name != blank %}
-                        {% if block.settings.link != blank %}<a href="{{ block.settings.link }}">{% endif %}
-                        <strong>{{ block.settings.store_name }}</strong>
-                        {% if block.settings.link != blank %}</a>{% endif %}
+                      {
+                        <a href="{{ block.settings.link }}">
+                       
+                        </a>
                       {% endif %}
                     </p>
                   </div>

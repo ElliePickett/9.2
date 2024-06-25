@@ -105,19 +105,22 @@
                  
 
                   <div class="subtitle">
+
+                    <div style="width:25%">
                                     {%
                   render 'image-element',
                   image: entry.cover.value,
                   stretch_width: true,
                 %}
-
+              </div>
+                  <div style="width:75%">
                     {{ entry.short_desc.value  }}
 
                     <p>
                       
                         {{ entry.title.value  }}<br>
                      
-
+                     </div>
                       
                         <a href="{{ block.settings.link }}">
                        
@@ -125,6 +128,8 @@
                       
                     </p>
                   </div>
+
+                  
                 </div>
               </div>
             </div>

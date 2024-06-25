@@ -96,7 +96,7 @@
       "type": "ep-testimonal-meta-loop",
       "settings": {
         "metaobject-name": "knifewear_foundation_testimonials",
-        "wide_display": true,
+        "wide_display": false,
         "testimonial_text_animation": "fadeInDown",
         "testimonial_speed": 6,
         "activate_adaptiveHeight": false,

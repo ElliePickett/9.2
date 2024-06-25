@@ -77,17 +77,13 @@
               {{ block.shopify_attributes }}
               data-block-id="{{ block.id }}"
             >
-              {% if block.settings.image %}
-                {% if block.settings.mobile_image %}
-                  <div class="is-hidden-mobile-only">
-                {% endif %}
+              {% if entry.cover.value %}
+              
 
                 {%
                   render 'image-element',
-                  image: block.settings.image,
-                  alt: block.settings.image.alt,
+                  image: entry.cover.value,
                   stretch_width: true,
-                  focal_point: block.settings.image.presentation.focal_point,
                 %}
 
                 {% if block.settings.caption_content_background == 'darken_bg' %}
@@ -132,11 +128,11 @@
                   {% endif %}
 
                   <div class="subtitle">
-                    {{ block.settings.testimonial }}
+                    {{ entry.title.short_desc  }}
 
                     <p>
                       {% if block.settings.name != blank %}
-                        {{ block.settings.name }}<br>
+                        {{ entry.title.value  }}<br>
                       {% endif %}
 
                       {% if block.settings.store_name != blank %}

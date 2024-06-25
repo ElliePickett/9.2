@@ -1,6 +1,13 @@
 /* #Custom Testimonals
 ================================================== */
 
+.custom-testimonal .testimonial-block.gallery-cell.testimonial-block--no-image {
+    background-color: #fff;
+}
+
+.custom-testimonal .caption-content.testimonial-text .subtitle {
+    color: #000;
+}
 
 /* #Custom Styles
 ================================================== */

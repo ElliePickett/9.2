@@ -11,19 +11,32 @@
   "sections": {
     "main": {
       "type": "page-template",
+      "disabled": true,
       "settings": {
       }
     },
-    "featured_text_GwBm34": {
-      "type": "featured-text",
-      "disabled": true,
+    "image_with_text_overlay_XgfVF9": {
+      "type": "image-with-text-overlay",
       "settings": {
-        "title": "Our Misson",
-        "content": "",
-        "button_label": "",
-        "button_link": "",
-        "text_size": "featured_text",
-        "text_alignment": "center",
+        "wide_display": true,
+        "pretext": "",
+        "title": "Knifewear Foundation",
+        "subtitle": "",
+        "button1": "",
+        "button1_link": "",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "button3": "",
+        "button3_link": "",
+        "button3_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "original",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": true,
+        "mobile_text_color": "",
         "css_class": "",
         "custom_css": ""
       }
@@ -231,7 +244,7 @@
   },
   "order": [
     "main",
-    "featured_text_GwBm34",
+    "image_with_text_overlay_XgfVF9",
     "image_text_De6pCm",
     "image_text_AhXMyG",
     "ep_meta_object_loop_nxf4fE",

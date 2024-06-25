@@ -70,7 +70,7 @@
                           
                             {{ entry.short_desc.value  }} <br>
 
-<a class="button" target="_blank" href="{{ entry.pdf_download | file_url}}">Download PDF</a>
+          {% if entry.pdf_download != blank %} <a class="button" target="_blank" href="{{ entry.pdf_download | file_url}}">Download PDF</a> {%endif%}
                         </div>
                      
 

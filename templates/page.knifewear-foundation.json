@@ -88,8 +88,16 @@
       "type": "ep-meta-object-loop",
       "settings": {
         "section-heading": "",
-        "metaobject-name": "",
+        "metaobject-name": "knifewear_foundation_article",
         "layout": "panel"
+      }
+    },
+    "ep_meta_object_loop_kJmrHz": {
+      "type": "ep-meta-object-loop",
+      "settings": {
+        "section-heading": "",
+        "metaobject-name": "knifewear_foundation_testimonials",
+        "layout": "large"
       }
     },
     "featured_text_EW4Mmn": {
@@ -213,14 +221,6 @@
         "css_class": "",
         "custom_css": ""
       }
-    },
-    "ep_meta_object_loop_kJmrHz": {
-      "type": "ep-meta-object-loop",
-      "settings": {
-        "section-heading": "",
-        "metaobject-name": "knifewear_foundation_testimonials",
-        "layout": "large"
-      }
     }
   },
   "order": [
@@ -229,10 +229,10 @@
     "image_text_De6pCm",
     "image_text_AhXMyG",
     "ep_meta_object_loop_nxf4fE",
+    "ep_meta_object_loop_kJmrHz",
     "featured_text_EW4Mmn",
     "logo_bar_zkMRFG",
     "1690995114ba8b49aa",
-    "newsletter",
-    "ep_meta_object_loop_kJmrHz"
+    "newsletter"
   ]
 }

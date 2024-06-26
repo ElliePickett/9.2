@@ -45,7 +45,7 @@
     "ep_meta_object_loop_nxf4fE": {
       "type": "ep-meta-object-loop",
       "settings": {
-        "section-heading": "Knifewear in action",
+        "section-heading": "",
         "metaobject-name": "knifewear_foundation_article",
         "metaobject-show-how-many-articles": "50",
         "layout": "panel"

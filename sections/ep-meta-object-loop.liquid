@@ -25,10 +25,10 @@
   <section class="section {{ css_class }} {% if section.settings.wide_display == true %}is-width-wide has-no-side-gutter{% endif %} {% if section.settings.layout == 'panel' %}panel{% endif %}">
   
 
+     {% assign metaloopLimit = metaobject-show-how-many-articles %}
+     {% assign metaloopKey = section.settings.metaobject-name  %}
 
-     {% assign metaloopKey = section.settings.metaobject-name %}
-
-    {% for entry in shop.metaobjects[ metaloopKey ].values %}
+    {% for entry in shop.metaobjects[ metaloopKey ].values limit:[ metaloopLimit ] %}
          
 
       <div class="product-{{ product.id }} ep-article-product-features">
@@ -131,8 +131,8 @@
         "default": "Show all",
         "options": [
           {
-            "value": "Show all",
-            "label": "Show all"
+            "value": "50",
+            "label": "50"
           },
         {
             "value": "3",

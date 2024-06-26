@@ -42,6 +42,15 @@
         "custom_css": ""
       }
     },
+    "divider_Nad8VH": {
+      "type": "divider",
+      "settings": {
+        "divider_spacing": 20,
+        "divider_border": false,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
     "ep_meta_object_loop_nxf4fE": {
       "type": "ep-meta-object-loop",
       "settings": {
@@ -95,6 +104,7 @@
   "order": [
     "main",
     "image_with_text_overlay_XgfVF9",
+    "divider_Nad8VH",
     "ep_meta_object_loop_nxf4fE",
     "1690995114ba8b49aa",
     "newsletter"

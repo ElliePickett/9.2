@@ -107,6 +107,14 @@
         "layout": "panel"
       }
     },
+    "custom_liquid_eRVWbq": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<a class=\"button align-center\" href=\"https:\/\/knifewear.com\/pages\/knifewear-foundation-knifewear-in-action\">find more actions here<\/a>",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
     "ep_testimonal_meta_loop_7xJGG9": {
       "type": "ep-testimonal-meta-loop",
       "settings": {
@@ -250,6 +258,7 @@
     "image_text_De6pCm",
     "image_text_AhXMyG",
     "ep_meta_object_loop_nxf4fE",
+    "custom_liquid_eRVWbq",
     "ep_testimonal_meta_loop_7xJGG9",
     "featured_text_EW4Mmn",
     "logo_bar_zkMRFG",

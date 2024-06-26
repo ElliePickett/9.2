@@ -1,0 +1,259 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "page-template",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "image_with_text_overlay_XgfVF9": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "wide_display": true,
+        "image": "shopify:\/\/shop_images\/Masashi_engraving_in-store-38_f0320f07-3f26-4d45-8cd5-4b0ea63e7477.jpg",
+        "pretext": "",
+        "title": "The Knifewear Foundation",
+        "subtitle": "",
+        "button1": "",
+        "button1_link": "",
+        "button1_style": "global-button--banner",
+        "button2": "",
+        "button2_link": "",
+        "button2_style": "global-button--banner",
+        "button3": "",
+        "button3_link": "",
+        "button3_style": "global-button--banner",
+        "text_position": "center",
+        "text_align": "center",
+        "caption_content_background": "original",
+        "mobile_image_crop": false,
+        "mobile_text_below_image": true,
+        "mobile_text_color": "",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "image_text_De6pCm": {
+      "type": "image-text",
+      "blocks": {
+        "image_6ADAfa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/knifewear-foundation-black-text.png",
+            "title": "Sharpen Our Communities",
+            "text": "<p><em>From the beginning, Candace and I have tried to leave things better than we found them, wherever possible. We aim to Sharpen Our Communities, meaning we want to make a positive impact on the communities intersecting with the Knifewear Group. <br\/><\/em><strong>- Kevin Kent, Knifewear Founder and Knifenerd<\/strong><\/p>",
+            "button_label": "",
+            "link": "",
+            "bg_color": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_6ADAfa"
+      ],
+      "settings": {
+        "wide_display": false,
+        "featured_links_per_row": "1",
+        "frontpage_text_align": "left",
+        "frontpage_image_position": "row",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "image_text_AhXMyG": {
+      "type": "image-text",
+      "blocks": {
+        "image_ciCQAT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/september_26_3_of_31_4.jpg",
+            "title": "How it started",
+            "text": "<p>Established in 2023 by Knifewear founders Kevin and Candace, the Knifewear Foundation was created to increase our contributions from knife sharpening and to enhance our donation strategies. <br\/><br\/>Every year, 50% of all sharpening earnings are given to those in need. We began this initiative in 2011 to support tsunami relief in Japan and have continued ever since. Through our Knifewear Group, we have donated over $1.5 million to various organizations over the years.<\/p>",
+            "button_label": "",
+            "link": "",
+            "bg_color": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ciCQAT"
+      ],
+      "settings": {
+        "wide_display": false,
+        "featured_links_per_row": "1",
+        "frontpage_text_align": "left",
+        "frontpage_image_position": "row-reverse",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "ep_meta_object_loop_nxf4fE": {
+      "type": "ep-meta-object-loop",
+      "settings": {
+        "section-heading": "Knifewear in action",
+        "metaobject-name": "knifewear_foundation_article",
+        "metaobject-show-how-many-articles": "3",
+        "layout": "panel"
+      }
+    },
+    "ep_testimonal_meta_loop_7xJGG9": {
+      "type": "ep-testimonal-meta-loop",
+      "settings": {
+        "metaobject-name": "knifewear_foundation_testimonials",
+        "wide_display": false,
+        "testimonial_text_animation": "fadeInDown",
+        "testimonial_speed": 6,
+        "activate_adaptiveHeight": false,
+        "mobile_text_below_image": true,
+        "mobile_text_color": "",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "featured_text_EW4Mmn": {
+      "type": "featured-text",
+      "settings": {
+        "title": "$1,524,983 million donated and counting",
+        "content": "<p>To date we have donated $1,524,983 to causes in our communities such as Centre for Autism Services Alberta, the Nature Conservancy of Canada, Skipping Stone Foundation, Operation Come Home, Growing Chefs, the Red Cross, Soul Food Street Farms and many more. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "regular_text",
+        "text_alignment": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "logo_bar_zkMRFG": {
+      "type": "logo-bar",
+      "blocks": {
+        "logo_image_YgjKpL": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/autism.jpg",
+            "link": "https:\/\/centreforautismab.ca\/"
+          }
+        },
+        "logo_image_kBTpC3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/skipping-stone.jpg",
+            "link": "https:\/\/www.skippingstone.ca\/"
+          }
+        },
+        "logo_image_cLNGHC": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nature.jpg",
+            "link": ""
+          }
+        },
+        "logo_image_34LLz9": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/come-home.jpg",
+            "link": "https:\/\/www.operationcomehome.ca\/"
+          }
+        },
+        "logo_image_cpTxVc": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sole.jpg",
+            "link": "https:\/\/solefoodfarms.com\/"
+          }
+        },
+        "logo_image_zmcTYk": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/growing-chefs.jpg",
+            "link": "https:\/\/www.growingchefs.ca\/"
+          }
+        },
+        "logo_image_3R4RUA": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/water_first.jpg",
+            "link": "https:\/\/waterfirst.ngo\/"
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_YgjKpL",
+        "logo_image_kBTpC3",
+        "logo_image_cLNGHC",
+        "logo_image_34LLz9",
+        "logo_image_cpTxVc",
+        "logo_image_zmcTYk",
+        "logo_image_3R4RUA"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "grid",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1690995114ba8b49aa": {
+      "type": "apps",
+      "blocks": {
+        "2e5973ce-7298-40e4-a714-7308643769c3": {
+          "type": "shopify:\/\/apps\/planet\/blocks\/shopify-planet\/12047591-3a2d-45cc-9dfd-2ce5eaa45dee",
+          "settings": {
+            "badgeMode": "info",
+            "showLogo": true,
+            "showMoreInfo": true,
+            "showStats": true,
+            "showProjects": true,
+            "backgroundColor": "#000000",
+            "textColor": "#ffffff",
+            "borderColor": "#95c9b4",
+            "fullWidth": true,
+            "marginTop": 0,
+            "marginBottom": 3,
+            "borderRadius": 32
+          }
+        }
+      },
+      "block_order": [
+        "2e5973ce-7298-40e4-a714-7308643769c3"
+      ],
+      "settings": {
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "settings": {
+        "wide_display": true,
+        "display_first_name": false,
+        "display_last_name": false,
+        "newsletter_title": "Subscribe",
+        "newsletter_text": "<p>Sign up to get the latest on sales, new releases and more …<\/p>",
+        "newsletter_section_text_align": "center",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_XgfVF9",
+    "image_text_De6pCm",
+    "image_text_AhXMyG",
+    "ep_meta_object_loop_nxf4fE",
+    "ep_testimonal_meta_loop_7xJGG9",
+    "featured_text_EW4Mmn",
+    "logo_bar_zkMRFG",
+    "1690995114ba8b49aa",
+    "newsletter"
+  ]
+}

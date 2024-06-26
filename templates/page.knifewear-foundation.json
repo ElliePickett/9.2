@@ -22,7 +22,7 @@
         "image": "shopify:\/\/shop_images\/Masashi_engraving_in-store-38_f0320f07-3f26-4d45-8cd5-4b0ea63e7477.jpg",
         "pretext": "",
         "title": "The Knifewear Foundation",
-        "subtitle": "",
+        "subtitle": "<p>Knifewear has donations 50% of all knife sharpening proceeds since 2011, totalling $1,524,983 million donated to date*.<\/p>",
         "button1": "",
         "button1_link": "",
         "button1_style": "global-button--banner",
@@ -42,37 +42,21 @@
         "custom_css": ""
       }
     },
-    "image_text_De6pCm": {
+    "image_text_AhXMyG": {
       "type": "image-text",
       "blocks": {
-        "image_6ADAfa": {
+        "image_JJkTHE": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/knifewear-foundation-black-text.png",
             "title": "Sharpen Our Communities",
             "text": "<p><em>From the beginning, Candace and I have tried to leave things better than we found them, wherever possible. We aim to Sharpen Our Communities, meaning we want to make a positive impact on the communities intersecting with the Knifewear Group. <br\/><\/em><strong>- Kevin Kent, Knifewear Founder and Knifenerd<\/strong><\/p>",
-            "button_label": "",
+            "button_label": "View all",
             "link": "",
             "bg_color": "",
             "text_color": ""
           }
-        }
-      },
-      "block_order": [
-        "image_6ADAfa"
-      ],
-      "settings": {
-        "wide_display": false,
-        "featured_links_per_row": "1",
-        "frontpage_text_align": "left",
-        "frontpage_image_position": "row",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "image_text_AhXMyG": {
-      "type": "image-text",
-      "blocks": {
+        },
         "image_ciCQAT": {
           "type": "image",
           "settings": {
@@ -81,19 +65,46 @@
             "text": "<p>Established in 2023 by Knifewear founders Kevin and Candace, the Knifewear Foundation was created to increase our contributions from knife sharpening and to enhance our donation strategies. <br\/><br\/>Every year, 50% of all sharpening earnings are given to those in need. We began this initiative in 2011 to support tsunami relief in Japan and have continued ever since. Through our Knifewear Group, we have donated over $1.5 million to various organizations over the years.<\/p>",
             "button_label": "",
             "link": "",
+            "bg_color": "#000000",
+            "text_color": "#ffffff"
+          }
+        },
+        "image_YNride": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sharpening-2.jpg",
+            "title": "What we are doing",
+            "text": "<p>To date we have donated $1,524,983 to causes in our communities such as Centre for Autism Services Alberta, the Nature Conservancy of Canada, Skipping Stone Foundation, Operation Come Home, Growing Chefs, the Red Cross, Soul Food Street Farms and many more. <\/p><p>In addition to cash donations, Knifewear has done clothing drives, lent our social media and voice to causes we support, does training with our staff with organizations like Skipping Stone, and having our carbon footprint measured so we can work towards reducing it company-wide via policy changes and staff initiatives.<\/p>",
+            "button_label": "",
+            "link": "",
             "bg_color": "",
             "text_color": ""
+          }
+        },
+        "image_DQPyfD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pridde.jpg",
+            "title": "Our commitment",
+            "text": "",
+            "button_label": "",
+            "link": "",
+            "bg_color": "#000000",
+            "text_color": "#ffffff"
           }
         }
       },
       "block_order": [
-        "image_ciCQAT"
+        "image_JJkTHE",
+        "image_ciCQAT",
+        "image_YNride",
+        "image_DQPyfD"
       ],
       "settings": {
-        "wide_display": false,
+        "wide_display": true,
         "featured_links_per_row": "1",
         "frontpage_text_align": "left",
-        "frontpage_image_position": "row-reverse",
+        "frontpage_image_position": "row",
         "css_class": "",
         "custom_css": ""
       }
@@ -125,19 +136,6 @@
         "activate_adaptiveHeight": false,
         "mobile_text_below_image": true,
         "mobile_text_color": "",
-        "css_class": "",
-        "custom_css": ""
-      }
-    },
-    "featured_text_EW4Mmn": {
-      "type": "featured-text",
-      "settings": {
-        "title": "$1,524,983 million donated and counting",
-        "content": "<p>To date we have donated $1,524,983 to causes in our communities such as Centre for Autism Services Alberta, the Nature Conservancy of Canada, Skipping Stone Foundation, Operation Come Home, Growing Chefs, the Red Cross, Soul Food Street Farms and many more. <\/p>",
-        "button_label": "",
-        "button_link": "",
-        "text_size": "regular_text",
-        "text_alignment": "center",
         "css_class": "",
         "custom_css": ""
       }
@@ -205,8 +203,21 @@
         "logo_image_3R4RUA"
       ],
       "settings": {
-        "title": "",
+        "title": "Organization we support",
         "layout": "grid",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "featured_text_zbrEmR": {
+      "type": "featured-text",
+      "settings": {
+        "title": "",
+        "content": "<p>* Total last updated in June 2024.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "text_size": "regular_text",
+        "text_alignment": "align_left",
         "css_class": "",
         "custom_css": ""
       }
@@ -255,13 +266,12 @@
   "order": [
     "main",
     "image_with_text_overlay_XgfVF9",
-    "image_text_De6pCm",
     "image_text_AhXMyG",
     "ep_meta_object_loop_nxf4fE",
     "custom_liquid_eRVWbq",
     "ep_testimonal_meta_loop_7xJGG9",
-    "featured_text_EW4Mmn",
     "logo_bar_zkMRFG",
+    "featured_text_zbrEmR",
     "1690995114ba8b49aa",
     "newsletter"
   ]

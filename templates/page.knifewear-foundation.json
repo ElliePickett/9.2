@@ -110,7 +110,7 @@
     "custom_liquid_eRVWbq": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<a class=\"button align-center\" href=\"https:\/\/knifewear.com\/pages\/knifewear-foundation-knifewear-in-action\">find more actions here<\/a>",
+        "custom_liquid": "<a class=\"button center\" style=\"display: block;\n    margin: 0 auto;\n    width: 220px;\" href=\"https:\/\/knifewear.com\/pages\/knifewear-foundation-knifewear-in-action\">find more actions here<\/a>",
         "css_class": "",
         "custom_css": ""
       }

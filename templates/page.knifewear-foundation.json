@@ -103,6 +103,7 @@
       "settings": {
         "section-heading": "Knifewear in action",
         "metaobject-name": "knifewear_foundation_article",
+        "metaobject-show-how-many-articles": "3",
         "layout": "panel"
       }
     },

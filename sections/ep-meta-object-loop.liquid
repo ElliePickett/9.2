@@ -28,7 +28,7 @@
      {% assign metaloopLimit = metaobject-show-how-many-articles %}
      {% assign metaloopKey = section.settings.metaobject-name  %}
 
-    {% for entry in shop.metaobjects[ metaloopKey ].values limit:[ metaloopLimit ] %}
+    {% for entry in shop.metaobjects[ metaloopKey ].values limit:3 %}
          
 
       <div class="product-{{ product.id }} ep-article-product-features">

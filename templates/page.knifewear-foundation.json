@@ -191,6 +191,34 @@
             "image": "shopify:\/\/shop_images\/water_first.jpg",
             "link": "https:\/\/waterfirst.ngo\/"
           }
+        },
+        "logo_image_FC8FjG": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brownbag.jpg",
+            "link": "https:\/\/bb4ck.org\/"
+          }
+        },
+        "logo_image_hi4eRY": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/worldck.jpg",
+            "link": "https:\/\/wck.org\/"
+          }
+        },
+        "logo_image_wrTgMQ": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cookscamp.jpg",
+            "link": "https:\/\/cookscamp.ca\/"
+          }
+        },
+        "logo_image_aA4hQM": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/edmontonfoodback.jpg",
+            "link": "https:\/\/www.edmontonsfoodbank.com\/"
+          }
         }
       },
       "block_order": [
@@ -200,7 +228,11 @@
         "logo_image_34LLz9",
         "logo_image_cpTxVc",
         "logo_image_zmcTYk",
-        "logo_image_3R4RUA"
+        "logo_image_3R4RUA",
+        "logo_image_FC8FjG",
+        "logo_image_hi4eRY",
+        "logo_image_wrTgMQ",
+        "logo_image_aA4hQM"
       ],
       "settings": {
         "title": "Organization we support",
